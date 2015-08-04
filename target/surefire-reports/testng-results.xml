@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="17319" started-at="2015-07-20T03:01:46Z" finished-at="2015-07-20T03:02:03Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="17319" started-at="2015-07-20T03:01:46Z" finished-at="2015-07-20T03:02:03Z">
+      <class name="com.via.holiday.pages.TestHomePage">
+        <test-method status="PASS" signature="opeviahomepage()[pri:0, instance:com.via.holiday.pages.TestHomePage@516b9e1]" name="opeviahomepage" is-config="true" duration-ms="16960" started-at="2015-07-20T08:31:46Z" finished-at="2015-07-20T08:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opeviahomepage -->
+        <test-method status="PASS" signature="titlejenkines()[pri:0, instance:com.via.holiday.pages.TestHomePage@516b9e1]" name="titlejenkines" duration-ms="188" started-at="2015-07-20T08:32:03Z" finished-at="2015-07-20T08:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlejenkines -->
+        <test-method status="PASS" signature="testa()[pri:0, instance:com.via.holiday.pages.TestHomePage@516b9e1]" name="testa" duration-ms="0" started-at="2015-07-20T08:32:03Z" finished-at="2015-07-20T08:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testa -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePage@516b9e1]" name="exit" is-config="true" duration-ms="156" started-at="2015-07-20T08:32:03Z" finished-at="2015-07-20T08:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.via.holiday.pages.TestHomePage -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27044" started-at="2015-08-04T04:58:46Z" finished-at="2015-08-04T04:59:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27044" started-at="2015-08-04T04:58:46Z" finished-at="2015-08-04T04:59:13Z">
+      <class name="com.via.holiday.pages.TestHomePageHoliday">
+        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="openViaHomepage" is-config="true" duration-ms="21735" started-at="2015-08-04T10:28:46Z" finished-at="2015-08-04T10:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openViaHomepage -->
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="logoTest" duration-ms="2528" started-at="2015-08-04T10:29:08Z" finished-at="2015-08-04T10:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="menuProductIconTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="menuProductIconTest" duration-ms="1120" started-at="2015-08-04T10:29:10Z" finished-at="2015-08-04T10:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuProductIconTest -->
+        <test-method status="PASS" signature="testHotDealsImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="testHotDealsImagesPresent" duration-ms="312" started-at="2015-08-04T10:29:11Z" finished-at="2015-08-04T10:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotDealsImagesPresent -->
+        <test-method status="PASS" signature="testPackagesCollectionImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="testPackagesCollectionImagesPresent" duration-ms="709" started-at="2015-08-04T10:29:12Z" finished-at="2015-08-04T10:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPackagesCollectionImagesPresent -->
+        <test-method status="PASS" signature="testwhyViaFooterImages()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="testwhyViaFooterImages" duration-ms="531" started-at="2015-08-04T10:29:12Z" finished-at="2015-08-04T10:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwhyViaFooterImages -->
+        <test-method status="PASS" signature="titleHoliday()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="titleHoliday" duration-ms="34" started-at="2015-08-04T10:29:13Z" finished-at="2015-08-04T10:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleHoliday -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@2cc29ba3]" name="exit" is-config="true" duration-ms="28" started-at="2015-08-04T10:29:13Z" finished-at="2015-08-04T10:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.via.holiday.pages.TestHomePageHoliday -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

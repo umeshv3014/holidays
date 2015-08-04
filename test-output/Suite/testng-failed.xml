@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.via.holiday.pages.TestHomePage">
+        <methods>
+          <include name="TestHomePageTitle"/>
+          <include name="openBrowser"/>
+          <include name="quitTest"/>
+        </methods>
+      </class> <!-- com.via.holiday.pages.TestHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

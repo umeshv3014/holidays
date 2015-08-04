@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [holidays by packages]">
+  <test name="com.via.holiday.pages(failed)">
+    <classes>
+      <class name="com.via.holiday.pages.TestHomePage">
+        <methods>
+          <include name="HomePageTitle"/>
+          <include name="TestHomePageTitle"/>
+        </methods>
+      </class> <!-- com.via.holiday.pages.TestHomePage -->
+    </classes>
+  </test> <!-- com.via.holiday.pages(failed) -->
+</suite> <!-- Failed suite [holidays by packages] -->
