@@ -39,9 +39,9 @@ public class HomePageHoliday extends PropertiesFileProvider {
 		}
 	}
 	public void whyViaFooterImages() {
-		String ftrimage = getKeyValue("ftrimage");
 		ArrayList<String> str = new ArrayList<String>();
-		for (int i = 1; i <=6; i++) {
+		String ftrimage = getKeyValue("ftrimage");
+		for (int i = 1; i <=str.size(); i++) {
 			str.add(getKeyValue("ftrimage"+i));
 			str.add(getKeyValue("ftrimage"+i));
 			isImagePresent("xpath",ftrimage+" "+str.get(i));

@@ -6,7 +6,9 @@
       <class name="com.via.holiday.pages.TestHomePageHoliday">
         <methods>
           <include name="exit"/>
-          <include name="testwhyViaFooterImages"/>
+          <include name="testPackagesCollectionImagesPresent"/>
+          <include name="testHotDealsImagesPresent"/>
+          <include name="menuProductIconTest"/>
           <include name="openViaHomepage"/>
         </methods>
       </class> <!-- com.via.holiday.pages.TestHomePageHoliday -->

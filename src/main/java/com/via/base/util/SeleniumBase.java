@@ -70,7 +70,7 @@ public class SeleniumBase {
 	}
 
 	public Boolean isImagePresent(String locatorType, String locatorValue) {
-		WebElement image = webElement(driver, locatorType, locatorValue);
+		WebElement image = webElement(driver, locatorType,locatorValue );
 		Boolean imagePresent = (Boolean) ((JavascriptExecutor) driver)
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
@@ -95,7 +95,7 @@ public class SeleniumBase {
 
 	}
 
-	public String getKeyValue(String key) {
-		return prop.getProperty(key);
+	public String getKeyValue(String locatorValue) {
+	return prop.getProperty(locatorValue);
 	}
 }
