@@ -36,22 +36,21 @@ public class HomePageHoliday extends PropertiesFileProvider {
 			String text = getKeyValue("menuImage") + i
 					+ getKeyValue("menuProduct");
 			Assert.assertEquals(getText("xpath", text), getKeyValue("text" + i));
-			if (i == 6) {
+			if(getText("xpath", text).equals(getKeyValue("text6"))){
 				click(driver, "xpath", text);
-				// submenu explore
 				for (int j = 1; j <= 4; j++) {
 					String textsbm = getKeyValue("submenu")
 							+ getKeyValue("textsb" + j) + getKeyValue("textsm");
 					Assert.assertEquals(getText("xpath", textsbm),
 							getKeyValue("textsb" + j));
 				}
-			}
-			if (i == 7) {
-				click(driver, "xpath", text);
-				String textySI = getKeyValue("yrt");
-				Assert.assertEquals(getText("xpath", textySI), "Sign in");
-				String textyNH = getKeyValue("yrtNH");
-				Assert.assertEquals(getText("xpath", textyNH), "New here? Register");
+				if(getText("xpath", text).equals(getKeyValue("text7"))){
+					click(driver, "xpath", text);
+					String textySI = getKeyValue("yrt");
+					Assert.assertEquals(getText("xpath", textySI),getKeyValue("textySI"));
+					String textyNH = getKeyValue("yrtNH");
+					Assert.assertEquals(getText("xpath", textyNH),getKeyValue("textyNH"));
+				}
 			}
 		}
 	}

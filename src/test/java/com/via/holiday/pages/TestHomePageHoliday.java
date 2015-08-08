@@ -15,34 +15,34 @@ public class TestHomePageHoliday extends HomePageHoliday {
 		openB2CBrowser();
 	}
 
-	@Test
+	@Test(priority=1)
 	public void titleHolidayTest() {
 		titleHoliday();
 	}
 
-	@Test
+	@Test(priority=2)
 	public void logoTest(){
 		viaB2CLogo();
 	}
 
-	@Test
+	@Test(priority=3)
 	public void menuProductIconTest(){
 		menuImages();
 	}
-	@Test
+	@Test(priority=4)
 	public void menuProductNameTest(){
 		menuProductName();
 	}
-	@Test
+	@Test(priority=5)
 	public void testPackagesCollectionImagesPresent() {
 		packagesCollectionImagesPresent();
 	}
 
-	@Test
+	@Test(priority=6)
 	public void testHotDealsImagesPresent() {
 		hotDealsImagesPresent();
 	}
-	@Test
+	@Test(priority=7)
 	public void testwhyViaFooterImages() {
 		whyViaFooterImages();
 	}

@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19169" started-at="2015-08-08T09:48:07Z" finished-at="2015-08-08T09:48:26Z">
+  <suite name="Default suite" duration-ms="121346" started-at="2015-08-08T14:40:06Z" finished-at="2015-08-08T14:42:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19169" started-at="2015-08-08T09:48:07Z" finished-at="2015-08-08T09:48:26Z">
+    <test name="Default test" duration-ms="121346" started-at="2015-08-08T14:40:06Z" finished-at="2015-08-08T14:42:07Z">
       <class name="com.via.holiday.pages.TestHomePageHoliday">
-        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="openViaHomepage" is-config="true" duration-ms="13810" started-at="2015-08-08T15:18:07Z" finished-at="2015-08-08T15:18:21Z">
+        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="openViaHomepage" is-config="true" duration-ms="81894" started-at="2015-08-08T20:10:06Z" finished-at="2015-08-08T20:11:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openViaHomepage -->
-        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="logoTest" duration-ms="627" started-at="2015-08-08T15:18:21Z" finished-at="2015-08-08T15:18:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="menuProductIconTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="menuProductIconTest" duration-ms="3087" started-at="2015-08-08T15:18:22Z" finished-at="2015-08-08T15:18:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- menuProductIconTest -->
-        <test-method status="PASS" signature="menuProductNameTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="menuProductNameTest" duration-ms="1279" started-at="2015-08-08T15:18:25Z" finished-at="2015-08-08T15:18:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- menuProductNameTest -->
-        <test-method status="PASS" signature="testHotDealsImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="testHotDealsImagesPresent" duration-ms="86" started-at="2015-08-08T15:18:26Z" finished-at="2015-08-08T15:18:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHotDealsImagesPresent -->
-        <test-method status="PASS" signature="testPackagesCollectionImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="testPackagesCollectionImagesPresent" duration-ms="230" started-at="2015-08-08T15:18:26Z" finished-at="2015-08-08T15:18:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPackagesCollectionImagesPresent -->
-        <test-method status="PASS" signature="testwhyViaFooterImages()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="testwhyViaFooterImages" duration-ms="1" started-at="2015-08-08T15:18:26Z" finished-at="2015-08-08T15:18:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testwhyViaFooterImages -->
-        <test-method status="PASS" signature="titleHolidayTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="titleHolidayTest" duration-ms="1" started-at="2015-08-08T15:18:26Z" finished-at="2015-08-08T15:18:26Z">
+        <test-method status="PASS" signature="titleHolidayTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="titleHolidayTest" duration-ms="188" started-at="2015-08-08T20:11:28Z" finished-at="2015-08-08T20:11:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleHolidayTest -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@1ba5cfae]" name="exit" is-config="true" duration-ms="9" started-at="2015-08-08T15:18:26Z" finished-at="2015-08-08T15:18:26Z">
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="logoTest" duration-ms="757" started-at="2015-08-08T20:11:28Z" finished-at="2015-08-08T20:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="menuProductIconTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="menuProductIconTest" duration-ms="13372" started-at="2015-08-08T20:11:29Z" finished-at="2015-08-08T20:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuProductIconTest -->
+        <test-method status="PASS" signature="menuProductNameTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="menuProductNameTest" duration-ms="22620" started-at="2015-08-08T20:11:42Z" finished-at="2015-08-08T20:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuProductNameTest -->
+        <test-method status="PASS" signature="testPackagesCollectionImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="testPackagesCollectionImagesPresent" duration-ms="1037" started-at="2015-08-08T20:12:05Z" finished-at="2015-08-08T20:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPackagesCollectionImagesPresent -->
+        <test-method status="PASS" signature="testHotDealsImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="testHotDealsImagesPresent" duration-ms="583" started-at="2015-08-08T20:12:06Z" finished-at="2015-08-08T20:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotDealsImagesPresent -->
+        <test-method status="PASS" signature="testwhyViaFooterImages()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="testwhyViaFooterImages" duration-ms="44" started-at="2015-08-08T20:12:07Z" finished-at="2015-08-08T20:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwhyViaFooterImages -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@39a26ac5]" name="exit" is-config="true" duration-ms="182" started-at="2015-08-08T20:12:07Z" finished-at="2015-08-08T20:12:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
