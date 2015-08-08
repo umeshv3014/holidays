@@ -2,7 +2,6 @@ package com.via.holiday.pages;
 
 import java.io.IOException;
 
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -17,11 +16,8 @@ public class TestHomePageHoliday extends HomePageHoliday {
 	}
 
 	@Test
-	public void titleHoliday() {
-		String viaHomePageTitle = getTitle();
-		Assert.assertEquals(
-				viaHomePageTitle,
-				"Domestic & International Holiday Packages, Tour Packages, Package Tours - Via.com");
+	public void titleHolidayTest() {
+		titleHoliday();
 	}
 
 	@Test
@@ -33,7 +29,10 @@ public class TestHomePageHoliday extends HomePageHoliday {
 	public void menuProductIconTest(){
 		menuImages();
 	}
-
+	@Test
+	public void menuProductNameTest(){
+		menuProductName();
+	}
 	@Test
 	public void testPackagesCollectionImagesPresent() {
 		packagesCollectionImagesPresent();

@@ -22,7 +22,7 @@ public class SeleniumBase {
 	public WebDriver driver;
 	public WebElement webelement;
 	public InputStream inputStream;
-	Properties prop = new Properties();
+	public Properties prop = new Properties();
 	public Logger logger = Logger.getLogger(SeleniumBase.class.getName());
 
 	public void openBrowsers(String DefultProfilePath, String URL) {
@@ -58,19 +58,17 @@ public class SeleniumBase {
 		return webelement;
 	}
 
-	public String getTitle() {
-		logger.info("getting title");
-		String titlej = driver.getTitle();
-		return titlej;
+	public void click(WebDriver driver, String locatorType, String locatorValue) {
+		webElement(driver, locatorType, locatorValue).click();
 	}
 
-	public void quitTest() {
-		driver.close();
-		// System.exit(0);
+	public String getText(String locatorType, String locatorValue) {
+		WebElement path = webElement(driver, locatorType, locatorValue);
+		return path.getText();
 	}
 
 	public Boolean isImagePresent(String locatorType, String locatorValue) {
-		WebElement image = webElement(driver, locatorType,locatorValue );
+		WebElement image = webElement(driver, locatorType, locatorValue);
 		Boolean imagePresent = (Boolean) ((JavascriptExecutor) driver)
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
@@ -95,7 +93,13 @@ public class SeleniumBase {
 
 	}
 
-	public String getKeyValue(String locatorValue) {
-	return prop.getProperty(locatorValue);
+	public String getKeyValue(String keyValue) {
+		return prop.getProperty(keyValue);
 	}
+
+	public void quitTest() {
+		driver.close();
+		// System.exit(0);
+	}
+
 }
