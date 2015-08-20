@@ -6,7 +6,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
 public class TestHomePageHoliday extends HomePageHoliday {
 
 	@BeforeTest
@@ -15,34 +14,37 @@ public class TestHomePageHoliday extends HomePageHoliday {
 		openB2CBrowser();
 	}
 
-	@Test(priority=1)
+	@Test
 	public void titleHolidayTest() {
 		titleHoliday();
 	}
 
-	@Test(priority=2)
-	public void logoTest(){
+	@Test
+	public void logoTest() {
 		viaB2CLogo();
 	}
 
-	@Test(priority=3)
-	public void menuProductIconTest(){
+	@Test
+	public void menuProductIconTest() {
 		menuImages();
 	}
-	@Test(priority=4)
-	public void menuProductNameTest(){
+
+	@Test
+	public void menuProductNameTest() {
 		menuProductName();
 	}
-	@Test(priority=5)
+
+	@Test
 	public void testPackagesCollectionImagesPresent() {
 		packagesCollectionImagesPresent();
 	}
 
-	@Test(priority=6)
+	@Test
 	public void testHotDealsImagesPresent() {
 		hotDealsImagesPresent();
 	}
-	@Test(priority=7)
+
+	@Test
 	public void testwhyViaFooterImages() {
 		whyViaFooterImages();
 	}

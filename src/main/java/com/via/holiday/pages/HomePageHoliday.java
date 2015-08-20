@@ -8,12 +8,9 @@ import org.testng.Assert;
 import com.via.properties.PropertiesFileProvider;
 
 public class HomePageHoliday extends PropertiesFileProvider {
-	public void openB2CBrowser() throws IOException {
-		openBrowsers(getKeyValue("profile"), getKeyValue("URL"));
-	}
 
-	public void viaB2CLogo() {
-		isImagePresent("xpath", getKeyValue("viaLogo"));
+	public void openB2CBrowser() throws IOException {
+		openBrowsers(getKeyValue("profile"), getKeyValue("baseURL"));
 	}
 
 	public void titleHoliday() {
@@ -23,50 +20,65 @@ public class HomePageHoliday extends PropertiesFileProvider {
 				"Domestic & International Holiday Packages, Tour Packages, Package Tours - Via.com");
 	}
 
+	public void viaB2CLogo() {
+		String xpath = getKeyValue("viaLogo");
+		isImagePresent(driver, "xpath", xpath);
+	}
+
 	public void menuImages() {
-		for (int i = 1; i <= 7; i++) {
-			String elementpath = getKeyValue("menuImage") + i
-					+ getKeyValue("menuImage2");
-			isImagePresent("xpath", elementpath);
+		ArrayList<String> str = new ArrayList<String>();
+				for (int i = 1; i <= str.size(); i++) {
+				String xpath = getKeyValue("menuImage") + i	+ getKeyValue("menuImage2");
+			logger.info(xpath);
+			isImagePresent(driver, "xpath", xpath);
 		}
 	}
 
 	public void menuProductName() {
-		for (int i = 1; i <= 7; i++) {
+		ArrayList<String> str = new ArrayList<String>();
+		for (int i = 1; i <= str.size(); i++) {
 			String text = getKeyValue("menuImage") + i
 					+ getKeyValue("menuProduct");
-			Assert.assertEquals(getText("xpath", text), getKeyValue("text" + i));
-			if(getText("xpath", text).equals(getKeyValue("text6"))){
+			str.add(text);
+			Assert.assertEquals(getText(driver, "xpath", str.get(i)),
+					getKeyValue("text" + i));
+			if (getText(driver, "xpath", str.get(i)).equals("Explore")) {
 				click(driver, "xpath", text);
-				for (int j = 1; j <= 4; j++) {
+				for (int j = 1; j <= str.size(); j++) {
 					String textsbm = getKeyValue("submenu")
 							+ getKeyValue("textsb" + j) + getKeyValue("textsm");
-					Assert.assertEquals(getText("xpath", textsbm),
+					str.add(textsbm);
+					Assert.assertEquals(getText(driver, "xpath", str.get(j)),
 							getKeyValue("textsb" + j));
 				}
-				if(getText("xpath", text).equals(getKeyValue("text7"))){
-					click(driver, "xpath", text);
-					String textySI = getKeyValue("yrt");
-					Assert.assertEquals(getText("xpath", textySI),getKeyValue("textySI"));
-					String textyNH = getKeyValue("yrtNH");
-					Assert.assertEquals(getText("xpath", textyNH),getKeyValue("textyNH"));
-				}
+			}
+			if (getText(driver, "xpath", str.get(i)).equals("Your trips")) {
+				click(driver, "xpath", text);
+				String textySI = getKeyValue("yrt");
+				Assert.assertEquals(getText(driver, "xpath", textySI),
+						"Sign in");
+				String textyNH = getKeyValue("yrtNH");
+				Assert.assertEquals(getText(driver, "xpath", textyNH),
+						"New here? Register");
 			}
 		}
 	}
 
 	public void packagesCollectionImagesPresent() {
-		for (int i = 1; i < 8; i++) {
+		ArrayList<String> str = new ArrayList<String>();
+		for (int i = 1; i <= str.size(); i++) {
 			String path = getKeyValue("pcImage") + i + getKeyValue("pcImage2");
-			isImagePresent("xpath", path);
+			str.add(path);
+			isImagePresent(driver, "xpath", str.get(i));
 		}
-
 	}
 
 	public void hotDealsImagesPresent() {
-		for (int i = 1; i < 4; i++) {
+		ArrayList<String> str = new ArrayList<String>();
+		for (int i = 1; i <= str.size(); i++) {
 			String path = getKeyValue("hdImage") + i + getKeyValue("hdImage2");
-			isImagePresent("xpath", path);
+			str.add(path);
+			isImagePresent(driver, "xpath", str.get(i));
 		}
 	}
 
@@ -75,8 +87,8 @@ public class HomePageHoliday extends PropertiesFileProvider {
 		String ftrimage = getKeyValue("ftrimage");
 		for (int i = 1; i <= str.size(); i++) {
 			str.add(getKeyValue("ftrimage" + i));
-			str.add(getKeyValue("ftrimage" + i));
-			isImagePresent("xpath", ftrimage + " " + str.get(i));
+			isImagePresent(driver, "xpath", ftrimage + " " + str.get(i));
 		}
 	}
+
 }

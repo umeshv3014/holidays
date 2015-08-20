@@ -3,13 +3,18 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="com.via.holiday.pages.TestHomePage">
+      <class name="com.via.holiday.pages.TestHomePageHoliday">
         <methods>
-          <include name="TestHomePageTitle"/>
-          <include name="openBrowser"/>
-          <include name="quitTest"/>
+          <include name="testPackagesCollectionImagesPresent"/>
+          <include name="titleHolidayTest"/>
+          <include name="testHotDealsImagesPresent"/>
+          <include name="logoTest"/>
+          <include name="testwhyViaFooterImages"/>
+          <include name="menuProductIconTest"/>
+          <include name="openViaHomepage"/>
+          <include name="menuProductNameTest"/>
         </methods>
-      </class> <!-- com.via.holiday.pages.TestHomePage -->
+      </class> <!-- com.via.holiday.pages.TestHomePageHoliday -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

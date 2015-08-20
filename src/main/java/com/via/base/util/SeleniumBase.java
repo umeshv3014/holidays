@@ -62,13 +62,25 @@ public class SeleniumBase {
 		webElement(driver, locatorType, locatorValue).click();
 	}
 
-	public String getText(String locatorType, String locatorValue) {
+	public String getText(WebDriver driver, String locatorType, String locatorValue) {
 		WebElement path = webElement(driver, locatorType, locatorValue);
 		return path.getText();
 	}
 
-	public Boolean isImagePresent(String locatorType, String locatorValue) {
+	public void sendKeys(String locatorType, String locatorValue, String key) {
+		webElement(driver, locatorType, locatorValue).sendKeys(key);
+	}
+
+	public String _getCssValue(WebDriver driver, String locatorType, String locatorValue,String propertyName) {
+		WebElement text = webElement(driver, locatorType, locatorValue);
+		String texta = text.getCssValue(propertyName);
+		logger.info(texta);
+		return texta;
+	}
+
+	public Boolean isImagePresent(WebDriver driver,String locatorType, String locatorValue) {
 		WebElement image = webElement(driver, locatorType, locatorValue);
+		logger.info(image);
 		Boolean imagePresent = (Boolean) ((JavascriptExecutor) driver)
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",

@@ -1,0 +1,4 @@
+com\via\properties\PropertiesFileProvider.class
+com\via\holiday\pages\HomePageHoliday.class
+com\via\holiday\pages\HolidaySearchresultPage.class
+com\via\base\util\SeleniumBase.class
