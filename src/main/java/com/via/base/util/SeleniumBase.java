@@ -78,14 +78,18 @@ public class SeleniumBase {
 		return texta;
 	}
 
-	public Boolean isImagePresent(WebDriver driver,String locatorType, String locatorValue) {
-		WebElement image = webElement(driver, locatorType, locatorValue);
-		logger.info(image);
-		Boolean imagePresent = (Boolean) ((JavascriptExecutor) driver)
+	public Boolean imageverify(WebDriver driver, String locatorType, String locatorValue) {
+        WebElement imageFilea = webElement(driver, locatorType, locatorValue);
+		Boolean ImagePresent = (Boolean) ((JavascriptExecutor) driver)
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
-						image);
-		return imagePresent;
+						imageFilea);
+		if (!ImagePresent) {
+			logger.info("Image not displayed.");
+		} else {
+			logger.info("Image displayed.");
+		}
+		return ImagePresent;
 	}
 
 	public void getPropertyFile(String filePath) throws IOException {

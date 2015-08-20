@@ -20,19 +20,21 @@ public class HomePageHoliday extends PropertiesFileProvider {
 				"Domestic & International Holiday Packages, Tour Packages, Package Tours - Via.com");
 	}
 
-	public void viaB2CLogo() {
-		String xpath = getKeyValue("viaLogo");
-		isImagePresent(driver, "xpath", xpath);
-	}
+	// public void viaB2CLogo() {
+	// String xpath = getKeyValue("viaLogo");
+	// isImagePresent(driver, "xpath", xpath);
+	// }
 
-	public void menuImages() {
-		ArrayList<String> str = new ArrayList<String>();
-				for (int i = 1; i <= str.size(); i++) {
-				String xpath = getKeyValue("menuImage") + i	+ getKeyValue("menuImage2");
-			logger.info(xpath);
-			isImagePresent(driver, "xpath", xpath);
-		}
-	}
+//	public void menuImages() {
+//		for (int i = 1; i <= 7; i++) {
+//			String xpathPTR = getKeyValue("menuImage") + i
+//					+ getKeyValue("menuImage2");
+//			logger.info(xpathPTR);
+//			String backimage = _getCssValue(driver, "xpath", xpathPTR,
+//					"background-image");
+//			imageverify(backimage);
+//		}
+//	}
 
 	public void menuProductName() {
 		ArrayList<String> str = new ArrayList<String>();
@@ -65,30 +67,30 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void packagesCollectionImagesPresent() {
-		ArrayList<String> str = new ArrayList<String>();
-		for (int i = 1; i <= str.size(); i++) {
+		for (int i = 1; i <= 8; i++) {
 			String path = getKeyValue("pcImage") + i + getKeyValue("pcImage2");
-			str.add(path);
-			isImagePresent(driver, "xpath", str.get(i));
+			imageverify(driver, "xpath", path);
 		}
 	}
 
 	public void hotDealsImagesPresent() {
 		ArrayList<String> str = new ArrayList<String>();
+		String path1 = getKeyValue("hdImage");
+		String path2 = getKeyValue("hdImage2");
 		for (int i = 1; i <= str.size(); i++) {
-			String path = getKeyValue("hdImage") + i + getKeyValue("hdImage2");
+			String path = path1 + i + path2;
 			str.add(path);
-			isImagePresent(driver, "xpath", str.get(i));
+			imageverify(driver, "xpath", path);
 		}
 	}
 
-	public void whyViaFooterImages() {
-		ArrayList<String> str = new ArrayList<String>();
-		String ftrimage = getKeyValue("ftrimage");
-		for (int i = 1; i <= str.size(); i++) {
-			str.add(getKeyValue("ftrimage" + i));
-			isImagePresent(driver, "xpath", ftrimage + " " + str.get(i));
-		}
-	}
+//	public void whyViaFooterImages() {
+//		ArrayList<String> str = new ArrayList<String>();
+//		String ftrimage = getKeyValue("ftrimage");
+//		for (int i = 1; i <= str.size(); i++) {
+//			str.add(getKeyValue("ftrimage" + i));
+//			imageverify(driver, "xpath",ftrimage + " " + str.get(i));
+//		}
+//	}
 
 }

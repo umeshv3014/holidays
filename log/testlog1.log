@@ -256,3 +256,53 @@
 2015-08-20 15:49:24,076 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[7]/a/span[1]
 2015-08-20 15:49:24,086 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[7]/a/span[1]]
 2015-08-20 16:54:10,090 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (681dc47e-d2f5-4c59-b931-ee53d7cdbcb8)] -> xpath: //span[@class='viaLogo via-icons']]
+2015-08-20 20:22:42,843 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 20:29:55,688 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 20:34:17,070 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 20:43:13,339 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 20:46:14,903 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 20:50:50,339 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 21:38:08,799 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[0]/a/span[1]
+2015-08-20 21:51:09,917 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 21:52:06,896 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[1]/a/span[1]]
+2015-08-20 21:54:38,081 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[2]/a/span[1]
+2015-08-20 21:54:45,923 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[2]/a/span[1]]
+2015-08-20 21:55:07,675 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[3]/a/span[1]
+2015-08-20 21:55:09,883 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[3]/a/span[1]]
+2015-08-20 21:55:14,273 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[4]/a/span[1]
+2015-08-20 21:55:15,497 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[4]/a/span[1]]
+2015-08-20 21:55:19,467 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[5]/a/span[1]
+2015-08-20 21:55:21,294 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[5]/a/span[1]]
+2015-08-20 21:55:26,816 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[6]/a/span[1]
+2015-08-20 21:55:27,883 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[6]/a/span[1]]
+2015-08-20 21:55:33,072 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[7]/a/span[1]
+2015-08-20 21:55:35,146 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[7]/a/span[1]]
+2015-08-20 22:06:09,447 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-20 22:54:53,190 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:54:53,226 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:54:53,254 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:54:53,282 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:54:53,322 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:54:53,355 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:54:53,381 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:54:53,407 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-20 22:58:56,869 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 22:58:56,920 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 22:58:56,964 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 22:58:57,005 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 22:58:57,061 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 22:58:57,109 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 22:58:57,144 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 22:58:57,188 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,068 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,107 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,139 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,169 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,350 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,389 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,422 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,451 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,479 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,510 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,544 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-20 23:07:42,580 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
