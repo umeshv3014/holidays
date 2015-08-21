@@ -39,9 +39,14 @@ public class TestHomePageHoliday extends HomePageHoliday {
 		packagesCollectionImagesPresent();
 	}
 //
+//	@Test
+//	public void testHotDealsImagesPresent() {
+//		hotDealsImagesPresent();
+//	}
+	
 	@Test
-	public void testHotDealsImagesPresent() {
-		hotDealsImagesPresent();
+	public void testSendUsYourFeedback(){
+		sendUsYourFeedback();
 	}
 //
 //	@Test

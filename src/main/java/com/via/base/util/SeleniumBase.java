@@ -67,7 +67,7 @@ public class SeleniumBase {
 		return path.getText();
 	}
 
-	public void sendKeys(String locatorType, String locatorValue, String key) {
+	public void sendKeys(WebDriver driver, String locatorType, String locatorValue, String key) {
 		webElement(driver, locatorType, locatorValue).sendKeys(key);
 	}
 

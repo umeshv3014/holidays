@@ -5,10 +5,11 @@ import java.util.ArrayList;
 
 import org.testng.Assert;
 
+import com.via.base.util.PopUpHandler;
 import com.via.properties.PropertiesFileProvider;
 
 public class HomePageHoliday extends PropertiesFileProvider {
-
+      PopUpHandler phh = new PopUpHandler();
 	public void openB2CBrowser() throws IOException {
 		openBrowsers(getKeyValue("profile"), getKeyValue("baseURL"));
 	}
@@ -67,19 +68,19 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void packagesCollectionImagesPresent() {
+		String pc1 = getKeyValue("pcImage");
+		String pc2= getKeyValue("pcImage2");
 		for (int i = 1; i <= 8; i++) {
-			String path = getKeyValue("pcImage") + i + getKeyValue("pcImage2");
+			String path = pc1 + i + pc2;
 			imageverify(driver, "xpath", path);
 		}
 	}
 
 	public void hotDealsImagesPresent() {
-		ArrayList<String> str = new ArrayList<String>();
 		String path1 = getKeyValue("hdImage");
 		String path2 = getKeyValue("hdImage2");
-		for (int i = 1; i <= str.size(); i++) {
+		for (int i = 1; i <= 4; i++) {
 			String path = path1 + i + path2;
-			str.add(path);
 			imageverify(driver, "xpath", path);
 		}
 	}
@@ -92,5 +93,13 @@ public class HomePageHoliday extends PropertiesFileProvider {
 //			imageverify(driver, "xpath",ftrimage + " " + str.get(i));
 //		}
 //	}
-
-}
+	
+	public void sendUsYourFeedback(){
+			sendKeys(driver, "xpath",getKeyValue("feedbackName"), "suresh");//get the value for xl or jason
+			sendKeys(driver, "xpath",getKeyValue("feedbackEmail"), "suresh@gmail.com");//get the value for xl or jason
+			sendKeys(driver, "xpath", getKeyValue("feedbackMsg"), "sent mesg");
+			click(driver, "xpath", getKeyValue("SYRmsg"));
+			phh.accept(getKeyValue("alertMsg"));
+		}
+		
+	}
