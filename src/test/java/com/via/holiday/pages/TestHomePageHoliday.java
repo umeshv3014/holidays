@@ -55,7 +55,7 @@ public class TestHomePageHoliday extends HomePageHoliday {
 //	}
 
 	@AfterTest
-	public void exit() {
+	public void exit() throws InterruptedException {
 		quitTest();
 	}
 }

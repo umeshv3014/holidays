@@ -3,13 +3,14 @@ package com.via.holiday.pages;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.openqa.selenium.Alert;
 import org.testng.Assert;
 
 import com.via.base.util.PopUpHandler;
 import com.via.properties.PropertiesFileProvider;
 
 public class HomePageHoliday extends PropertiesFileProvider {
-      PopUpHandler phh = new PopUpHandler();
+      PopUpHandler puh = new PopUpHandler();
 	public void openB2CBrowser() throws IOException {
 		openBrowsers(getKeyValue("profile"), getKeyValue("baseURL"));
 	}
@@ -99,7 +100,8 @@ public class HomePageHoliday extends PropertiesFileProvider {
 			sendKeys(driver, "xpath",getKeyValue("feedbackEmail"), "suresh@gmail.com");//get the value for xl or jason
 			sendKeys(driver, "xpath", getKeyValue("feedbackMsg"), "sent mesg");
 			click(driver, "xpath", getKeyValue("SYRmsg"));
-			phh.accept(getKeyValue("alertMsg"));
+			Alert alrt = driver.switchTo().alert();
+			alrt.accept();
 		}
 		
 	}

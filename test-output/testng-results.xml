@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="151944" started-at="2015-08-21T02:45:10Z" finished-at="2015-08-21T02:47:42Z">
+  <suite name="Default suite" duration-ms="19983" started-at="2015-08-21T13:34:32Z" finished-at="2015-08-21T13:34:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="151944" started-at="2015-08-21T02:45:10Z" finished-at="2015-08-21T02:47:42Z">
+    <test name="Default test" duration-ms="19983" started-at="2015-08-21T13:34:32Z" finished-at="2015-08-21T13:34:52Z">
       <class name="com.via.holiday.pages.TestHomePageHoliday">
-        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@a652be]" name="openViaHomepage" is-config="true" duration-ms="139020" started-at="2015-08-21T08:15:10Z" finished-at="2015-08-21T08:17:29Z">
+        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@73ccc3ea]" name="openViaHomepage" is-config="true" duration-ms="13828" started-at="2015-08-21T19:04:32Z" finished-at="2015-08-21T19:04:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openViaHomepage -->
-        <test-method status="PASS" signature="testPackagesCollectionImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@a652be]" name="testPackagesCollectionImagesPresent" duration-ms="431" started-at="2015-08-21T08:17:29Z" finished-at="2015-08-21T08:17:29Z">
+        <test-method status="PASS" signature="testPackagesCollectionImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@73ccc3ea]" name="testPackagesCollectionImagesPresent" duration-ms="3585" started-at="2015-08-21T19:04:46Z" finished-at="2015-08-21T19:04:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPackagesCollectionImagesPresent -->
-        <test-method status="PASS" signature="testSendUsYourFeedback()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@a652be]" name="testSendUsYourFeedback" duration-ms="1965" started-at="2015-08-21T08:17:29Z" finished-at="2015-08-21T08:17:31Z">
+        <test-method status="PASS" signature="testSendUsYourFeedback()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@73ccc3ea]" name="testSendUsYourFeedback" duration-ms="2363" started-at="2015-08-21T19:04:50Z" finished-at="2015-08-21T19:04:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendUsYourFeedback -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@a652be]" name="exit" is-config="true" duration-ms="10351" started-at="2015-08-21T08:17:31Z" finished-at="2015-08-21T08:17:42Z">
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@73ccc3ea]" name="exit" is-config="true" duration-ms="12" started-at="2015-08-21T19:04:52Z" finished-at="2015-08-21T19:04:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->

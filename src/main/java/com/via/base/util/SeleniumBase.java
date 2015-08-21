@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -112,8 +113,19 @@ public class SeleniumBase {
 	public String getKeyValue(String keyValue) {
 		return prop.getProperty(keyValue);
 	}
+	
+	public void javaScriptAccept(WebDriver driver){
+		Alert switchTo = driver.switchTo().alert();
+		logger.info(switchTo.getText());
+		switchTo.accept();
+	}
+	
+	public void javaScriptDismiss(WebDriver driver){
+		Alert switchTo = driver.switchTo().alert();
+		switchTo.dismiss();
+	}
 
-	public void quitTest() {
+	public void quitTest() throws InterruptedException {
 		driver.close();
 		// System.exit(0);
 	}
