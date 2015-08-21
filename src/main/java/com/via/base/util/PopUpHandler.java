@@ -11,7 +11,7 @@ public class PopUpHandler extends SeleniumBase {
 		alertAccept.accept();
 	}
 
-	public void javaScriptAlertdismiss() {
+	public void javaScriptAlertdismiss(String expectedAlertMsg) {
 		Alert alertdismiss = driver.switchTo().alert();
 		String actual = alertdismiss.getText();
 		Assert.assertEquals(actual, "tesxt");
