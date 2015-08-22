@@ -11,7 +11,7 @@ public class PopUpHandler extends SeleniumBase {
 		alrt.accept();
 	}
 
-	public void dismiss() {
+	public void dismiss(WebDriver driver) {
 		Alert alrt = driver.switchTo().alert();
 		logger.info(alrt.getText());
 		alrt.dismiss();
