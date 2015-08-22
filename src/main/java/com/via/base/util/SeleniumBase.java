@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -63,24 +62,30 @@ public class SeleniumBase {
 		webElement(driver, locatorType, locatorValue).click();
 	}
 
-	public String getText(WebDriver driver, String locatorType, String locatorValue) {
-		WebElement path = webElement(driver, locatorType, locatorValue);
-		return path.getText();
+	public String getText(WebDriver driver, String locatorType,
+			String locatorValue) {
+		WebElement we = webElement(driver, locatorType, locatorValue);
+		String text = we.getText();
+		logger.info(text);
+		return text;
 	}
 
-	public void sendKeys(WebDriver driver, String locatorType, String locatorValue, String key) {
+	public void sendKeys(WebDriver driver, String locatorType,
+			String locatorValue, String key) {
 		webElement(driver, locatorType, locatorValue).sendKeys(key);
 	}
 
-	public String _getCssValue(WebDriver driver, String locatorType, String locatorValue,String propertyName) {
+	public String _getCssValue(WebDriver driver, String locatorType,
+			String locatorValue, String propertyName) {
 		WebElement text = webElement(driver, locatorType, locatorValue);
 		String texta = text.getCssValue(propertyName);
 		logger.info(texta);
 		return texta;
 	}
 
-	public Boolean imageverify(WebDriver driver, String locatorType, String locatorValue) {
-        WebElement imageFilea = webElement(driver, locatorType, locatorValue);
+	public Boolean imageverify(WebDriver driver, String locatorType,
+			String locatorValue) {
+		WebElement imageFilea = webElement(driver, locatorType, locatorValue);
 		Boolean ImagePresent = (Boolean) ((JavascriptExecutor) driver)
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
@@ -113,19 +118,8 @@ public class SeleniumBase {
 	public String getKeyValue(String keyValue) {
 		return prop.getProperty(keyValue);
 	}
-	
-	public void javaScriptAccept(WebDriver driver){
-		Alert switchTo = driver.switchTo().alert();
-		logger.info(switchTo.getText());
-		switchTo.accept();
-	}
-	
-	public void javaScriptDismiss(WebDriver driver){
-		Alert switchTo = driver.switchTo().alert();
-		switchTo.dismiss();
-	}
 
-	public void quitTest() throws InterruptedException {
+	public void quitTest() {
 		driver.close();
 		// System.exit(0);
 	}

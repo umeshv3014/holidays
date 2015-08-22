@@ -1,396 +1,121 @@
-2015-08-12 07:03:49,935 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 07:06:16,233 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (36a8354a-d7dc-4db5-96b4-d02316c2a333)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-12 07:06:16,261 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 07:54:36,840 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (b80f1a44-1e79-479f-b57d-2d927be5b678)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-12 07:55:56,327 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 07:56:51,353 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 07:57:01,992 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 08:06:20,522 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (0eca277b-a375-42aa-8dd9-7a3a90bc7192)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-12 08:24:41,718 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 08:24:41,727 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 08:24:41,728 [main] INFO com.via.base.util.SeleniumBase - 
-2015-08-12 08:32:18,580 [main] INFO com.via.base.util.SeleniumBase - url("http://images.via.com/static/img/general/v2/icons.png")
-2015-08-12 08:42:54,673 [main] INFO com.via.base.util.SeleniumBase - url("http://images.via.com/static/img/general/v2/icons.png")
-2015-08-12 08:42:54,682 [main] INFO com.via.base.util.SeleniumBase - url("http://images.via.com/static/img/general/v2/icons.png")
-2015-08-13 10:02:12,738 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-13 10:02:12,840 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-13 10:03:26,349 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-13 10:03:26,369 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,379 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,492 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,663 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,664 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,665 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,851 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,852 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,853 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,988 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,989 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:16,990 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,452 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,453 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,454 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,514 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,516 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,516 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,675 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,676 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,677 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,761 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,762 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-14 10:27:17,763 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:37,129 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:37,187 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:37,682 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:37,683 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:37,684 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:38,389 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:38,389 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:38,390 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:38,861 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:38,862 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:38,863 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:39,323 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:39,324 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:39,324 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:39,787 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:39,788 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:39,790 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:40,211 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:40,211 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:40,212 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:40,580 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:40,580 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:56:40,581 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:27,454 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:27,463 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:27,942 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:27,943 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:27,943 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:28,351 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:28,351 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:28,351 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:28,705 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:28,706 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:28,706 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,134 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,134 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,135 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,486 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,487 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,489 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,826 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,826 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:29,827 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:30,161 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:30,162 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-17 16:59:30,162 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:52,957 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,023 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,212 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,212 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,213 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,429 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,430 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,430 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,639 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,640 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,640 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,855 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,856 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:53,856 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,074 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,075 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,076 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,288 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,289 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,289 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,511 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,512 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:12:54,512 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:18,956 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:18,970 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:19,343 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:19,344 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:19,344 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,047 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,047 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,048 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,337 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,338 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,339 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,662 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,663 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,663 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,880 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,881 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:20,882 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:21,081 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:21,081 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:21,081 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:21,305 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:21,306 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:23:21,306 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:05,694 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:05,747 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,121 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,122 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,123 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,533 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,534 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,534 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,933 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,934 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:06,935 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:07,359 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:07,359 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:07,360 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:07,700 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:07,701 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:07,703 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:08,087 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:08,088 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:08,088 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:08,510 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:08,510 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:25:08,511 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,141 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,145 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,362 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,363 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,363 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,577 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,577 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,578 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,780 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,780 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,781 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,994 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,995 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:19,996 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,200 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,200 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,203 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,430 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,430 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,430 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,651 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,651 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-18 20:30:20,652 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:13,824 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:13,902 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,435 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,437 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,437 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,484 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,485 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,486 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,529 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,530 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,531 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,573 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,573 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,574 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,607 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,608 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,610 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,645 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,646 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,647 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,684 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:21:16,685 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:21:16,685 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:16,439 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:16,445 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:16,545 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:16,546 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:16,546 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,694 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:18,695 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,695 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,719 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:18,719 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,719 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,741 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:18,741 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,742 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,761 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:18,761 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,762 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,779 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:18,780 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,780 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,800 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-19 17:22:18,800 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-19 17:22:18,800 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-20 06:34:10,273 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.pn")
-2015-08-20 06:34:36,205 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.pn
-2015-08-20 06:35:45,863 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-20 06:35:45,867 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-20 06:37:27,140 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-20 06:37:30,801 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-20 06:39:02,163 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-20 06:39:23,572 [main] INFO com.via.base.util.SeleniumBase - Image not displayed
-2015-08-20 08:48:06,277 [main] INFO com.via.base.util.SeleniumBase - //span[@class='viaLogo via-icons']
-2015-08-20 08:54:05,389 [main] INFO com.via.base.util.SeleniumBase - //span[@class='viaLogo via-icons']
-2015-08-20 15:30:43,876 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (7606a70a-5544-438c-967b-136e1411f1d6)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-20 15:39:00,116 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (7b25e399-e655-4989-8900-de8645052fc4)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-20 15:39:03,887 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-20 15:39:03,888 [main] INFO com.via.base.util.SeleniumBase - https://images.via.com/static/img/genea/v2/icons.png
-2015-08-20 15:41:12,279 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (ed8ec457-cccf-4893-a843-c8dc4a036657)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-20 15:41:12,644 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-20 15:41:12,645 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
-2015-08-20 15:49:23,716 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-20 15:49:23,883 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 15:49:23,900 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[1]/a/span[1]]
-2015-08-20 15:49:23,923 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[2]/a/span[1]
-2015-08-20 15:49:23,941 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[2]/a/span[1]]
-2015-08-20 15:49:23,968 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[3]/a/span[1]
-2015-08-20 15:49:23,980 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[3]/a/span[1]]
-2015-08-20 15:49:23,993 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[4]/a/span[1]
-2015-08-20 15:49:24,006 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[4]/a/span[1]]
-2015-08-20 15:49:24,025 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[5]/a/span[1]
-2015-08-20 15:49:24,036 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[5]/a/span[1]]
-2015-08-20 15:49:24,051 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[6]/a/span[1]
-2015-08-20 15:49:24,063 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[6]/a/span[1]]
-2015-08-20 15:49:24,076 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[7]/a/span[1]
-2015-08-20 15:49:24,086 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (e18f53f3-4d6f-4fcb-a11c-44531af563ac)] -> xpath: //ul[@class='nav navbar-nav']/li[7]/a/span[1]]
-2015-08-20 16:54:10,090 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (681dc47e-d2f5-4c59-b931-ee53d7cdbcb8)] -> xpath: //span[@class='viaLogo via-icons']]
-2015-08-20 20:22:42,843 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 20:29:55,688 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 20:34:17,070 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 20:43:13,339 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 20:46:14,903 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 20:50:50,339 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 21:38:08,799 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[0]/a/span[1]
-2015-08-20 21:51:09,917 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 21:52:06,896 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[1]/a/span[1]]
-2015-08-20 21:54:38,081 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[2]/a/span[1]
-2015-08-20 21:54:45,923 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[2]/a/span[1]]
-2015-08-20 21:55:07,675 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[3]/a/span[1]
-2015-08-20 21:55:09,883 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[3]/a/span[1]]
-2015-08-20 21:55:14,273 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[4]/a/span[1]
-2015-08-20 21:55:15,497 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[4]/a/span[1]]
-2015-08-20 21:55:19,467 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[5]/a/span[1]
-2015-08-20 21:55:21,294 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[5]/a/span[1]]
-2015-08-20 21:55:26,816 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[6]/a/span[1]
-2015-08-20 21:55:27,883 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[6]/a/span[1]]
-2015-08-20 21:55:33,072 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[7]/a/span[1]
-2015-08-20 21:55:35,146 [main] INFO com.via.base.util.SeleniumBase - [[FirefoxDriver: firefox on WINDOWS (cc0db7d7-9eb3-4492-97fd-e776b95890fb)] -> xpath: //ul[@class='nav navbar-nav']/li[7]/a/span[1]]
-2015-08-20 22:06:09,447 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
-2015-08-20 22:54:53,190 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:54:53,226 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:54:53,254 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:54:53,282 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:54:53,322 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:54:53,355 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:54:53,381 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:54:53,407 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
-2015-08-20 22:58:56,869 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 22:58:56,920 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 22:58:56,964 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 22:58:57,005 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 22:58:57,061 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 22:58:57,109 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 22:58:57,144 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 22:58:57,188 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,068 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,107 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,139 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,169 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,350 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,389 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,422 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,451 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,479 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,510 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,544 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-20 23:07:42,580 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,022 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,080 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,184 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,244 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,368 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,425 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,483 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:24:22,533 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:25:46,517 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:25:50,973 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:25:52,839 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:25:53,919 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:25:57,825 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:25:59,408 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:26:00,589 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 06:26:01,870 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,449 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,487 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,518 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,545 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,583 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,616 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,659 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 08:17:29,710 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:00,871 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:00,890 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:00,911 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:00,932 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:01,067 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:02,407 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:02,522 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:17:02,541 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:14,637 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:14,977 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:15,214 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:15,470 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:15,732 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:16,091 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:16,328 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 10:20:16,537 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,053 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,148 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,176 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,202 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,240 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,266 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,290 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:42:46,315 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,177 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,226 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,263 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,304 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,349 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,390 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,424 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 14:52:09,454 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,160 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,272 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,311 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,347 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,399 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,444 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,476 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 18:41:21,510 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:23,926 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:23,981 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:24,021 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:24,058 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:24,097 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:24,141 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:24,183 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:00:24,225 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,068 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,121 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,160 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,198 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,243 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,290 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,338 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:03:08,406 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:48,227 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:48,382 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:50,211 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:50,248 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:50,291 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:50,331 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:50,378 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
-2015-08-21 19:04:50,421 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:38,411 [main] INFO com.via.base.util.SeleniumBase - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-22 15:55:38,455 [main] INFO com.via.base.util.SeleniumBase - url("https://images.via.com/static/img/general/v2/icons.png")
+2015-08-22 15:55:38,525 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 15:55:38,562 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 15:55:38,612 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 15:55:38,644 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 15:55:38,674 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 15:55:38,704 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 15:55:38,747 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 15:55:38,806 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 15:55:43,457 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 15:55:43,558 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 15:55:46,411 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 15:55:46,450 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 15:55:46,496 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 15:55:46,535 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 15:55:46,574 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 15:55:46,626 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 15:55:46,661 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 15:55:47,082 [main] INFO com.via.base.util.SeleniumBase - International Flights
+2015-08-22 15:55:47,120 [main] INFO com.via.base.util.SeleniumBase - Flight & Hotel packages
+2015-08-22 15:55:47,158 [main] INFO com.via.base.util.SeleniumBase - Flight Packages
+2015-08-22 15:55:47,194 [main] INFO com.via.base.util.SeleniumBase - Print Ticket
+2015-08-22 15:55:47,226 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 15:55:47,291 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 15:55:47,323 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 15:55:47,357 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 15:55:47,599 [main] INFO com.via.base.util.SeleniumBase - Sign in
+2015-08-22 15:55:47,672 [main] INFO com.via.base.util.SeleniumBase - New here? Register
+2015-08-22 15:55:47,965 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,066 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,159 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,250 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,315 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,354 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,384 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,414 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,448 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,477 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,500 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:48,522 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 15:55:50,733 [main] INFO com.via.base.util.SeleniumBase - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-22 16:07:31,040 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 16:07:31,308 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 16:07:31,540 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 16:07:31,775 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 16:07:31,958 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 16:07:32,226 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 16:07:32,499 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 16:07:32,758 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 16:07:32,923 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 16:07:33,238 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 16:07:33,610 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 16:07:33,890 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 16:07:34,183 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 16:07:34,458 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 16:07:34,706 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 16:07:34,946 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 16:07:35,240 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 16:07:36,084 [main] INFO com.via.base.util.SeleniumBase - International Flights
+2015-08-22 16:07:36,314 [main] INFO com.via.base.util.SeleniumBase - Flight & Hotel packages
+2015-08-22 16:07:36,533 [main] INFO com.via.base.util.SeleniumBase - Flight Packages
+2015-08-22 16:07:36,755 [main] INFO com.via.base.util.SeleniumBase - Print Ticket
+2015-08-22 16:07:36,950 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 16:07:37,222 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 16:07:37,572 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 16:07:37,823 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 16:07:38,377 [main] INFO com.via.base.util.SeleniumBase - Sign in
+2015-08-22 16:07:38,566 [main] INFO com.via.base.util.SeleniumBase - New here? Register
+2015-08-22 16:07:39,271 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:39,714 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:40,214 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:40,558 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:40,869 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:41,098 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:41,341 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:41,566 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:41,787 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:42,005 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:42,319 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:42,607 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:07:47,974 [main] INFO com.via.base.util.SeleniumBase - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-22 16:14:17,776 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 16:14:18,027 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 16:14:18,251 [main] INFO com.via.base.util.SeleniumBase - Flights
+2015-08-22 16:14:18,479 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 16:14:18,678 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 16:14:18,920 [main] INFO com.via.base.util.SeleniumBase - Hotels
+2015-08-22 16:14:19,074 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 16:14:19,265 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 16:14:19,452 [main] INFO com.via.base.util.SeleniumBase - Holidays
+2015-08-22 16:14:19,631 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 16:14:19,811 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 16:14:20,005 [main] INFO com.via.base.util.SeleniumBase - Bus
+2015-08-22 16:14:20,299 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 16:14:20,715 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 16:14:21,117 [main] INFO com.via.base.util.SeleniumBase - Cab
+2015-08-22 16:14:21,400 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 16:14:21,727 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 16:14:22,454 [main] INFO com.via.base.util.SeleniumBase - International Flights
+2015-08-22 16:14:22,662 [main] INFO com.via.base.util.SeleniumBase - Flight & Hotel packages
+2015-08-22 16:14:22,866 [main] INFO com.via.base.util.SeleniumBase - Flight Packages
+2015-08-22 16:14:23,063 [main] INFO com.via.base.util.SeleniumBase - Print Ticket
+2015-08-22 16:14:23,252 [main] INFO com.via.base.util.SeleniumBase - Explore
+2015-08-22 16:14:23,437 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 16:14:23,613 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 16:14:23,795 [main] INFO com.via.base.util.SeleniumBase - Your trips
+2015-08-22 16:14:24,296 [main] INFO com.via.base.util.SeleniumBase - Sign in
+2015-08-22 16:14:24,474 [main] INFO com.via.base.util.SeleniumBase - New here? Register
+2015-08-22 16:14:24,642 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:24,796 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:24,952 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:25,109 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:25,273 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:25,419 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:25,588 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:25,764 [main] INFO com.via.base.util.SeleniumBase - Image displayed.
+2015-08-22 16:14:25,929 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-22 16:14:26,120 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-22 16:14:26,257 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
+2015-08-22 16:14:26,393 [main] INFO com.via.base.util.SeleniumBase - Image not displayed.
