@@ -10,7 +10,8 @@ public class TestHomePageHoliday extends HomePageHoliday {
 
 	@BeforeTest
 	public void openViaHomepage() throws IOException {
-		propertiesFilePath();
+		propertiesFilePathPageContent();
+		propertiesFilePathUImap();
 		openB2CBrowser();
 	}
 
@@ -48,11 +49,16 @@ public class TestHomePageHoliday extends HomePageHoliday {
 	public void testSendUsYourFeedback(){
 		sendUsYourFeedback();
 	}
-
+	
 	@Test
-	public void testwhyViaFooterImages() {
-		whyViaFooterImages();
+	public void testWhyViaContent(){
+		whyViaContent();
 	}
+
+//	@Test
+//	public void testwhyViaFooterImages() {
+//		whyViaFooterImages();
+//	}
 
 	@AfterTest
 	public void exit(){

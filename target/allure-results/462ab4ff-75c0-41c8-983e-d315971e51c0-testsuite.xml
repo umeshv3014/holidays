@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1440300496743" stop="1440300530569" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1440300522917" stop="1440300527077" status="passed">
+            <name>menuProductNameTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="3332@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440300527176" stop="1440300527269" status="passed">
+            <name>testHotDealsImagesPresent</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="3332@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440300527291" stop="1440300527639" status="passed">
+            <name>testPackagesCollectionImagesPresent</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="3332@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440300527650" stop="1440300529878" status="passed">
+            <name>testSendUsYourFeedback</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="3332@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440300529910" stop="1440300530486" status="passed">
+            <name>testWhyViaContent</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="3332@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440300530494" stop="1440300530495" status="passed">
+            <name>titleHolidayTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="3332@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

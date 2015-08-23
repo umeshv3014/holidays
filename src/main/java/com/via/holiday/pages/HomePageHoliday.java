@@ -91,6 +91,18 @@ public class HomePageHoliday extends PropertiesFileProvider {
 			imageverify(driver, "xpath", ftrimage + " " + str.get(i));
 		}
 	}
+	
+	public void whyViaContent(){
+		String str = getKeyValue("ftrimage");
+		for (int i = 1; i <=6 ; i++) {
+			String content = str+" " + getKeyValue("ftrimage" + i)+ getKeyValue("ftrimage1" + i);
+			logger.info(getKeyValue("yvc" +i));
+			Assert.assertEquals(getText(driver, "xpath", content), getKeyValue("yvc" +i));
+			String contentPara = str+" " + getKeyValue("ftrimage" + i)+ getKeyValue("ftrimage11" + i);
+			logger.info(getKeyValue("yvc1" +i));
+			Assert.assertEquals(getText(driver, "xpath", contentPara), getKeyValue("yvc1" +i));
+		}
+	}
 
 	public void sendUsYourFeedback() {
 		sendKeys(driver, "xpath", getKeyValue("feedbackName"), "suresh");// xl and jason taught to use
