@@ -1,41 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33798" started-at="2015-08-23T03:28:16Z" finished-at="2015-08-23T03:28:50Z">
+  <suite name="Default suite" duration-ms="74428" started-at="2015-08-25T01:57:32Z" finished-at="2015-08-25T01:58:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33798" started-at="2015-08-23T03:28:16Z" finished-at="2015-08-23T03:28:50Z">
+    <test name="Default test" duration-ms="74428" started-at="2015-08-25T01:57:32Z" finished-at="2015-08-25T01:58:47Z">
       <class name="com.via.holiday.pages.TestHomePageHoliday">
-        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="openViaHomepage" is-config="true" duration-ms="26117" started-at="2015-08-23T08:58:16Z" finished-at="2015-08-23T08:58:42Z">
+        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@4856d15d]" name="openViaHomepage" is-config="true" duration-ms="20007" started-at="2015-08-25T07:27:32Z" finished-at="2015-08-25T07:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openViaHomepage -->
-        <test-method status="PASS" signature="menuProductNameTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="menuProductNameTest" duration-ms="4196" started-at="2015-08-23T08:58:42Z" finished-at="2015-08-23T08:58:47Z">
+        <test-method status="FAIL" signature="holidayHomePage_UI_Content_images_Test()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@4856d15d]" name="holidayHomePage_UI_Content_images_Test" duration-ms="54310" started-at="2015-08-25T07:27:52Z" finished-at="2015-08-25T07:28:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@id='packages-collection']/div/div/div[9]/a/img"}
+Command duration or timeout: 50.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: da84a9aa-971d-4df0-83c9-0b7f9c4dd444
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='packages-collection']/div/div/div[9]/a/img"}
+Command duration or timeout: 50.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: da84a9aa-971d-4df0-83c9-0b7f9c4dd444
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.via.base.util.SeleniumBase.webElement(SeleniumBase.java:44)
+	at com.via.base.util.SeleniumBase.imageverify(SeleniumBase.java:88)
+	at com.via.holiday.pages.HomePageHoliday.packagesCollectionImagesPresent(HomePageHoliday.java:74)
+	at com.via.holiday.pages.TestHomePageHoliday.holidayHomePage_UI_Content_images_Test(TestHomePageHoliday.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='packages-collection']/div/div/div[9]/a/img"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6271760776959392662webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9618:133)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6271760776959392662webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- menuProductNameTest -->
-        <test-method status="PASS" signature="testHotDealsImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="testHotDealsImagesPresent" duration-ms="93" started-at="2015-08-23T08:58:47Z" finished-at="2015-08-23T08:58:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHotDealsImagesPresent -->
-        <test-method status="PASS" signature="testPackagesCollectionImagesPresent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="testPackagesCollectionImagesPresent" duration-ms="349" started-at="2015-08-23T08:58:47Z" finished-at="2015-08-23T08:58:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPackagesCollectionImagesPresent -->
-        <test-method status="PASS" signature="testSendUsYourFeedback()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="testSendUsYourFeedback" duration-ms="2230" started-at="2015-08-23T08:58:47Z" finished-at="2015-08-23T08:58:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSendUsYourFeedback -->
-        <test-method status="PASS" signature="testWhyViaContent()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="testWhyViaContent" duration-ms="581" started-at="2015-08-23T08:58:49Z" finished-at="2015-08-23T08:58:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWhyViaContent -->
-        <test-method status="PASS" signature="titleHolidayTest()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="titleHolidayTest" duration-ms="2" started-at="2015-08-23T08:58:50Z" finished-at="2015-08-23T08:58:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleHolidayTest -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@993a289]" name="exit" is-config="true" duration-ms="25" started-at="2015-08-23T08:58:50Z" finished-at="2015-08-23T08:58:50Z">
+        </test-method> <!-- holidayHomePage_UI_Content_images_Test -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.via.holiday.pages.TestHomePageHoliday@4856d15d]" name="exit" is-config="true" duration-ms="41" started-at="2015-08-25T07:28:47Z" finished-at="2015-08-25T07:28:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->

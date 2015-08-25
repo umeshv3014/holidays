@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class PopUpHandler extends SeleniumBase {
 	
+	//below are member functions of class PopUpHandler
 	public void accept(WebDriver driver) {
 		Alert alrt = driver.switchTo().alert();
 		logger.info(alrt.getText());

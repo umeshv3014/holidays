@@ -22,7 +22,7 @@ public class SeleniumBase {
 	public WebDriver driver;
 	public WebElement webelement;
 	public InputStream inputStream;
-	public Properties prop = new Properties();
+	public static Properties prop = new Properties();
 	public Logger logger = Logger.getLogger(SeleniumBase.class.getName());
 
 	public void openBrowsers(String DefultProfilePath, String URL) {
@@ -98,7 +98,7 @@ public class SeleniumBase {
 		return ImagePresent;
 	}
 
-	public void getPropertyFile(String filePath) throws IOException {
+	public static void getPropertyFile(String filePath) throws IOException {
 		File file = new File(filePath);
 		FileInputStream fileInput = null;
 		try {

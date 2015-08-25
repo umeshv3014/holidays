@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1440324484836" stop="1440324485487" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1440324484984" stop="1440324484996" status="passed">
+            <name>setData[sampleuser1,abcdef]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="2692@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440324485386" stop="1440324485395" status="passed">
+            <name>setData[testuser2,zxcvb]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="2692@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440324485415" stop="1440324485418" status="passed">
+            <name>setData[guestuser3,pass123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="2692@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

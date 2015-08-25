@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1440430332781" stop="1440430713788" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1440430406334" stop="1440430661873" status="broken">
+            <name>holidayHomePage_UI_Content_images_Test</name>
+            <failure>
+                <message>NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav navbar-nav']/li[1]/a/span[2]"}
+Command duration or timeout: 50.29 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 93af20c4-6b9e-4342-bc46-c303e7d8535b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav navbar-nav']/li[1]/a/span[2]"}
+Command duration or timeout: 50.29 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 93af20c4-6b9e-4342-bc46-c303e7d8535b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.via.base.util.SeleniumBase.webElement(SeleniumBase.java:44)
+	at com.via.base.util.SeleniumBase.getText(SeleniumBase.java:67)
+	at com.via.holiday.pages.HomePageHoliday.menuProductName(HomePageHoliday.java:50)
+	at com.via.holiday.pages.TestHomePageHoliday.holidayHomePage_UI_Content_images_Test(TestHomePageHoliday.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav navbar-nav']/li[1]/a/span[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous2829061760424149828webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9618:133)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous2829061760424149828webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="5452@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

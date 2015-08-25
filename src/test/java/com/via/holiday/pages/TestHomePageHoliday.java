@@ -6,62 +6,32 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestHomePageHoliday extends HomePageHoliday {
+import com.via.base.util.SeleniumBase;
+import com.via.properties.PropertiesFileProvider;
+
+public class TestHomePageHoliday extends SeleniumBase {
+	HomePageHoliday hphCASE = new HomePageHoliday();
 
 	@BeforeTest
 	public void openViaHomepage() throws IOException {
-		propertiesFilePathPageContent();
-		propertiesFilePathUImap();
-		openB2CBrowser();
+		PropertiesFileProvider.propertiesFilePathPageContent();
+		PropertiesFileProvider.propertiesFilePathUImap();
+		hphCASE.openB2CBrowser();
 	}
 
 	@Test
-	public void titleHolidayTest() {
-		titleHoliday();
+	public void holidayHomePage_UI_Content_images_Test() {
+		//hphCASE.titleHoliday();
+		//hphCASE.menuProductName();
+		//hphCASE.menuImages();
+		hphCASE.packagesCollectionImagesPresent();
+//		hphCASE.hotDealsImagesPresent();
+//		hphCASE.whyViaContent();
+//		hphCASE.sendUsYourFeedback();
 	}
-
-//	@Test
-//	public void logoTest() {
-//		viaB2CLogo();
-//	}
-//
-//	@Test
-//	public void menuProductIconTest() {
-//		menuImages();
-//	}
-
-	@Test
-	public void menuProductNameTest() {
-		menuProductName();
-	}
-
-	@Test
-	public void testPackagesCollectionImagesPresent() {
-		packagesCollectionImagesPresent();
-	}
-
-	@Test
-	public void testHotDealsImagesPresent() {
-		hotDealsImagesPresent();
-	}
-	
-	@Test
-	public void testSendUsYourFeedback(){
-		sendUsYourFeedback();
-	}
-	
-	@Test
-	public void testWhyViaContent(){
-		whyViaContent();
-	}
-
-//	@Test
-//	public void testwhyViaFooterImages() {
-//		whyViaFooterImages();
-//	}
 
 	@AfterTest
-	public void exit(){
-		quitTest();
+	public void exit() {
+		hphCASE.quitTest();
 	}
 }

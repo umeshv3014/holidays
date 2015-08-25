@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1440328974819" stop="1440329026308" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1440329021084" stop="1440329021093" status="passed">
+            <name>holidayUIandContentTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="284@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1440329021216" stop="1440329026214" status="passed">
+            <name>titleHolidayTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="UMESH-PC"/>
+                <label name="thread" value="284@UMESH-PC.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

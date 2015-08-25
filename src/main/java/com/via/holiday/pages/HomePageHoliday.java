@@ -2,6 +2,7 @@ package com.via.holiday.pages;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.testng.Assert;
 
@@ -66,11 +67,11 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void packagesCollectionImagesPresent() {
-		String pc1 = getKeyValue("pcImage");
-		String pc2 = getKeyValue("pcImage2");
-		for (int i = 1; i <= 8; i++) {
-			String path = pc1 + i + pc2;
-			imageverify(driver, "xpath", path);
+		int i = 1;
+		List<String> str = new ArrayList<String>();
+			for (i = i-1; i <= str.size();) {
+			str.add(getKeyValue("pcImage") + ++i + getKeyValue("pcImage2"));
+			imageverify(driver, "xpath", str.get(i-1));
 		}
 	}
 

@@ -1,0 +1,542 @@
+2015-08-23 15:32:12,282 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 15:32:12,715 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 15:32:22,665 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 15:32:23,065 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 15:32:23,355 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 15:32:23,672 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 15:32:24,015 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 15:32:24,286 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 15:32:24,529 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 15:32:24,784 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 15:32:25,002 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 15:32:25,237 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 15:32:25,440 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 15:32:25,658 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 15:32:25,943 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 15:32:26,142 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 15:32:26,343 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 15:32:27,015 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-23 15:32:27,178 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-23 15:32:27,331 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-23 15:32:27,542 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-23 15:32:27,695 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 15:32:27,857 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 15:32:28,015 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 15:32:28,203 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 15:32:28,729 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-23 15:32:28,906 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-23 15:32:29,057 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:29,214 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:29,366 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:29,506 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:29,641 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:29,779 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:29,911 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:30,042 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:30,175 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:30,308 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:30,438 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:30,566 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 15:32:53,975 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-23 15:32:54,166 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 15:32:55,608 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 15:32:55,609 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 15:32:55,962 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 15:32:55,965 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 15:32:56,311 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 15:32:56,312 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 15:32:56,655 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 15:32:56,657 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 15:32:56,930 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 15:32:56,931 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 15:32:57,199 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 15:32:57,200 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 15:32:57,453 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 15:32:57,455 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 15:32:57,695 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 15:32:57,696 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 15:32:57,943 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 15:32:57,944 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 15:32:58,184 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 15:32:58,184 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 15:32:58,415 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 15:32:58,415 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 15:32:58,648 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 16:29:56,869 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 16:32:21,063 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:32:21,143 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:32:21,243 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:32:21,280 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:32:21,321 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:32:21,361 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:32:21,403 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:32:21,450 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:32:21,496 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:32:21,536 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:32:21,583 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:32:21,632 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:32:21,668 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:32:21,725 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:32:21,757 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:32:21,790 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:32:21,825 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:32:22,256 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-23 16:32:23,236 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-23 16:32:23,273 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-23 16:32:23,321 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-23 16:32:23,359 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:32:23,398 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:32:23,437 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:32:23,468 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:32:23,735 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-23 16:32:23,773 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-23 16:32:23,970 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,002 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,030 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,057 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,124 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,152 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,178 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,221 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,252 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,279 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,307 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:24,338 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:32:26,866 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-23 16:32:26,961 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 16:32:27,058 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 16:32:27,058 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 16:32:27,141 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 16:32:27,141 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 16:32:27,212 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 16:32:27,213 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 16:32:27,282 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 16:32:27,283 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 16:32:27,325 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 16:32:27,326 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 16:32:27,360 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 16:32:27,360 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 16:32:27,398 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 16:32:27,399 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 16:32:27,444 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 16:32:27,445 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 16:32:27,483 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 16:32:27,484 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 16:32:27,514 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 16:32:27,514 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 16:32:27,547 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 16:32:27,548 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 16:32:27,581 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 16:53:41,356 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:53:41,400 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:53:41,436 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:53:41,466 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:53:41,502 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:53:41,542 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:53:41,595 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:53:41,641 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:53:41,676 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:53:41,719 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:53:41,770 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:53:41,799 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:53:41,833 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:53:41,862 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:53:41,906 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:53:41,940 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:53:41,975 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:53:42,391 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-23 16:53:42,416 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-23 16:53:42,442 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-23 16:53:42,471 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-23 16:53:42,496 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:53:42,523 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:53:42,554 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:53:42,581 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:53:42,802 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-23 16:53:42,829 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-23 16:53:42,861 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:42,886 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:42,907 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:42,928 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:42,948 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:42,972 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:42,995 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:43,015 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:43,041 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:43,061 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:43,084 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:43,109 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:53:45,638 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-23 16:53:45,668 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 16:53:45,706 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 16:53:45,706 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 16:53:45,746 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 16:53:45,747 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 16:53:45,781 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 16:53:45,782 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 16:53:45,848 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 16:53:45,849 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 16:53:45,894 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 16:53:45,894 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 16:53:45,937 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 16:53:45,938 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 16:53:45,979 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 16:53:45,980 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 16:53:46,018 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 16:53:46,019 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 16:53:46,057 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 16:53:46,057 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 16:53:46,093 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 16:53:46,094 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 16:53:46,169 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 16:53:46,170 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 16:53:46,212 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 16:58:53,680 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:58:53,727 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:58:53,772 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 16:58:53,810 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:58:53,850 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:58:53,883 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 16:58:53,916 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:58:53,947 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:58:53,980 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 16:58:54,019 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:58:54,060 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:58:54,091 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 16:58:54,120 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:58:54,152 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:58:54,192 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 16:58:54,223 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:58:54,254 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:58:54,594 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-23 16:58:54,625 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-23 16:58:54,654 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-23 16:58:54,684 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-23 16:58:54,712 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 16:58:54,740 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:58:54,779 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:58:54,806 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 16:58:55,027 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-23 16:58:55,058 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-23 16:58:55,098 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,124 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,150 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,174 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,252 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,278 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,408 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,429 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,451 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,474 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,501 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,577 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 16:58:55,577 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 16:58:55,606 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 16:58:55,606 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 16:58:55,632 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 16:58:55,633 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 16:58:55,655 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 16:58:55,656 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 16:58:55,684 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 16:58:55,684 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 16:58:55,712 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 16:58:55,713 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 16:58:55,734 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 16:58:55,735 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 16:58:55,759 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 16:58:55,759 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 16:58:55,781 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 16:58:55,781 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 16:58:55,804 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 16:58:55,804 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 16:58:55,827 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 16:58:55,828 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 16:58:55,851 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 16:58:55,852 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 16:58:55,873 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 16:58:58,484 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-23 17:26:01,016 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 17:26:01,065 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 17:26:01,104 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 17:26:01,142 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 17:26:01,183 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 17:26:01,229 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 17:26:01,264 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 17:26:01,296 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 17:26:01,332 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 17:26:01,365 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 17:26:01,411 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 17:26:01,441 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 17:26:01,478 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 17:26:01,522 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 17:26:01,552 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 17:26:01,584 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 17:26:01,616 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 17:26:01,986 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-23 17:26:02,026 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-23 17:26:02,055 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-23 17:26:02,086 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-23 17:26:02,114 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 17:26:02,143 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 17:26:02,175 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 17:26:02,203 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 17:26:02,560 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-23 17:26:02,637 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-23 17:26:02,698 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,741 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,776 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,836 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,877 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,927 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,952 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,974 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:02,998 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:03,021 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:03,043 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:03,065 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-23 17:26:03,066 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 17:26:03,087 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-23 17:26:03,088 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 17:26:03,113 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-23 17:26:03,113 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 17:26:03,137 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-23 17:26:03,138 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 17:26:03,166 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-23 17:26:03,167 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 17:26:03,189 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-23 17:26:03,190 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 17:26:03,214 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-23 17:26:03,215 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 17:26:03,237 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-23 17:26:03,237 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 17:26:03,260 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-23 17:26:03,260 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 17:26:03,283 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-23 17:26:03,283 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 17:26:03,309 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-23 17:26:03,310 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 17:26:03,332 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-23 17:26:03,332 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 17:26:03,353 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-23 17:26:05,753 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-23 17:26:05,830 - com.via.base.util.SeleniumBase -INFO - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-23 17:26:05,881 - com.via.base.util.SeleniumBase -INFO - url("https://images.via.com/static/img/general/v2/icons.png")
+2015-08-23 17:27:57,576 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 17:27:57,615 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 17:27:57,650 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-23 17:27:57,680 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 17:27:57,726 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 17:27:57,755 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-23 17:27:57,787 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 17:27:57,817 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 17:27:57,846 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-23 17:27:57,876 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 17:27:57,922 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 17:27:57,950 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-23 17:27:57,980 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 17:27:58,012 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 17:27:58,037 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-23 17:27:58,063 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 17:27:58,094 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 17:27:58,388 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-23 17:27:58,412 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-23 17:27:58,436 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-23 17:27:58,462 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-23 17:27:58,484 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-23 17:27:58,510 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 17:27:58,532 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 17:27:58,558 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-23 17:27:58,791 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-23 17:27:58,826 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-23 17:27:58,827 - com.via.base.util.SeleniumBase -INFO - //ul[@class='nav navbar-nav']/li[1]/a/span[1]
+2015-08-23 17:27:58,850 - com.via.base.util.SeleniumBase -INFO - url("https://images.via.com/static/img/general/v2/icons.png")
+2015-08-24 11:15:43,560 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 11:15:43,680 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 11:15:43,706 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 11:15:44,181 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 11:15:46,666 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 11:15:46,706 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 11:15:46,741 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 11:15:46,772 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 11:15:46,796 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 11:15:46,830 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 11:15:46,879 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 11:15:46,914 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 11:15:46,955 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 11:15:47,008 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 11:15:47,040 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 11:15:47,073 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 11:15:47,104 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 11:15:47,505 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-24 11:15:47,555 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-24 11:15:47,585 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-24 11:15:47,620 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-24 11:15:47,643 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 11:15:47,664 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 11:15:47,682 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 11:15:47,701 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 11:15:48,405 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-24 11:15:48,444 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-24 11:15:48,486 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,524 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,555 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,587 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,642 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,682 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,715 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,743 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,775 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,804 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,838 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,873 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 11:15:48,874 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-24 11:15:48,913 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-24 11:15:48,914 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-24 11:15:48,947 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-24 11:15:48,948 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-24 11:15:48,979 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-24 11:15:48,980 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-24 11:15:49,020 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-24 11:15:49,021 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-24 11:15:49,056 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-24 11:15:49,057 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-24 11:15:49,084 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-24 11:15:49,085 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-24 11:15:49,113 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-24 11:15:49,113 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-24 11:15:49,142 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-24 11:15:49,143 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-24 11:15:49,176 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-24 11:15:49,177 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-24 11:15:49,212 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-24 11:15:49,213 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-24 11:15:49,245 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-24 11:15:49,246 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-24 11:15:49,271 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-24 11:15:51,549 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-24 19:45:46,386 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 19:45:46,483 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 19:45:46,514 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 19:45:46,576 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 19:45:46,628 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 19:45:46,659 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 19:45:46,690 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 19:45:46,737 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 19:45:46,770 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 19:45:46,802 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 19:45:46,867 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 19:45:46,913 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 19:45:46,960 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 19:45:47,007 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 19:45:47,045 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 19:45:47,093 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 19:45:47,123 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 19:45:47,545 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-24 19:45:47,586 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-24 19:45:47,616 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-24 19:45:47,666 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-24 19:45:47,706 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 19:45:47,726 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 19:45:47,756 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 19:45:47,796 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 19:53:18,855 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 19:53:18,900 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 19:53:18,939 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 19:53:19,204 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 19:53:19,259 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 19:53:19,306 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-08-24 19:53:19,357 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 19:53:19,410 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 19:53:19,454 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-08-24 19:53:19,505 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 19:53:19,557 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 19:53:19,597 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-08-24 19:53:19,643 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 19:53:19,695 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 19:53:20,000 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-08-24 19:53:20,045 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 19:53:20,090 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 19:53:20,528 - com.via.base.util.SeleniumBase -INFO - International Flights
+2015-08-24 19:53:20,566 - com.via.base.util.SeleniumBase -INFO - Flight & Hotel packages
+2015-08-24 19:53:20,605 - com.via.base.util.SeleniumBase -INFO - Flight Packages
+2015-08-24 19:53:20,645 - com.via.base.util.SeleniumBase -INFO - Print Ticket
+2015-08-24 19:53:20,685 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-08-24 19:53:20,728 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 19:53:20,765 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 19:53:20,806 - com.via.base.util.SeleniumBase -INFO - Your trips
+2015-08-24 19:53:21,090 - com.via.base.util.SeleniumBase -INFO - Sign in
+2015-08-24 19:53:21,132 - com.via.base.util.SeleniumBase -INFO - New here? Register
+2015-08-24 19:53:21,206 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,239 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,273 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,304 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,331 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,382 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,420 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,446 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,481 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,510 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,549 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,582 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-24 19:53:21,583 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-24 19:53:21,619 - com.via.base.util.SeleniumBase -INFO - One Stop Holiday Store
+2015-08-24 19:53:21,619 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-24 19:53:21,644 - com.via.base.util.SeleniumBase -INFO - At Via, we believe holidays should be about memorable experiences, that's why we handle every aspect of your trip - from visa processing to flight booking, airport transfers, hotel booking and sightseeing tours - so you can focus on having a great time.
+2015-08-24 19:53:21,645 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-24 19:53:21,669 - com.via.base.util.SeleniumBase -INFO - Happy to Help
+2015-08-24 19:53:21,670 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-24 19:53:21,710 - com.via.base.util.SeleniumBase -INFO - Via is focused on delivering the fastest and smoothest travel booking experience at the lowest prices. If you need any help during the booking, want to modify an itinerary, or have any special requests, feel free to contact us care@via.com or 39 41 41 41
+2015-08-24 19:53:21,711 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-24 19:53:21,740 - com.via.base.util.SeleniumBase -INFO - Best Deals Guaranteed
+2015-08-24 19:53:21,740 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-24 19:53:21,763 - com.via.base.util.SeleniumBase -INFO - We strive hard to get you the best deals on holiday packages. All our package inclusions like hotels, sightseeing tours and cab services are carefully curated to offer you a memorable trip at the best price.
+2015-08-24 19:53:21,764 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-24 19:53:21,789 - com.via.base.util.SeleniumBase -INFO - Personalized Trips
+2015-08-24 19:53:21,789 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-24 19:53:21,823 - com.via.base.util.SeleniumBase -INFO - We don't believe in a one-size-fits-all travel itinerary, and neither should you. Feel free to tailor the package to suit your budget and interests.
+2015-08-24 19:53:21,823 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-24 19:53:21,847 - com.via.base.util.SeleniumBase -INFO - Choose from more than 200 destinations
+2015-08-24 19:53:21,848 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-24 19:53:21,876 - com.via.base.util.SeleniumBase -INFO - From the offbeat, lesser known destinations to the most touristy places on the planet, we have it all. In case you are unable to find a holiday package for your destination, give us a call and we will try our best to accommodate your request.
+2015-08-24 19:53:21,877 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-24 19:53:21,908 - com.via.base.util.SeleniumBase -INFO - Download our free Mobile App
+2015-08-24 19:53:21,908 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-24 19:53:21,943 - com.via.base.util.SeleniumBase -INFO - Search, compare and book on the move with the Via app. It is the fastest and easiest way to book flights, hotels and bus tickets on the go.
+2015-08-24 19:53:41,451 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-08-24 21:14:40,454 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 21:14:45,552 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-24 21:14:50,076 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-08-25 07:09:31,411 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:10:18,788 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:10:21,901 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:10:23,956 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:10:25,145 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:10:26,350 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:10:27,273 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:12:32,467 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:13:38,516 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:13:58,193 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:15:02,629 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:15:49,141 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:16:08,486 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:16:13,142 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:16:44,820 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:16:49,325 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:16:51,544 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:16:54,730 - com.via.base.util.SeleniumBase -INFO - Image not displayed.
+2015-08-25 07:26:16,058 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:26:16,100 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:26:16,133 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:26:16,163 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:26:16,203 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:26:16,237 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:26:16,267 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:26:16,301 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:53,395 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:56,967 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:57,018 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:57,053 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:57,106 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:57,144 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:57,179 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-08-25 07:27:57,223 - com.via.base.util.SeleniumBase -INFO - Image displayed.
