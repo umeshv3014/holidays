@@ -10,7 +10,8 @@ import com.via.base.util.PopUpHandler;
 import com.via.properties.PropertiesFileProvider;
 
 public class HomePageHoliday extends PropertiesFileProvider {
-	PopUpHandler puh = new PopUpHandler();
+	public PopUpHandler puh = new PopUpHandler();
+	public List<String> str;
 
 	public void openB2CBrowser() throws IOException {
 		openBrowsers(getKeyValue("profile"), getKeyValue("baseURL"));
@@ -29,7 +30,9 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void menuImages() {
-		for (int i = 1; i <= 7; i++) {
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("pcImageCount"));
+		for (int i = 1; i <= count; i++) {
 			String xpathPTR = getKeyValue("menuImage") + i
 					+ getKeyValue("menuImage2");
 			logger.info(xpathPTR);
@@ -40,7 +43,7 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void menuProductName() {
-
+		
 		for (int i = 1; i <= 7; i++) {
 			String text = getKeyValue("menuImage") + i
 					+ getKeyValue("menuProduct");
@@ -67,29 +70,30 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void packagesCollectionImagesPresent() {
-		int i = 1;
-		List<String> str = new ArrayList<String>();
-			for (i = i-1; i <= str.size();) {
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("pcImageCount"));
+		for (int i = 0; i < count;) {
 			str.add(getKeyValue("pcImage") + ++i + getKeyValue("pcImage2"));
-			imageverify(driver, "xpath", str.get(i-1));
+				imageverify(driver, "xpath", str.get(i - 1));
 		}
 	}
 
 	public void hotDealsImagesPresent() {
-		String path1 = getKeyValue("hdImage");
-		String path2 = getKeyValue("hdImage2");
-		for (int i = 1; i <= 4; i++) {
-			String path = path1 + i + path2;
-			imageverify(driver, "xpath", path);
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("hdImageCount"));
+		for (int i = 1; i <= count; i++) {
+			str.add(getKeyValue("hdImage") + i + getKeyValue("hdImage2"));
+			imageverify(driver, "xpath", str.get(i-1));
 		}
 	}
 
 	public void whyViaFooterImages() {
-		ArrayList<String> str = new ArrayList<String>();
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("whyViaFooterImagesCount"));
 		String ftrimage = getKeyValue("ftrimage");
-		for (int i = 1; i <= str.size(); i++) {
+		for (int i = 1; i <= count; i++) {
 			str.add(getKeyValue("ftrimage" + i));
-			imageverify(driver, "xpath", ftrimage + " " + str.get(i));
+			imageverify(driver, "xpath", ftrimage + " " + str.get(i-1));
 		}
 	}
 	
@@ -112,6 +116,16 @@ public class HomePageHoliday extends PropertiesFileProvider {
 		sendKeys(driver, "xpath", getKeyValue("feedbackMsg"), "sent mesg");
 		click(driver, "xpath", getKeyValue("SYRmsg"));
 		puh.accept(driver);
+	}
+	
+	public void holidayDestinationSearchbox(String destinationCountry,
+			String destinationCity, String departureDate, String duration,
+			String Rooms, String locatorType, String locatorValue) {
+		click(driver, locatorType, locatorValue);
+		sendKeys(driver, locatorType, getKeyValue("keyValue"), destinationCity);
+		sendKeys(driver, locatorType, getKeyValue("keyValue"), departureDate);
+		sendKeys(driver, locatorType, getKeyValue("keyValue"), duration);
+		click(driver, locatorType, getKeyValue("keyValue"));
 	}
 
 }
