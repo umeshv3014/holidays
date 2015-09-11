@@ -7,10 +7,11 @@ import java.util.List;
 import org.testng.Assert;
 
 import com.via.base.util.PopUpHandler;
-import com.via.properties.PropertiesFileProvider;
+import com.via.properties.FileProvider;
 
-public class HomePageHoliday extends PropertiesFileProvider {
-	PopUpHandler puh = new PopUpHandler();
+public class HomePageHoliday extends FileProvider {
+	public PopUpHandler puh = new PopUpHandler();
+	public List<String> str;
 
 	public void openB2CBrowser() throws IOException {
 		openBrowsers(getKeyValue("profile"), getKeyValue("baseURL"));
@@ -29,7 +30,9 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void menuImages() {
-		for (int i = 1; i <= 7; i++) {
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("pcImageCount"));
+		for (int i = 1; i <= count; i++) {
 			String xpathPTR = getKeyValue("menuImage") + i
 					+ getKeyValue("menuImage2");
 			logger.info(xpathPTR);
@@ -40,7 +43,7 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void menuProductName() {
-
+		
 		for (int i = 1; i <= 7; i++) {
 			String text = getKeyValue("menuImage") + i
 					+ getKeyValue("menuProduct");
@@ -67,29 +70,30 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void packagesCollectionImagesPresent() {
-		int i = 1;
-		List<String> str = new ArrayList<String>();
-			for (i = i-1; i <= str.size();) {
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("pcImageCount"));
+		for (int i = 0; i < count;) {
 			str.add(getKeyValue("pcImage") + ++i + getKeyValue("pcImage2"));
-			imageverify(driver, "xpath", str.get(i-1));
+				imageverify(driver, "xpath", str.get(i - 1));
 		}
 	}
 
 	public void hotDealsImagesPresent() {
-		String path1 = getKeyValue("hdImage");
-		String path2 = getKeyValue("hdImage2");
-		for (int i = 1; i <= 4; i++) {
-			String path = path1 + i + path2;
-			imageverify(driver, "xpath", path);
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("hdImageCount"));
+		for (int i = 1; i <= count; i++) {
+			str.add(getKeyValue("hdImage") + i + getKeyValue("hdImage2"));
+			imageverify(driver, "xpath", str.get(i-1));
 		}
 	}
 
 	public void whyViaFooterImages() {
-		ArrayList<String> str = new ArrayList<String>();
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("whyViaFooterImagesCount"));
 		String ftrimage = getKeyValue("ftrimage");
-		for (int i = 1; i <= str.size(); i++) {
+		for (int i = 1; i <= count; i++) {
 			str.add(getKeyValue("ftrimage" + i));
-			imageverify(driver, "xpath", ftrimage + " " + str.get(i));
+			imageverify(driver, "xpath", ftrimage + " " + str.get(i-1));
 		}
 	}
 	
@@ -105,13 +109,24 @@ public class HomePageHoliday extends PropertiesFileProvider {
 		}
 	}
 
-	public void sendUsYourFeedback() {
-		sendKeys(driver, "xpath", getKeyValue("feedbackName"), "suresh");// xl and jason taught to use
-		sendKeys(driver, "xpath", getKeyValue("feedbackEmail"),
-				"suresh@gmail.com");// get the value for xl or jason
-		sendKeys(driver, "xpath", getKeyValue("feedbackMsg"), "sent mesg");
+	public void sendUsYourFeedback(String name, String email, String msg ) {
+		sendKeys(driver, "xpath", getKeyValue("feedbackName"), name);// xl and jason taught to use
+		sendKeys(driver, "xpath", getKeyValue("feedbackEmail"),email);// get the value for xl or jason
+		sendKeys(driver, "xpath", getKeyValue("feedbackMsg"), msg);
 		click(driver, "xpath", getKeyValue("SYRmsg"));
 		puh.accept(driver);
+		clearText(driver, "xpath", getKeyValue("feedbackName"));// xl and jason taught to use
+		clearText(driver, "xpath", getKeyValue("feedbackEmail"));// get the value for xl or jason
+		clearText(driver, "xpath", getKeyValue("feedbackMsg"));
+	}
+	
+	public void holidayDestinationSearchbox(String destinationCity) throws InterruptedException {
+		click(driver, "xpath", getKeyValue("selectDropDown"));
+		sendKeys(driver, "xpath", getKeyValue("HDcity"), destinationCity);
+		click(driver, "xpath", getKeyValue("selecrDropDown"));
+		click(driver, "xpath", getKeyValue("searchBTN"));
+		Thread.sleep(5000);
+		click(driver, "xpath", getKeyValue("backtohomepage"));
 	}
 
 }
