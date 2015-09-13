@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.via.holiday.pages.TestHomePageHoliday">
+      <class name="com.via.holiday.pages.HolidayPagesTest">
         <methods>
-          <include name="exit"/>
-          <include name="holidayHomePage_UI_Content_images_Test"/>
           <include name="openViaHomepage"/>
+          <include name="destinationSearch" invocation-numbers="0 1 2"/>
+          <include name="holidayHomePage_UI_Content_images_Test"/>
+          <include name="exit"/>
         </methods>
-      </class> <!-- com.via.holiday.pages.TestHomePageHoliday -->
+      </class> <!-- com.via.holiday.pages.HolidayPagesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

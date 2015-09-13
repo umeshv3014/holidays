@@ -75,6 +75,11 @@ public class SeleniumBase {
 		webElement(driver, locatorType, locatorValue).sendKeys(key);
 	}
 
+	public void clearText(WebDriver driver, String locatorType,
+			String locatorValue) {
+		webElement(driver, locatorType, locatorValue).clear();
+	}
+
 	public String _getCssValue(WebDriver driver, String locatorType,
 			String locatorValue, String propertyName) {
 		WebElement text = webElement(driver, locatorType, locatorValue);

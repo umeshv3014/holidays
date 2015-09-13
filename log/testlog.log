@@ -540,3 +540,40 @@
 2015-08-25 07:27:57,144 - com.via.base.util.SeleniumBase -INFO - Image displayed.
 2015-08-25 07:27:57,179 - com.via.base.util.SeleniumBase -INFO - Image displayed.
 2015-08-25 07:27:57,223 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:25,481 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:29,495 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:29,624 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:29,754 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:29,900 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:30,372 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:30,470 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-12 15:54:30,596 - com.via.base.util.SeleniumBase -INFO - Image displayed.
+2015-09-13 07:10:34,126 - com.via.base.util.SeleniumBase -INFO - error in getTableArray()
+2015-09-13 07:19:04,240 - com.via.base.util.SeleniumBase -INFO - error in getTableArray()
+2015-09-13 08:20:37,312 - com.via.base.util.SeleniumBase -INFO - startRow=6, endRow=10, startCol=0, endCol=4
+2015-09-13 08:20:53,316 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 08:20:58,472 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 08:21:03,374 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 08:24:43,685 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 08:24:44,497 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 08:24:44,634 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 08:24:44,789 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 08:24:45,199 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 08:24:45,904 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 08:24:46,042 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 08:24:46,184 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 08:24:46,315 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 08:24:46,438 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 08:24:46,582 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 08:24:46,742 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 08:24:47,174 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 08:24:47,387 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 08:24:47,538 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 08:24:47,754 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-09-13 08:24:47,905 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-09-13 08:24:49,240 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 08:24:49,601 - com.via.base.util.SeleniumBase -INFO - startRow=6, endRow=10, startCol=0, endCol=4
+2015-09-13 08:25:13,203 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 08:25:17,926 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 08:25:22,246 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 08:25:23,938 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=4, startCol=0, endCol=2

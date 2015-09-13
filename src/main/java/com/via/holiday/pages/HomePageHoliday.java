@@ -7,9 +7,9 @@ import java.util.List;
 import org.testng.Assert;
 
 import com.via.base.util.PopUpHandler;
-import com.via.properties.PropertiesFileProvider;
+import com.via.base.util.SeleniumBase;
 
-public class HomePageHoliday extends PropertiesFileProvider {
+public class HomePageHoliday extends SeleniumBase {
 	public PopUpHandler puh = new PopUpHandler();
 	public List<String> str;
 
@@ -19,9 +19,8 @@ public class HomePageHoliday extends PropertiesFileProvider {
 
 	public void titleHoliday() {
 		String title = getKeyValue("HolidaysTitle");
-		Assert.assertEquals(
-				title,
-				"Domestic & International Holiday Packages, Tour Packages, Package Tours - Via.com");
+		String tike = driver.getTitle();
+		Assert.assertEquals(title,tike);
 	}
 
 	public void viaB2CLogo() {
@@ -43,28 +42,22 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	}
 
 	public void menuProductName() {
-		
-		for (int i = 1; i <= 7; i++) {
-			String text = getKeyValue("menuImage") + i
-					+ getKeyValue("menuProduct");
-			Assert.assertEquals(getText(driver, "xpath", text),
-					getKeyValue("text" + i));
-			if (getText(driver, "xpath", text).equals("Explore")) {
-				click(driver, "xpath", text);
-				for (int j = 1; j <= 4; j++) {
-					String textsbm = getKeyValue("submenu")
-							+ getKeyValue("textsb" + j) + getKeyValue("textsm");
-					Assert.assertEquals(getText(driver, "xpath", textsbm),
-							getKeyValue("textsb" + j));
+		str = new ArrayList<String>();
+		int count = Integer.parseInt(getKeyValue("proNameCount"));
+		for (int i = 1; i <= count; i++) {
+			str.add(getKeyValue("menuImage") +i+ getKeyValue("menuProduct"));
+			Assert.assertEquals(getText(driver, "xpath", str.get(i-1)),	getKeyValue("text" + i));
+			if (getText(driver, "xpath", str.get(i-1)).equals("Explore")) {
+				click(driver, "xpath", str.get(i-1));
+				for (int j = 1; j <= count-3; j++) {
+					str.add(getKeyValue("submenu") + getKeyValue("textsb" + j) + getKeyValue("textsm"));
+					Assert.assertEquals(getText(driver, "xpath", str.get(j-1)),	getKeyValue("textsb" + j));
 				}
 			}
-			if (getText(driver, "xpath", text).equals("Your trips")) {
-				click(driver, "xpath", text);
-				Assert.assertEquals(
-						getText(driver, "xpath", getKeyValue("yrt")), "Sign in");
-				Assert.assertEquals(
-						getText(driver, "xpath", getKeyValue("yrtNH")),
-						"New here? Register");
+			if (getText(driver, "xpath",str.get(i-1) ).equals("Your trips")) {
+				click(driver, "xpath", str.get(i-1));
+				Assert.assertEquals(getText(driver, "xpath", getKeyValue("yrt")), "Sign in");
+				Assert.assertEquals(getText(driver, "xpath", getKeyValue("yrtNH")),"New here? Register");
 			}
 		}
 	}
@@ -72,9 +65,9 @@ public class HomePageHoliday extends PropertiesFileProvider {
 	public void packagesCollectionImagesPresent() {
 		str = new ArrayList<String>();
 		int count = Integer.parseInt(getKeyValue("pcImageCount"));
-		for (int i = 0; i < count;) {
+		for (int i = 0; i <= count;) {
 			str.add(getKeyValue("pcImage") + ++i + getKeyValue("pcImage2"));
-				imageverify(driver, "xpath", str.get(i - 1));
+			imageverify(driver, "xpath", str.get(i - 1));
 		}
 	}
 
@@ -83,7 +76,7 @@ public class HomePageHoliday extends PropertiesFileProvider {
 		int count = Integer.parseInt(getKeyValue("hdImageCount"));
 		for (int i = 1; i <= count; i++) {
 			str.add(getKeyValue("hdImage") + i + getKeyValue("hdImage2"));
-			imageverify(driver, "xpath", str.get(i-1));
+			imageverify(driver, "xpath", str.get(i - 1));
 		}
 	}
 
@@ -93,39 +86,42 @@ public class HomePageHoliday extends PropertiesFileProvider {
 		String ftrimage = getKeyValue("ftrimage");
 		for (int i = 1; i <= count; i++) {
 			str.add(getKeyValue("ftrimage" + i));
-			imageverify(driver, "xpath", ftrimage + " " + str.get(i-1));
-		}
-	}
-	
-	public void whyViaContent(){
-		String str = getKeyValue("ftrimage");
-		for (int i = 1; i <=6 ; i++) {
-			String content = str+" " + getKeyValue("ftrimage" + i)+ getKeyValue("ftrimage1" + i);
-			logger.info(getKeyValue("yvc" +i));
-			Assert.assertEquals(getText(driver, "xpath", content), getKeyValue("yvc" +i));
-			String contentPara = str+" " + getKeyValue("ftrimage" + i)+ getKeyValue("ftrimage11" + i);
-			logger.info(getKeyValue("yvc1" +i));
-			Assert.assertEquals(getText(driver, "xpath", contentPara), getKeyValue("yvc1" +i));
+			imageverify(driver, "xpath", ftrimage + " " + str.get(i - 1));
 		}
 	}
 
-	public void sendUsYourFeedback() {
-		sendKeys(driver, "xpath", getKeyValue("feedbackName"), "suresh");// xl and jason taught to use
-		sendKeys(driver, "xpath", getKeyValue("feedbackEmail"),
-				"suresh@gmail.com");// get the value for xl or jason
-		sendKeys(driver, "xpath", getKeyValue("feedbackMsg"), "sent mesg");
+	public void whyViaContent() {
+		String str = getKeyValue("ftrimage");
+		for (int i = 1; i <= 6; i++) {
+			String content = str + " " + getKeyValue("ftrimage" + i)
+					+ getKeyValue("ftrimage1" + i);
+			logger.info(getKeyValue("yvc" + i));
+			Assert.assertEquals(getText(driver, "xpath", content),
+					getKeyValue("yvc" + i));
+			String contentPara = str + " " + getKeyValue("ftrimage" + i)
+					+ getKeyValue("ftrimage11" + i);
+			logger.info(getKeyValue("yvc1" + i));
+			Assert.assertEquals(getText(driver, "xpath", contentPara),
+					getKeyValue("yvc1" + i));
+		}
+	}
+
+	public void sendUsYourFeedback(String name, String email, String msg) {
+		sendKeys(driver, "xpath", getKeyValue("feedbackName"), name);
+		sendKeys(driver, "xpath", getKeyValue("feedbackEmail"),email);// get  value from xl 
+		sendKeys(driver, "xpath", getKeyValue("feedbackMsg"),msg);
 		click(driver, "xpath", getKeyValue("SYRmsg"));
 		puh.accept(driver);
+		clearText(driver, "xpath", getKeyValue("feedbackName"));
+		clearText(driver, "xpath", getKeyValue("feedbackEmail"));
+		clearText(driver, "xpath", getKeyValue("feedbackMsg"));
 	}
-	
-	public void holidayDestinationSearchbox(String destinationCountry,
-			String destinationCity, String departureDate, String duration,
-			String Rooms, String locatorType, String locatorValue) {
-		click(driver, locatorType, locatorValue);
-		sendKeys(driver, locatorType, getKeyValue("keyValue"), destinationCity);
-		sendKeys(driver, locatorType, getKeyValue("keyValue"), departureDate);
-		sendKeys(driver, locatorType, getKeyValue("keyValue"), duration);
-		click(driver, locatorType, getKeyValue("keyValue"));
+
+	public void holidayDestinationSearch(String destinationCity) {
+		click(driver, "xpath", getKeyValue("domesticCity"));
+		sendKeys(driver, "xpath", getKeyValue("cityTextBox"), destinationCity);
+		click(driver, "xpath", getKeyValue("dropDownCity"));
+		click(driver, "xpath", getKeyValue("keyValue"));
 	}
 
 }
