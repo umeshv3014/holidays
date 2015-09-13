@@ -577,3 +577,49 @@
 2015-09-13 08:25:17,926 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
 2015-09-13 08:25:22,246 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
 2015-09-13 08:25:23,938 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=4, startCol=0, endCol=2
+2015-09-13 11:57:13,940 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 11:57:14,401 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 11:57:14,670 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 11:57:14,925 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 11:57:15,138 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 11:57:15,327 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 11:57:15,507 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 11:57:15,645 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 11:57:15,776 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 11:57:15,934 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 11:57:16,086 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 11:57:16,215 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 11:57:16,384 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 11:57:16,533 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 11:57:16,659 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 11:57:16,839 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-09-13 11:57:17,018 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-09-13 11:57:18,293 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 11:57:18,783 - com.via.base.util.SeleniumBase -INFO - startRow=6, endRow=10, startCol=0, endCol=4
+2015-09-13 11:57:23,294 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 11:57:30,892 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 11:57:34,309 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 11:57:36,095 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=4, startCol=0, endCol=2
+2015-09-13 12:02:57,564 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 12:02:57,666 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 12:02:57,777 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 12:02:57,905 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 12:02:58,003 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 12:02:58,100 - com.via.base.util.SeleniumBase -INFO - Hotels
+2015-09-13 12:02:58,206 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 12:02:58,308 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 12:02:58,398 - com.via.base.util.SeleniumBase -INFO - Holidays
+2015-09-13 12:02:59,130 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 12:02:59,215 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 12:02:59,285 - com.via.base.util.SeleniumBase -INFO - Bus
+2015-09-13 12:03:00,171 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 12:03:01,580 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 12:03:01,776 - com.via.base.util.SeleniumBase -INFO - Cab
+2015-09-13 12:03:02,009 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-09-13 12:03:02,278 - com.via.base.util.SeleniumBase -INFO - Explore
+2015-09-13 12:03:03,506 - com.via.base.util.SeleniumBase -INFO - Flights
+2015-09-13 12:03:03,808 - com.via.base.util.SeleniumBase -INFO - startRow=6, endRow=10, startCol=0, endCol=4
+2015-09-13 12:03:10,108 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 12:03:18,479 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 12:03:23,523 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-09-13 12:03:24,336 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=4, startCol=0, endCol=2

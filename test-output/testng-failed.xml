@@ -6,7 +6,7 @@
       <class name="com.via.holiday.pages.HolidayPagesTest">
         <methods>
           <include name="openViaHomepage"/>
-          <include name="destinationSearch" invocation-numbers="0 1 2"/>
+          <include name="destinationSearch" invocation-numbers="1 2"/>
           <include name="holidayHomePage_UI_Content_images_Test"/>
           <include name="exit"/>
         </methods>

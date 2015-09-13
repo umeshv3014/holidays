@@ -11,7 +11,7 @@ import com.via.base.util.SeleniumBase;
 import com.via.properties.PropFileProvider;
 
 public class HolidayPagesTest extends SeleniumBase{
-	HomePageHoliday hphCASE = new HomePageHoliday();
+	HolidayHomePageObject hphCASE = new HolidayHomePageObject();
 
 	@BeforeTest
 	public void openViaHomepage() throws IOException {
