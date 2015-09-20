@@ -59,12 +59,13 @@ public class SeleniumBase {
 	}
 
 	public void click(WebDriver driver, String locatorType, String locatorValue) {
-		webElement(driver, locatorType, locatorValue).click();
+		webElement(driver, locatorType, getKeyValue(locatorValue)).click();
 	}
 
 	public String getText(WebDriver driver, String locatorType,
 			String locatorValue) {
-		WebElement we = webElement(driver, locatorType, locatorValue);
+		WebElement we = webElement(driver, locatorType,
+				getKeyValue(locatorValue));
 		String text = we.getText();
 		logger.info(text);
 		return text;
@@ -72,12 +73,13 @@ public class SeleniumBase {
 
 	public void sendKeys(WebDriver driver, String locatorType,
 			String locatorValue, String key) {
-		webElement(driver, locatorType, locatorValue).sendKeys(key);
+		webElement(driver, locatorType, getKeyValue(locatorValue))
+				.sendKeys(key);
 	}
 
 	public void clearText(WebDriver driver, String locatorType,
 			String locatorValue) {
-		webElement(driver, locatorType, locatorValue).clear();
+		webElement(driver, locatorType, getKeyValue(locatorValue)).clear();
 	}
 
 	public String _getCssValue(WebDriver driver, String locatorType,
@@ -96,11 +98,10 @@ public class SeleniumBase {
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
 						imageFilea);
 		if (!ImagePresent) {
-			logger.info("Image not displayed.");
+			return true;
 		} else {
-			logger.info("Image displayed.");
+			return false;
 		}
-		return ImagePresent;
 	}
 
 	public static void getPropertyFile(String filePath) throws IOException {
@@ -124,9 +125,9 @@ public class SeleniumBase {
 		return prop.getProperty(keyValue);
 	}
 
-	public void quitTest() {
+	public void quitTest(WebDriver driver) {
 		driver.close();
-		// System.exit(0);
+		System.exit(0);
 	}
 
 }

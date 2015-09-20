@@ -13,9 +13,21 @@ public class XlFileProvider {
 		return XLr.getTableArray(dataURL, "holidayTestData", "sendUsfeedbakData");
 	}
 	
-	@DataProvider(name = "destinationdata")
-	public static Object[][] destinationSearch() {
+	@DataProvider(name = "destinationdataDom")
+	public static Object[][] destinationSearchDom() {
 		EXCELReader XLr = new EXCELReader();
-		return XLr.getTableArray(dataURL, "holidayTestData", "destinationTest");
+		return XLr.getTableArray(dataURL, "holidayTestData", "destinationTestDom");
+	}
+	
+	@DataProvider(name = "destinationdataIntl")
+	public static Object[][] destinationSearchIntl() {
+		EXCELReader XLr = new EXCELReader();
+		return XLr.getTableArray(dataURL, "holidayTestData", "destinationTestIntl");
+	}
+	
+	@DataProvider(name = "sendHolidayEnquiryData")
+	public static Object[][] hsrpSendHolidayEnquiry() {
+		EXCELReader XLr = new EXCELReader();
+		return XLr.getTableArray(dataURL, "holidayTestData", "sendHolidayEnquiry");
 	}
 }
