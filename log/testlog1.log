@@ -1671,3 +1671,1076 @@
 2015-09-20 20:37:17,541 [main] INFO com.via.base.util.SeleniumBase - all images53
 2015-09-20 20:37:17,727 [main] INFO com.via.base.util.SeleniumBase - all images53
 2015-09-20 20:37:19,135 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 07:33:23,474 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 07:33:55,038 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-21 07:33:55,176 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:33:55,177 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:33:55,405 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 07:35:26,876 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 07:35:54,724 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-21 07:35:54,840 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:35:54,841 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:35:55,015 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 07:37:55,440 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 07:38:22,504 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-21 07:38:22,644 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:38:22,645 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:38:22,863 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 07:40:26,222 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 07:41:50,660 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-21 07:41:50,804 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:41:50,805 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:41:51,044 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 07:50:07,724 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 07:51:32,521 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-21 07:51:32,648 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:51:32,649 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 07:51:32,838 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 07:51:32,925 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 08:04:18,219 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 08:05:10,086 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-21 08:05:10,207 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 08:05:10,208 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 08:05:10,336 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 08:05:11,541 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 08:05:11,834 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:11,958 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,085 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,221 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,344 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,455 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,578 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,689 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,796 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,897 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:12,992 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,089 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,181 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,278 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,374 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,466 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,553 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,638 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,723 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,854 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:13,941 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,030 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,110 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,195 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,276 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,358 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,442 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,525 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,617 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,697 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,773 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,850 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:14,929 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,010 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,088 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,164 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,250 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,325 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,397 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,468 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,542 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,612 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,686 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,757 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,832 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,896 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:15,967 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:16,032 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:16,096 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:16,161 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:16,228 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:16,297 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:16,365 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:16,483 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 23
+2015-09-21 08:05:16,542 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 53
+2015-09-21 08:05:24,358 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:24,682 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:24,913 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:25,135 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:25,354 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:25,555 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:25,738 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:25,945 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:26,158 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:26,310 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:26,450 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:26,616 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:26,790 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:26,992 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:27,260 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:27,491 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:27,716 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:28,087 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:29,698 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:29,836 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:30,021 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:30,195 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:30,407 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:30,553 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:30,746 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:30,861 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:30,990 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,111 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,227 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,329 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,429 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,524 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,619 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,713 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,833 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:31,925 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,013 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,104 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,190 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,286 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,378 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,464 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,545 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,628 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,726 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,806 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,887 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:32,969 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:33,052 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:33,135 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:33,264 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:33,343 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 08:05:33,419 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 21:48:43,775 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 21:48:44,168 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 21:50:42,981 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-21 21:51:33,066 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 0
+2015-09-21 22:12:51,450 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:21:08,378 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:21:50,277 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 22:23:30,473 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-21 22:25:51,864 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:26:41,846 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 22:33:19,746 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:35:06,174 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 22:39:00,508 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:39:00,646 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 22:41:13,561 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:49:26,933 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:50:03,934 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 22:55:51,293 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 22:58:16,789 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-21 22:58:16,916 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 22:58:16,917 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 22:58:17,036 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-21 22:58:18,254 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 22:58:18,584 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:18,743 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:18,868 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,002 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,139 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,253 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,355 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,454 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,542 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,641 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,732 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,823 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:19,916 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,004 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,090 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,170 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,252 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,339 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,424 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,509 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,593 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,674 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,769 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,844 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,922 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:20,999 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,080 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,157 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,237 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,313 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,384 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,464 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,536 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,610 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,741 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,811 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:21,950 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:22,088 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:22,224 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:22,362 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:22,496 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:22,619 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:22,748 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:22,873 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:23,053 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:23,196 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:23,316 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:23,433 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:23,553 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:23,870 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:24,017 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:24,168 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:24,318 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:24,424 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 23
+2015-09-21 22:58:24,596 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 53
+2015-09-21 22:58:32,859 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:33,156 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:33,393 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:33,619 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:33,838 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:34,049 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:34,231 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:34,481 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:34,652 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:34,812 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:34,999 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:35,149 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:35,314 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:35,471 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:35,828 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:38,394 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:38,557 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:38,796 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:38,942 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,143 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,288 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,406 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,524 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,639 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,764 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,875 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:39,982 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:40,078 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:40,232 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:40,495 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:40,994 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:41,136 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:41,287 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:41,448 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:41,612 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:41,744 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:41,874 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,017 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,139 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,250 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,360 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,471 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,583 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,689 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,790 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,892 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:42,986 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:43,085 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:43,181 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:43,275 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:43,375 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:43,463 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 22:58:43,551 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-21 23:05:10,040 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 23:05:10,344 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-21 23:06:50,467 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-21 23:07:40,692 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 0
+2015-09-21 23:11:33,083 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-21 23:11:33,293 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-22 05:57:04,846 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-22 06:01:09,541 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-22 06:02:50,119 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-22 06:05:56,375 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-22 06:09:36,823 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-22 06:09:40,899 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 06:09:40,907 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 06:09:41,232 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 06:09:45,405 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-22 06:09:45,810 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:45,937 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,057 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,165 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,274 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,368 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,464 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,557 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,649 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,742 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,837 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:46,922 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,008 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,104 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,190 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,276 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,366 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,451 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,535 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,618 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,704 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,782 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,863 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:47,941 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,020 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,096 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,174 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,249 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,324 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,408 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,514 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,595 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,666 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,738 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,808 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,878 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:48,949 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,023 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,091 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,162 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,231 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,294 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,360 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,424 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,488 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,554 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,618 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,684 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,749 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,813 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,876 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:49,940 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:50,003 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:09:50,079 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 23
+2015-09-22 06:09:50,140 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 53
+2015-09-22 06:13:56,693 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:56,857 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:57,082 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:57,234 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:57,392 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:57,552 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:57,701 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:57,869 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,001 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,138 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,276 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,402 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,535 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,673 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,794 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:58,913 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,040 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,171 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,291 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,409 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,517 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,628 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,738 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,850 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:13:59,955 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,070 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,172 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,269 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,370 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,472 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,569 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,669 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,758 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,854 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:00,951 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:01,051 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:01,152 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:01,253 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:01,350 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:01,447 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:01,793 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:04,473 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:04,660 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:04,831 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:04,961 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:05,098 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:05,247 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:05,409 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:05,539 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:05,683 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:05,828 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:06,016 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:14:06,156 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 06:50:24,568 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-22 06:55:33,011 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-22 06:55:49,569 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-22 06:57:34,469 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-22 07:08:22,106 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-22 07:11:05,469 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-22 07:11:05,634 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 07:11:05,641 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 07:11:05,995 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 07:11:08,144 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-22 07:11:08,619 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:08,769 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:08,917 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,061 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,210 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,336 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,458 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,583 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,704 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,828 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:09,943 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,058 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,174 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,289 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,406 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,516 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,623 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,731 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,857 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:10,988 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,115 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,236 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,352 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,457 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,556 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,690 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,774 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:11,909 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:12,097 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:12,284 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:12,467 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:12,638 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:12,805 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:12,976 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:13,132 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:13,281 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:13,433 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:13,582 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:13,773 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:13,936 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:14,121 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:14,312 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:14,494 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:14,663 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:14,830 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:14,999 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:15,156 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:15,306 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:15,461 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:15,614 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:15,744 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:15,901 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:16,060 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:11:16,270 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 23
+2015-09-22 07:11:16,526 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 53
+2015-09-22 07:14:20,296 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:20,485 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:20,660 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:20,844 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:21,007 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:21,163 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:21,322 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:21,525 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:21,740 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:21,922 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:22,068 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:22,228 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:22,398 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:22,535 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:22,677 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:22,815 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:22,954 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,084 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,201 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,317 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,445 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,563 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,682 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,795 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:23,903 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:24,014 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:24,126 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:24,235 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:24,409 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:24,488 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:26,159 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:26,381 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:26,608 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:26,866 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:27,005 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:27,156 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:27,334 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:27,540 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:27,839 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:28,020 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:28,204 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:28,447 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:28,598 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:28,739 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:28,906 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:29,183 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:29,548 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:30,371 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:30,541 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:30,702 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:30,844 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:30,980 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:14:31,114 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:19:21,147 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-22 07:20:30,995 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-22 07:20:31,169 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 07:20:31,170 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 07:20:31,310 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-22 07:20:32,655 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-22 07:20:32,982 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:33,107 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:33,269 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:33,420 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:33,566 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:33,703 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:33,844 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:33,968 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,088 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,212 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,356 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,478 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,608 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,727 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,845 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:34,980 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,108 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,225 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,342 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,452 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,549 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,706 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,801 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:35,937 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:36,079 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:36,227 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:36,370 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:36,514 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:36,664 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:36,844 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:36,989 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:37,166 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:37,379 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:37,576 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:37,727 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:37,860 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:37,983 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,078 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,187 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,284 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,377 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,469 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,555 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,643 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:38,746 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:39,516 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:39,666 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:39,792 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:39,934 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:40,060 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:40,190 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:40,310 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:40,444 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:40,536 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 23
+2015-09-22 07:20:40,649 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 53
+2015-09-22 07:20:47,896 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:48,058 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:48,215 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:48,374 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:48,517 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:48,653 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:48,798 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:48,940 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:49,095 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:49,325 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:49,415 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:52,126 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:52,286 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:52,508 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:52,664 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:52,824 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:52,982 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,122 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,244 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,416 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,523 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,621 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,730 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,836 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:53,958 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:58,337 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:58,501 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:58,686 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:58,892 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:59,034 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:59,201 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:59,366 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:59,519 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:59,709 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:20:59,873 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,003 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,137 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,262 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,368 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,486 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,586 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,694 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,799 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:00,908 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,021 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,128 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,221 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,327 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,429 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,529 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,652 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,769 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:21:01,864 [main] INFO com.via.base.util.SeleniumBase - all images53
+2015-09-22 07:28:05,373 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-22 07:28:05,585 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-22 07:29:45,790 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-23 06:57:30,441 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-23 07:21:06,239 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-23 07:22:11,701 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-23 07:23:51,902 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-23 07:26:10,531 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-23 07:35:06,688 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-23 07:39:21,205 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-23 07:39:50,417 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-23 07:39:50,594 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-23 07:39:50,596 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-23 07:40:40,686 [main] INFO com.via.base.util.SeleniumBase - 0
+2015-09-23 07:40:41,030 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-23 07:42:22,202 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-23 07:43:12,290 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 0
+2015-09-23 08:01:46,278 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-23 08:01:46,447 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-24 06:17:17,479 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-24 06:17:45,258 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-24 06:17:45,397 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-24 06:17:45,398 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-24 06:17:45,607 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-24 06:17:46,861 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-24 06:17:47,153 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:47,270 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:47,403 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:47,503 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:47,611 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:47,763 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:47,868 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:47,962 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,053 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,145 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,246 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,329 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,419 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,517 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,604 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,690 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,776 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,866 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:48,953 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,051 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,143 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,241 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,315 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,394 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,471 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,547 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,631 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,707 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,799 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,874 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:49,946 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,020 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,095 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,175 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,248 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,330 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,432 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,508 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,587 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,657 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,720 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,783 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,848 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,911 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:50,987 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,049 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,113 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,176 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,238 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,301 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,370 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,432 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,498 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,562 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,624 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,684 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,754 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,867 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:51,932 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,015 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,077 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,179 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,239 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,299 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,356 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,412 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,476 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,549 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,610 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,679 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,747 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,814 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,870 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,940 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:52,999 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,068 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,123 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,173 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,224 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,277 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,329 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,397 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,451 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,502 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,557 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,607 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,655 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,706 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,756 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,814 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:53,918 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:54,058 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:54,214 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:54,352 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:54,494 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:54,620 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:54,766 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:54,912 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:55,048 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:55,190 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:55,339 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:55,485 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:55,626 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:55,759 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:55,885 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:56,016 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:17:56,115 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 22
+2015-09-24 06:17:56,230 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 53
+2015-09-24 06:18:04,586 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:04,755 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:05,095 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:05,390 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:05,527 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:05,654 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:05,794 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:05,931 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:06,187 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:06,717 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:06,915 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:07,267 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:07,430 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:07,571 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:07,739 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:07,872 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,000 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,122 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,237 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,349 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,470 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,583 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,687 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,786 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,887 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:08,986 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,085 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,206 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,313 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,415 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,521 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,616 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,717 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,816 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:09,941 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:10,042 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:10,151 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:10,396 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:10,777 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:10,889 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:10,983 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,070 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,186 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,362 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,444 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,579 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,674 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,794 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,872 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:11,961 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,052 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,125 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,217 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,314 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,415 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,503 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,598 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,689 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 06:18:12,781 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:26:39,966 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-24 07:27:12,215 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-24 07:27:12,376 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-24 07:27:12,377 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-24 07:27:12,505 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-24 07:27:13,701 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-24 07:27:14,096 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:14,218 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:14,351 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:14,898 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:15,034 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:15,157 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:15,286 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:15,405 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:15,948 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:16,080 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:16,215 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:16,793 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:16,981 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:17,175 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:17,673 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:17,770 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:18,312 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:18,971 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:19,133 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:19,305 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:19,464 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:19,593 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:19,718 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:19,844 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:19,963 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:20,087 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:20,211 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:20,329 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:20,425 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:20,524 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:20,639 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:20,762 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:21,298 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:21,893 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:22,041 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:22,231 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:22,425 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:22,992 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:23,180 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:23,321 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:23,867 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,008 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,150 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,286 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,421 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,552 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,683 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,822 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:24,946 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:25,235 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:25,344 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:25,449 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:27,251 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:27,396 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:27,532 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:28,073 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:28,210 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:28,343 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:28,500 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:29,057 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:29,596 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:29,730 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:29,868 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:30,402 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:30,539 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:30,683 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:30,810 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:31,379 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:31,516 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:32,997 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:33,134 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:33,274 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:33,842 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:34,056 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:34,627 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:34,773 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:35,303 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:35,446 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:35,593 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:36,155 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:36,290 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:36,429 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:36,575 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:36,703 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:36,849 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:37,528 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:37,663 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:38,218 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:39,166 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:39,299 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:39,451 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:39,648 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:39,845 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:40,017 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:40,169 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:40,299 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:40,799 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:41,461 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:41,636 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:41,818 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:42,002 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:42,615 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:43,170 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:43,326 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:43,910 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:44,063 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:44,175 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 22
+2015-09-24 07:27:44,341 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 53
+2015-09-24 07:27:51,632 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:51,865 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:52,774 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:53,217 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:53,410 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:53,654 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:53,788 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:53,935 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:54,444 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:54,583 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:55,203 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:55,848 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:56,025 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:56,228 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:56,832 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:57,458 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:59,090 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:27:59,400 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:00,208 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:00,646 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:01,653 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:02,664 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:02,983 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:03,655 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:04,087 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:04,746 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:04,968 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:05,523 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:05,997 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:06,643 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:07,094 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:08,681 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:08,838 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:09,469 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:10,017 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:10,572 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:11,143 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:11,650 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:11,785 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:11,915 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,023 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,130 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,232 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,333 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,439 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,540 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,636 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,722 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:12,838 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:13,021 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:13,219 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:13,420 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:13,710 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:14,242 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:14,399 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:15,484 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:16,025 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:16,182 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:16,711 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:17,668 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:17,838 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:17,980 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:18,118 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:18,242 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:18,373 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:18,493 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:19,015 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:19,169 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:20,109 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:20,260 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:20,404 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:20,548 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:20,686 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:21,226 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:21,380 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:22,043 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:22,822 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:22,971 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:23,505 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:23,658 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:23,828 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:24,362 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:24,863 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:25,018 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:25,165 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:25,681 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:26,201 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:26,888 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:27,051 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:27,194 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:27,366 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:27,509 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:27,651 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:27,785 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:27,922 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:28,065 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:28,979 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:29,576 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:29,764 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:29,936 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:30,079 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:30,590 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:31,129 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:31,289 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:31,456 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-24 07:28:31,621 [main] INFO com.via.base.util.SeleniumBase - all images106
+2015-09-27 16:35:18,028 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-27 16:43:24,025 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-27 16:44:11,081 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-27 16:45:51,685 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-27 16:46:41,736 [main] INFO com.via.base.util.SeleniumBase - total number of Send Enquiry 0
+2015-09-27 16:51:17,958 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-27 16:52:59,255 [main] INFO com.via.base.util.SeleniumBase - total number of Book Now 0
+2015-09-27 16:56:38,130 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-27 16:59:07,792 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-27 16:59:08,960 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 16:59:08,969 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 16:59:09,276 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 16:59:11,366 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-27 22:13:18,656 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-27 22:14:39,682 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-27 22:14:39,829 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 22:14:39,830 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 22:14:40,018 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 22:14:41,269 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-27 22:47:59,594 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-27 22:48:48,873 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-27 22:48:49,001 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 22:48:49,002 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 22:48:49,144 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-27 22:48:50,351 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-27 22:50:01,350 [main] INFO com.via.base.util.SeleniumBase - toal filte pkg 30
+2015-09-27 22:50:01,431 [main] INFO com.via.base.util.SeleniumBase - toal filte pkg 16
+2015-09-28 06:12:40,941 [main] INFO com.via.base.util.SeleniumBase - startRow=0, endRow=2, startCol=0, endCol=2
+2015-09-28 06:13:13,727 [main] INFO com.via.base.util.SeleniumBase - Kerala
+2015-09-28 06:13:14,198 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-28 06:13:14,199 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-28 06:13:14,783 [main] INFO com.via.base.util.SeleniumBase - 53
+2015-09-28 06:13:16,048 [main] INFO com.via.base.util.SeleniumBase - startRow=13, endRow=15, startCol=0, endCol=8
+2015-09-28 06:15:05,071 [main] INFO com.via.base.util.SeleniumBase - toal filte pkg 30
+2015-09-28 06:15:05,559 [main] INFO com.via.base.util.SeleniumBase - toal filte pkg 16

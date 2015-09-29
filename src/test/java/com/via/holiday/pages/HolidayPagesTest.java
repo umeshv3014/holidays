@@ -26,6 +26,11 @@ public class HolidayPagesTest extends SeleniumBase {
 		openBrowsers(getKeyValue("profile"), getKeyValue("baseURL"));
 	}
 
+	@AfterTest
+	public void exit() {
+		hphCASE.quitTest(driver);
+	}
+
 	// @Test(priority = 1)
 	// public void holidayHomePage_UI_Content_images_Test() {
 	// hphCASE = new HolidayHomePage(driver);
@@ -45,12 +50,12 @@ public class HolidayPagesTest extends SeleniumBase {
 	// hphCASE.cleaeSendUsYourFeedbackFields();
 	// }
 
-	@Test(priority = 1, dataProvider = "destinationdataDom", dataProviderClass = XlFileProvider.class)
+	@Test(priority = 0, dataProvider = "destinationdataDom", dataProviderClass = XlFileProvider.class)
 	public void destinationSearchDom(String destinationCity)
 			throws InterruptedException {
 		hphCASE = new HolidayHomePage(driver);
-		hspCASE = new HolidaySearchresultPage(driver);
 		hphCASE.holidayDestinationSearchDom(destinationCity);
+		hspCASE = new HolidaySearchresultPage(driver);
 		hspCASE.getTitleSearchResultPage();
 		hspCASE.destinationCityDataMatching(destinationCity);
 		hspCASE.numberOfPackages();
@@ -79,7 +84,7 @@ public class HolidayPagesTest extends SeleniumBase {
 	// hspCASE.sendHolidayEnquiry(fullName, email, mobileNu, date, originCity,
 	// duration, tourRequirementAndPreference);
 	// }
-	@Test(priority = 2, dataProvider = "sendHolidayEnquiryData", dataProviderClass = XlFileProvider.class)
+	@Test(priority = 1, dataProvider = "sendHolidayEnquiryData", dataProviderClass = XlFileProvider.class)
 	public void sendEnquiry(String fullName, String email, String mobileNu,
 			String date, String originCity, String duration,
 			String tourRequirementAndPreference) {
@@ -88,9 +93,13 @@ public class HolidayPagesTest extends SeleniumBase {
 		hspCASE.countNumberOfBookNowAndSendEnquirey(fullName, email, mobileNu,
 				date, originCity, duration, tourRequirementAndPreference);
 	}
-
-	@AfterTest
-	public void exit() {
-		hphCASE.quitTest(driver);
+	
+	@Test(priority = 2)
+	public void slidertest(){
+		int xAxis = 40;
+		int yAxis = 0;
+		hspCASE.dragSlider("xpath", "slider", xAxis, yAxis);
+		hspCASE.getselectStarRatingStandardTotalPkg();
 	}
+
 }

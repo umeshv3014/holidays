@@ -5,8 +5,8 @@
     <classes>
       <class name="com.via.holiday.pages.HolidayPagesTest">
         <methods>
+          <include name="sendEnquiry" invocation-numbers="0"/>
           <include name="openViaHomepage"/>
-          <include name="destinationSearchDom" invocation-numbers="0"/>
           <include name="exit"/>
         </methods>
       </class> <!-- com.via.holiday.pages.HolidayPagesTest -->

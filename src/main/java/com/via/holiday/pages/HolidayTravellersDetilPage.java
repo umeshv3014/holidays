@@ -13,56 +13,47 @@ public class HolidayTravellersDetilPage {
 	public HolidayTravellersDetilPage(WebDriver driver) {
 		this.driver = driver;
 		// This initElements method will create all WebElements
-		PageFactory.initElements(driver, this);
+		htdp = PageFactory.initElements(driver, HolidayTravellersDetilPageWebElement.class);
 	}
 
-	public HolidayTravellersDetilPage setTitle() {
+	public void setTitle() {
 		htdp.selectTitle.click();
-		return this;
 	}
 
-	public HolidayTravellersDetilPage setFname(String fName) {
+	public void setFname(String fName) {
 		htdp.setFirstName.sendKeys(fName);
-		return this;
 	}
 
-	public HolidayTravellersDetilPage setLname(String lName) {
+	public void setLname(String lName) {
 		htdp.setLastName.sendKeys(lName);
-		return this;
 	}
 
-	public HolidayTravellersDetilPage setDOB(String dob) {
+	public void setDOB(String dob) {
 		htdp.setInfantDOB.sendKeys(dob);
-		return this;
 	}
 
 	
-	public HolidayTravellersDetilPage add_ons(String Addons) {
+	public void add_ons(String Addons) {
 		htdp.Add_ons.sendKeys(Addons);
-		return this;
 	}
 
 
-	public HolidayTravellersDetilPage setMobileNumeber(String mobileNu) {
+	public void setMobileNumeber(String mobileNu) {
 		htdp.mobileNumeber.sendKeys(mobileNu);
-		return this;
 	}
 
 	
-	public HolidayTravellersDetilPage setEmail(String tEmail) {
+	public void setEmail(String tEmail) {
 		htdp.email.sendKeys(tEmail);
-		return this;
 	}
 
 	
-	public HolidayTravellersDetilPage TandC() {
+	public void TandC() {
 		htdp.tANDc.click();
-		return this;
 	}
 
-	public HolidayTravellersDetilPage payNow() {
+	public void payNow() {
 		htdp.payNow.click();
-		return this;
 	}
 
 	public void fillTravelersInfo(String fName, String lName, String Addons,

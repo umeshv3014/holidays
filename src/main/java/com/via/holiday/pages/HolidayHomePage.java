@@ -3,24 +3,29 @@ package com.via.holiday.pages;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import com.via.base.util.PopUpHandler;
 import com.via.base.util.SeleniumBase;
+import com.via.holiday.pageFactory.webElements.HolidayHomePageWebElement;
 
 public class HolidayHomePage extends SeleniumBase {
+	WebDriver driver;
 	public PopUpHandler puh;
 	public List<String> str;
-	WebDriver driver;
+	HolidayHomePageWebElement hhpwe;
 
 	public HolidayHomePage(WebDriver driver) {
 		this.driver = driver;
+		hhpwe = PageFactory.initElements(driver,
+				HolidayHomePageWebElement.class);
 	}
 
-	public HolidayHomePage titleHolidayHomePage() {
+	public void titleHolidayHomePage() {
 		Assert.assertEquals(getKeyValue("HHPTitle"), driver.getTitle());
-		return this;
 	}
 
 	public void viaB2CLogo() {
@@ -28,44 +33,57 @@ public class HolidayHomePage extends SeleniumBase {
 		imageverify(driver, "xpath", xpath);
 	}
 
-	public void menuImages() {
-		str = new ArrayList<String>();
-		int count = Integer.parseInt(getKeyValue("pcImageCount"));
-		for (int i = 1; i <= count; i++) {
-			String xpathPTR = getKeyValue("menuImage") + i
-					+ getKeyValue("menuImage2");
-			logger.info(xpathPTR);
-			String backimage = _getCssValue(driver, "xpath", xpathPTR,
-					"background-image");
-			imageverify(driver, backimage, backimage);
+	public void selectDOM() {
+		if (hhpwe.domesticCity != null) {
+			try {
+				hhpwe.domesticCity.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath ",
+						e);
+			}
 		}
 	}
 
-	public void menuProductName() {
-		str = new ArrayList<String>();
-		int count = Integer.parseInt(getKeyValue("proNameCount"));
-		for (int i = 1; i <= count; i++) {
-			str.add(getKeyValue("menuImage") + i + getKeyValue("menuProduct"));
-			Assert.assertEquals(getText(driver, "xpath", str.get(i - 1)),
-					getKeyValue("text" + i));
-			if (getText(driver, "xpath", str.get(i - 1)).equals("Explore")) {
-				click(driver, "xpath", str.get(i - 1));
-				for (int j = 1; j <= count - 3; j++) {
-					str.add(getKeyValue("submenu") + getKeyValue("textsb" + j)
-							+ getKeyValue("textsm"));
-					Assert.assertEquals(
-							getText(driver, "xpath", str.get(j - 1)),
-							getKeyValue("textsb" + j));
-				}
+	public void selectINTL() {
+		if (hhpwe.intlCity != null) {
+			try {
+				hhpwe.intlCity.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath ",
+						e);
 			}
-			if (getText(driver, "xpath", str.get(i - 1)).equals("Your trips")) {
-				click(driver, "xpath", str.get(i - 1));
-				Assert.assertEquals(
-						getText(driver, "xpath", getKeyValue("yrt")), "Sign in");
-				Assert.assertEquals(
-						getText(driver, "xpath", getKeyValue("yrtNH")),
-						"New here? Register");
+		}
+	}
+
+	public void setDestination(String destinationCity) {
+		if (hhpwe.cityTextBox != null || hhpwe.citytextbox != null
+				|| hhpwe.dropDownCity != null) {
+			try {
+				hhpwe.cityTextBox.click();
+				hhpwe.citytextbox.sendKeys(destinationCity);
+				hhpwe.dropDownCity.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
 			}
+
+		}
+	}
+
+	// click on search button
+	public void searchDestination() {
+		if (hhpwe.srchBTN != null) {
+			try {
+				hhpwe.srchBTN.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+
 		}
 	}
 
@@ -87,57 +105,35 @@ public class HolidayHomePage extends SeleniumBase {
 		}
 	}
 
-	public void whyViaFooterImages() {
-		str = new ArrayList<String>();
-		int count = Integer.parseInt(getKeyValue("whyViaFooterImagesCount"));
-		String ftrimage = getKeyValue("ftrimage");
-		for (int i = 1; i <= count; i++) {
-			str.add(getKeyValue("ftrimage" + i));
-			imageverify(driver, "xpath", ftrimage + " " + str.get(i - 1));
-		}
-	}
-
-	public void whyViaContent() {
-		String str = getKeyValue("ftrimage");
-		for (int i = 1; i <= 6; i++) {
-			String content = str + " " + getKeyValue("ftrimage" + i)
-					+ getKeyValue("ftrimage1" + i);
-			logger.info(getKeyValue("yvc" + i));
-			Assert.assertEquals(getText(driver, "xpath", content),
-					getKeyValue("yvc" + i));
-			String contentPara = str + " " + getKeyValue("ftrimage" + i)
-					+ getKeyValue("ftrimage11" + i);
-			logger.info(getKeyValue("yvc1" + i));
-			Assert.assertEquals(getText(driver, "xpath", contentPara),
-					getKeyValue("yvc1" + i));
-		}
-	}
-
-	// page object model
-	// Send feed back block
-
 	// enter name
-	public HolidayHomePage setNameSYFB(String name) {
-		sendKeys(driver, "xpath", "feedbackName", name);
-		return this;
-	}
+	public void fillSendFeedBackDetail(String name, String email, String msg) {
+		if (hhpwe.feedbackName != null || hhpwe.feedbackEmail != null
+				|| hhpwe.feedbackMsg != null) {
+			try {
+				hhpwe.feedbackName.sendKeys(name);
+				hhpwe.feedbackEmail.sendKeys(email);
+				hhpwe.feedbackMsg.sendKeys(msg);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
 
-	// enter email
-	public HolidayHomePage setEmailSYFM(String email) {
-		sendKeys(driver, "xpath", "feedbackEmail", email);
-		return this;
-	}
-
-	// enter msg
-	public HolidayHomePage msgSYFB(String msg) {
-		sendKeys(driver, "xpath", "feedbackMsg", msg);
-		return this;
+		}
 	}
 
 	// click on send button
-	public HolidayHomePage sendMsgSYFB() {
-		click(driver, "xpath", "SYRmsg");
-		return this;
+	public void sendMsgSYFB() {
+		if (hhpwe.SYRmsg != null) {
+			try {
+				hhpwe.SYRmsg.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+
+		}
 	}
 
 	// accept confirm alert
@@ -146,56 +142,20 @@ public class HolidayHomePage extends SeleniumBase {
 		puh.accept(driver);
 	}
 
-	// clear the name field
-	// clear enter name
-	public void cleaeSetNameSYFB() {
-		clearText(driver, "xpath", "feedbackName");
-	}
+	public void cleaesendustextbox() {
+		if (hhpwe.feedbackName != null || hhpwe.feedbackEmail != null
+				|| hhpwe.feedbackMsg != null) {
+			try {
+				hhpwe.feedbackName.clear();
+				hhpwe.feedbackEmail.clear();
+				hhpwe.feedbackMsg.clear();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
 
-	// clear enter email
-	public void clearSetEmailSYFM() {
-		clearText(driver, "xpath", "feedbackEmail");
-	}
-
-	// clear enter msg
-	public void clearMsgSYFB() {
-		clearText(driver, "xpath", "feedbackMsg");
-	}
-
-	public void cleaeSendUsYourFeedbackFields() {
-		this.cleaeSetNameSYFB();
-		this.clearSetEmailSYFM();
-		this.clearMsgSYFB();
-	}
-
-	// destination search
-	public void selectDOM() {
-		click(driver, "xpath", "domesticCity");
-	}
-
-	public void selectINTL() {
-		click(driver, "xpath", "intlCity");
-	}
-
-	public void setDestination(String destinationCity) {
-		click(driver, "xpath", "cityTextBox");
-		sendKeys(driver, "xpath", "citytextbox", destinationCity);
-		click(driver, "xpath", "dropDownCity");
-	}
-
-	// click on search button
-	public void searchDestination() {
-		click(driver, "xpath", "srchBTN");
-	}
-
-	// test cases
-
-	public void sendUsYourFeedback(String name, String email, String msg) {
-		this.setNameSYFB(name);
-		this.setEmailSYFM(email);
-		this.msgSYFB(msg);
-		this.sendMsgSYFB();
-		this.confirmationAlertOfSYFB();
+		}
 	}
 
 	public void holidayDestinationSearchDom(String destinationCity) {
@@ -208,6 +168,12 @@ public class HolidayHomePage extends SeleniumBase {
 		this.selectINTL();
 		this.setDestination(destinationCity);
 		this.searchDestination();
+	}
+
+ 	public void sendUsYourFeedback(String name, String email, String msg) {
+		this.fillSendFeedBackDetail(name, email, msg);
+		this.sendMsgSYFB();
+		this.confirmationAlertOfSYFB();
 	}
 
 }

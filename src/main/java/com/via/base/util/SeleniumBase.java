@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -17,6 +18,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.interactions.Actions;
 
 public class SeleniumBase {
 	public WebDriver driver;
@@ -89,7 +91,9 @@ public class SeleniumBase {
 		logger.info(texta);
 		return texta;
 	}
-
+/*
+	use blow method to verify single image
+ */
 	public Boolean imageverify(WebDriver driver, String locatorType,
 			String locatorValue) {
 		WebElement imageFilea = webElement(driver, locatorType, locatorValue);
@@ -97,6 +101,20 @@ public class SeleniumBase {
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
 						imageFilea);
+		if (!ImagePresent) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	/*
+	 use below method to verify list of images.
+	 */
+	public Boolean imageverify(WebDriver driver, List<WebElement> image) {
+		Boolean ImagePresent = (Boolean) ((JavascriptExecutor) driver)
+				.executeScript(
+						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
+						image);
 		if (!ImagePresent) {
 			return true;
 		} else {
@@ -124,10 +142,18 @@ public class SeleniumBase {
 	public String getKeyValue(String keyValue) {
 		return prop.getProperty(keyValue);
 	}
+	
+	public void horizontalSliderBarAction(WebDriver driver, String locatorType, String locatorValue, int xAxis, int yAxis){
+		WebElement we = webElement(driver, locatorType, getKeyValue(locatorValue));
+		Actions sliderAction = new Actions(driver);
+		sliderAction.clickAndHold(we);
+		sliderAction.moveByOffset(xAxis,  yAxis).build().perform();
+	}
 
 	public void quitTest(WebDriver driver) {
 		driver.close();
 		System.exit(0);
+		logger.info("******END OF TESTING********");
 	}
 
 }
