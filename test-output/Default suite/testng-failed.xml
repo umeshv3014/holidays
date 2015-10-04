@@ -5,9 +5,11 @@
     <classes>
       <class name="com.via.holiday.pages.HolidayPagesTest">
         <methods>
-          <include name="sendEnquiry" invocation-numbers="0"/>
+          <include name="sendEnquiry"/>
+          <include name="slidertest"/>
           <include name="openViaHomepage"/>
-          <include name="exit"/>
+          <include name="destinationSearchDom" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
         </methods>
       </class> <!-- com.via.holiday.pages.HolidayPagesTest -->
     </classes>

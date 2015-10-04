@@ -1,6 +1,5 @@
 package com.via.holiday.pages;
 
-
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -24,8 +23,28 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				HolidayHomePageWebElement.class);
 	}
 
+	/*
+	 * get the page title and assert
+	 */
+
 	public void getTitleSearchResultPage() {
 		Assert.assertEquals(getKeyValue("HSRPTitle"), driver.getTitle());
+	}
+
+	/*
+	 * search domestic pkg
+	 */
+	public boolean isDomEnabled() {
+		if (hhpwe.domesticCity != null) {
+			try {
+				hhpwe.domesticCity.isEnabled();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return true;
 	}
 
 	public void destinationCityDataMatching(String destinationCity) {
@@ -42,19 +61,6 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		}
 	}
 
-	public boolean isDomEnabled() {
-		if (hhpwe.domesticCity != null) {
-			try {
-				hhpwe.domesticCity.isEnabled();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
-		}
-		return true;
-	}
-
 	public int numberOfPackages() {
 		int nupck = Integer.parseInt(getText(driver, "xpath", "showingCount"));
 		logger.info(nupck);
@@ -65,8 +71,8 @@ public class HolidaySearchresultPage extends SeleniumBase {
 	}
 
 	public int totalPkgs() {
-		int nu = hsrpwe.nuOfPackages.size();
-		return nu;
+		int totlapkgs = hsrpwe.nuOfPackages.size();
+		return totlapkgs;
 	}
 
 	public int getTotalNumberOfBOOKNOW() {
@@ -82,14 +88,30 @@ public class HolidaySearchresultPage extends SeleniumBase {
 	}
 
 	public void sendEnquiry() {
-		click(driver, "xpath", "nuOfSENDENQUIRY");
+		if (hsrpwe.sendEnquiryButton != null) {
+			try {
+				hsrpwe.sendEnquiryButton.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
 	}
 
 	public void backToHolidayHomePage() {
-		click(driver, "xpath", "backToHome");
+		if (hsrpwe.backToHolidayHomepage != null) {
+			try {
+				hsrpwe.backToHolidayHomepage.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
 	}
 
-	// Send Enqiry block on seasrh ressult page
+	// Send Inquiry block on search result page
 	public void selectSendEnqiry() {
 		hsrpwe.SHEbutton.click();
 	}
@@ -205,6 +227,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		}
 	}
 
+	// start standard test
 	public void selectStarRatingStandard() {
 		if (hsrpwe.standardCheckBox != null) {
 			try {
@@ -221,7 +244,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		if (hsrpwe.standardText != null) {
 			try {
 				String standrad = hsrpwe.standardText.getText();
-				Assert.assertEquals("standard", standrad);
+				Assert.assertEquals("Standard", standrad);
 			} catch (NoSuchElementException e) {
 				logger.error(
 						"Not able to locate the webelement, please check the xpath",
@@ -251,11 +274,39 @@ public class HolidaySearchresultPage extends SeleniumBase {
 
 	}
 
-	public int getselectedStarRatingBudgetTotalPkg() {
-		int tot = 0;
+	// end standard test
+
+	// budget test
+	public void selectStarRatingBudget() {
 		if (hsrpwe.budgetcheckBox != null) {
 			try {
-				String total = hsrpwe.budgetcheckBox.getText();
+				hsrpwe.budgetcheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void getStarRatingBudgetText() {
+		if (hsrpwe.budgetText != null) {
+			try {
+				String budget = hsrpwe.budgetText.getText();
+				Assert.assertEquals("Budget", budget);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getselectedStarRatingBudgetTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.budgetTotlaPkg != null) {
+			try {
+				String total = hsrpwe.budgetTotlaPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
 			} catch (NoSuchElementException e) {
@@ -266,13 +317,41 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		}
 		return tot;
 
+	}
+
+	// budget test end
+
+	// star rating test
+	public void selectStarRatingStar() {
+		if (hsrpwe.starCheckBox != null) {
+			try {
+				hsrpwe.starCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void getStarRatingStarText() {
+		if (hsrpwe.starText != null) {
+			try {
+				String budget = hsrpwe.starText.getText();
+				Assert.assertEquals("Budget", budget);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
 	}
 
 	public int getselectedStarRatingStarTotalPkg() {
 		int tot = 0;
-		if (hsrpwe.starTextBox != null) {
+		if (hsrpwe.starTotalPkg != null) {
 			try {
-				String total = hsrpwe.starTextBox.getText();
+				String total = hsrpwe.starTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
 			} catch (NoSuchElementException e) {
@@ -284,6 +363,8 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		return tot;
 
 	}
+
+	// end star rating test
 
 	public int getselectedStarRatingLuxuryTotalPkg() {
 		int tot = 0;
@@ -302,6 +383,33 @@ public class HolidaySearchresultPage extends SeleniumBase {
 
 	}
 
+	// deluxe test
+
+	public void selectStarRatingDeluxe() {
+		if (hsrpwe.deluxeCheckBox != null) {
+			try {
+				hsrpwe.deluxeCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void getStarRatingDeluxeText() {
+		if (hsrpwe.deluxeCheckBox != null) {
+			try {
+				String deluxe = hsrpwe.deluxeCheckBox.getText();
+				Assert.assertEquals("Deluxe", deluxe);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
 	public int getselectedStarRatingDeluxTotalPkg() {
 		int tot = 0;
 		if (hsrpwe.deluxeCheckBox != null) {
@@ -318,6 +426,474 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		return tot;
 
 	}
+
+	// deluxe test end
+
+	// going for test
+
+	// any test
+	public void selectGoingForAny() {
+		if (hsrpwe.anyChecBox != null) {
+			try {
+				hsrpwe.anyChecBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectGoingForAnyText() {
+		if (hsrpwe.anyText != null) {
+			try {
+				String any = hsrpwe.anyText.getText();
+				Assert.assertEquals("Any", any);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getGoingForAnyTextTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.anyTotalPkg != null) {
+			try {
+				String total = hsrpwe.anyTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end any
+
+	// Weekend-holidays test
+	public void selectGoingForWeekendHolidays() {
+		if (hsrpwe.weekendHolidaysCheckBox != null) {
+			try {
+				hsrpwe.weekendHolidaysCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectGoingForweekendholidaysText() {
+		if (hsrpwe.weekendHolidaysText != null) {
+			try {
+				String weekendholidays = hsrpwe.weekendHolidaysText.getText();
+				Assert.assertEquals("1-3 Nights", weekendholidays);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getGoingForweekendholidaysTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.weekendHolidaysTotlaPkg != null) {
+			try {
+				String total = hsrpwe.weekendHolidaysTotlaPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end Weekend-holidays
+
+	// short-holidays test
+	public void selectGoingForShortHolidays() {
+		if (hsrpwe.ShortHolidayCheckBox != null) {
+			try {
+				hsrpwe.ShortHolidayCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectGoingForShortHolidaysText() {
+		if (hsrpwe.ShortHolidayText != null) {
+			try {
+				String shortHolidays = hsrpwe.ShortHolidayText.getText();
+				Assert.assertEquals("4-7 Nights", shortHolidays);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getGoingForShortHolidaysTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.ShortHolidayTotalPkg != null) {
+			try {
+				String total = hsrpwe.ShortHolidayTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end short-holidays
+
+	// long-holidays test
+	public void selectGoingForLongHolidays() {
+		if (hsrpwe.longHolidayCheckBox != null) {
+			try {
+				hsrpwe.longHolidayCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectGoingForLongtHolidaysText() {
+		if (hsrpwe.longHolidayText != null) {
+			try {
+				String longHolidays = hsrpwe.longHolidayText.getText();
+				Assert.assertEquals("7+ Nights", longHolidays);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getGoingForLongHolidaysTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.longHolidayTotlaPkg != null) {
+			try {
+				String total = hsrpwe.longHolidayTotlaPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end long-holidays
+
+	// end going for test
+
+	// Flight test
+
+	// with flight
+	public void selectWithFlight() {
+		if (hsrpwe.withFlightsCheckBox != null) {
+			try {
+				hsrpwe.withFlightsCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectWithFlightText() {
+		if (hsrpwe.withFlightsText != null) {
+			try {
+				String wihtFlight = hsrpwe.withFlightsText.getText();
+				Assert.assertEquals("With Flight", wihtFlight);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getWithFlightTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.withFlightsTotalPkg != null) {
+			try {
+				String total = hsrpwe.withFlightsTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end with flight
+
+	// without flight test
+	public void selectWithoutFlight() {
+		if (hsrpwe.withoutFlightCheckBox != null) {
+			try {
+				hsrpwe.withoutFlightCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectWithoutFlightText() {
+		if (hsrpwe.withoutFlightText != null) {
+			try {
+				String withoutflights = hsrpwe.withoutFlightText.getText();
+				Assert.assertEquals("Without Flight", withoutflights);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getWithoutFlightTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.withoutFlightTotalPkg != null) {
+			try {
+				String total = hsrpwe.withoutFlightTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end without flight
+
+	// end flight
+
+	// Transfer test
+
+	// with transfers
+	public void selectWithTransfers() {
+		if (hsrpwe.withTransferCheckBox != null) {
+			try {
+				hsrpwe.withTransferCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectWithTransfersText() {
+		if (hsrpwe.withTransferText != null) {
+			try {
+				String transfer = hsrpwe.withTransferText.getText();
+				Assert.assertEquals("With Transfers", transfer);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getWithTransfersTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.withTransferTotalPkg != null) {
+			try {
+				String total = hsrpwe.withTransferTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end with Transfers
+
+	// without Transfers test
+	public void selectTransfersoutFlight() {
+		if (hsrpwe.withoutTransferCheckBox != null) {
+			try {
+				hsrpwe.withoutTransferCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectTransfersoutFlightText() {
+		if (hsrpwe.withoutTransferText != null) {
+			try {
+				String withouttransfer = hsrpwe.withoutTransferText.getText();
+				Assert.assertEquals("Without Flight", withouttransfer);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getTransfersoutFlightTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.withoutTransferTotalPkg != null) {
+			try {
+				String total = hsrpwe.withoutTransferTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end without transfers
+
+	// end transfers
+
+	// Sightseeing test
+
+	// with Sightseeing
+	public void selectWithSightseeing() {
+		if (hsrpwe.withsightseeingCheckBox != null) {
+			try {
+				hsrpwe.withsightseeingCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectWithSightseeingText() {
+		if (hsrpwe.withsightseeingText != null) {
+			try {
+				String wihtse = hsrpwe.withsightseeingText.getText();
+				Assert.assertEquals("With Flight", wihtse);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getWithSightseeingTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.withsightseeingTotalPkg != null) {
+			try {
+				String total = hsrpwe.withsightseeingTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end with Sightseeing
+
+	// without Sightseeing test
+	public void selectWithoutSightseeing() {
+		if (hsrpwe.withoutsightseeingCheckBox != null) {
+			try {
+				hsrpwe.withoutsightseeingCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void selectWithoutSightseeingText() {
+		if (hsrpwe.withoutsightseeingText != null) {
+			try {
+				String withoutse = hsrpwe.withoutsightseeingText.getText();
+				Assert.assertEquals("Without Flight", withoutse);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getWithoutSightseeingTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.withoutsightseeingTotalPkg != null) {
+			try {
+				String total = hsrpwe.withoutsightseeingTotalPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// end without Sightseeing
+
+	// end Sightseeing
 
 	public void goingForBlock() {
 		int tot = 0;
@@ -376,5 +952,26 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		this.sendHolidayEnquiry(name, email, mobileNu, date, originCity,
 				duration, tourRequirementAndPreference);
 		this.holidyasThumbImages();
+	}
+
+	// filter testing with search result
+
+	public void filterStarRatingStandard() {
+		this.selectStarRatingStandard();
+		this.getStarRatingStandardText();
+		this.getselectStarRatingStandardTotalPkg();
+	}
+
+	public void filterStarRatingBudget() {
+		hsrpwe.budgetcheckBox.click();
+		String text = hsrpwe.budgetText.getText();
+		Assert.assertEquals("Budget", text);
+		String total = hsrpwe.budgetTotlaPkg.getText();
+		String trimto = total.trim().replaceAll("\\W", "");
+		int tot = Integer.parseInt(trimto);
+		logger.info("toal filte pkg " + tot);
+		int toalfilterpak = this.totalPkgs();
+		logger.info("toal filte pkg " + toalfilterpak);
+		Assert.assertEquals(toalfilterpak, tot);
 	}
 }

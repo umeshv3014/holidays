@@ -17,7 +17,10 @@ public class HolidaySearchResultPageWebElement {
 		// This initElements method will create all WebElements
 		PageFactory.initElements(driver, this);
 	}
-
+	@FindBy(xpath = "//span[contains(text(),'Holidays')]")
+	@CacheLookup
+	public WebElement backToHolidayHomepage;
+	
 	@FindBy(xpath = "//*[@id='packagesResults']//button[contains(text(),'BOOK NOW')]")
 	@CacheLookup
 	public WebElement getTotalNumberOfBOOKNOW;
@@ -63,6 +66,9 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//button[contains(text(),'SEND ENQUIRY')]")
 	public List<WebElement> nuOfSendEnquiry;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//button[contains(text(),'SEND ENQUIRY')]")
+	public WebElement sendEnquiryButton;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//img[@class='fullWidth']")
 	public List<WebElement> thumbImg;
@@ -89,7 +95,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement budgetTotlaPkg;
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'Star')]/span[1]")
-	public WebElement starTextBox;
+	public WebElement starCheckBox;
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'Star')]/span[2]")
 	public WebElement starText;
@@ -197,13 +203,13 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement withoutFlightTotalPkg;
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'with-transfers')]/span[1]")
-	public WebElement withTRansferCheckBox;
+	public WebElement withTransferCheckBox;
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'with-transfers')]/span[2]")
-	public WebElement withTRansferText;
+	public WebElement withTransferText;
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'with-transfers')]/span[3]")
-	public WebElement withTRansferTotalPkg;
+	public WebElement withTransferTotalPkg;
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'without-transfers')]/span[1]")
 	public WebElement withoutTransferCheckBox;

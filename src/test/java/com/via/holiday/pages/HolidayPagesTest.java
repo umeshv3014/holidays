@@ -1,18 +1,23 @@
 package com.via.holiday.pages;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.via.EXCEL.XlFileProvider;
 import com.via.base.util.SeleniumBase;
+import com.via.base.util.TakeErrorScreenShot;
 import com.via.properties.PropFileProvider;
 
 public class HolidayPagesTest extends SeleniumBase {
 	HolidayHomePage hphCASE;
 	HolidaySearchresultPage hspCASE;
+	TakeErrorScreenShot tess;
 
 	@BeforeTest
 	public void openViaHomepage() throws IOException {
@@ -93,13 +98,19 @@ public class HolidayPagesTest extends SeleniumBase {
 		hspCASE.countNumberOfBookNowAndSendEnquirey(fullName, email, mobileNu,
 				date, originCity, duration, tourRequirementAndPreference);
 	}
-	
+
 	@Test(priority = 2)
-	public void slidertest(){
+	public void slidertest() {
 		int xAxis = 40;
 		int yAxis = 0;
 		hspCASE.dragSlider("xpath", "slider", xAxis, yAxis);
-		hspCASE.getselectStarRatingStandardTotalPkg();
+		hspCASE.filterStarRatingStandard();
 	}
 
-}
+	@AfterMethod(alwaysRun = true)
+	public void takeScreenShotOnFailure(ITestResult testResult, Method methodName)
+			throws IOException {
+			tess = new TakeErrorScreenShot(driver);
+			tess.takeScreenShotOnFailure(testResult, methodName);
+		}
+	}

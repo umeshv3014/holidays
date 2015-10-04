@@ -24,15 +24,14 @@ public class HolidayHomePage extends SeleniumBase {
 				HolidayHomePageWebElement.class);
 	}
 
+	/*
+	 * assert the title of page
+	 */
 	public void titleHolidayHomePage() {
 		Assert.assertEquals(getKeyValue("HHPTitle"), driver.getTitle());
 	}
 
-	public void viaB2CLogo() {
-		String xpath = getKeyValue("viaLogo");
-		imageverify(driver, "xpath", xpath);
-	}
-
+	//select dom
 	public void selectDOM() {
 		if (hhpwe.domesticCity != null) {
 			try {
@@ -45,6 +44,8 @@ public class HolidayHomePage extends SeleniumBase {
 		}
 	}
 
+	
+	//select intl
 	public void selectINTL() {
 		if (hhpwe.intlCity != null) {
 			try {
@@ -85,6 +86,11 @@ public class HolidayHomePage extends SeleniumBase {
 			}
 
 		}
+	}
+	
+	public void viaB2CLogo() {
+		String xpath = getKeyValue("viaLogo");
+		imageverify(driver, "xpath", xpath);
 	}
 
 	public void packagesCollectionImagesPresent() {
@@ -170,7 +176,7 @@ public class HolidayHomePage extends SeleniumBase {
 		this.searchDestination();
 	}
 
- 	public void sendUsYourFeedback(String name, String email, String msg) {
+	public void sendUsYourFeedback(String name, String email, String msg) {
 		this.fillSendFeedBackDetail(name, email, msg);
 		this.sendMsgSYFB();
 		this.confirmationAlertOfSYFB();
