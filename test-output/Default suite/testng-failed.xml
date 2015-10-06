@@ -8,7 +8,7 @@
           <include name="sendEnquiry"/>
           <include name="slidertest"/>
           <include name="openViaHomepage"/>
-          <include name="destinationSearchDom" invocation-numbers="0"/>
+          <include name="destinationSearchDom"/>
           <include name="takeScreenShotOnFailure"/>
         </methods>
       </class> <!-- com.via.holiday.pages.HolidayPagesTest -->

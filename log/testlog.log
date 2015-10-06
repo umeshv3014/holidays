@@ -512,3 +512,14 @@ Driver info: driver.version: unknown
 2015-10-04 17:48:03,115 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
 2015-10-04 17:48:03,182 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 22
 2015-10-04 17:48:03,188 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-06 07:08:36,881 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-06 07:08:36,999 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-06 07:09:09,088 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-06 07:09:15,039 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-06 07:09:15,292 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 07:09:15,293 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 07:09:15,334 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 07:09:16,422 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-06 07:09:16,554 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-06 07:09:22,945 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 07:09:22,967 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
