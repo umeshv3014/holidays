@@ -31,7 +31,7 @@ public class HolidayHomePage extends SeleniumBase {
 		Assert.assertEquals(getKeyValue("HHPTitle"), driver.getTitle());
 	}
 
-	//select dom
+	// select dom
 	public void selectDOM() {
 		if (hhpwe.domesticCity != null) {
 			try {
@@ -44,8 +44,7 @@ public class HolidayHomePage extends SeleniumBase {
 		}
 	}
 
-	
-	//select intl
+	// select intl
 	public void selectINTL() {
 		if (hhpwe.intlCity != null) {
 			try {
@@ -87,24 +86,24 @@ public class HolidayHomePage extends SeleniumBase {
 
 		}
 	}
-	
+
 	public void viaB2CLogo() {
 		String xpath = getKeyValue("viaLogo");
 		imageverify(driver, "xpath", xpath);
 	}
 
 	public void packagesCollectionImagesPresent() {
+		int count = hhpwe.pcImage.size();
 		str = new ArrayList<String>();
-		int count = Integer.parseInt(getKeyValue("pcImageCount"));
-		for (int i = 0; i < count;) {
-			str.add(getKeyValue("pcImage") + ++i + getKeyValue("pcImage2"));
+		for (int i = 1; i < count; ++i) {
+			str.add(getKeyValue("pcImage") + i + getKeyValue("pcImage2"));
 			imageverify(driver, "xpath", str.get(i - 1));
 		}
 	}
 
 	public void hotDealsImagesPresent() {
+		int count = hhpwe.hdimage.size();
 		str = new ArrayList<String>();
-		int count = Integer.parseInt(getKeyValue("hdImageCount"));
 		for (int i = 1; i < count; i++) {
 			str.add(getKeyValue("hdImage") + i + getKeyValue("hdImage2"));
 			imageverify(driver, "xpath", str.get(i - 1));
@@ -164,22 +163,8 @@ public class HolidayHomePage extends SeleniumBase {
 		}
 	}
 
-	public void holidayDestinationSearchDom(String destinationCity) {
-		this.selectDOM();
-		this.setDestination(destinationCity);
-		this.searchDestination();
-	}
-
-	public void holidayDestinationSearchIntl(String destinationCity) {
-		this.selectINTL();
-		this.setDestination(destinationCity);
-		this.searchDestination();
-	}
-
-	public void sendUsYourFeedback(String name, String email, String msg) {
-		this.fillSendFeedBackDetail(name, email, msg);
-		this.sendMsgSYFB();
-		this.confirmationAlertOfSYFB();
+	public void holidayHomePage() {
+		hhpwe.backToHolidayPage.click();
 	}
 
 }

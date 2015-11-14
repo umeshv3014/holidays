@@ -523,3 +523,1312 @@ Driver info: driver.version: unknown
 2015-10-06 07:09:16,554 - com.via.base.util.SeleniumBase -INFO - 2
 2015-10-06 07:09:22,945 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
 2015-10-06 07:09:22,967 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:01:47,619 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-06 08:02:00,074 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-06 08:02:00,748 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 08:02:00,749 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 08:02:00,860 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 08:02:02,655 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-06 08:02:02,808 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-06 08:02:08,372 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:02:08,392 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:02:08,396 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-06 08:03:31,927 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-06 08:03:47,301 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-06 08:03:47,342 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 08:03:47,342 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 08:03:47,374 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-06 08:03:48,679 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-06 08:03:49,879 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-06 08:03:59,069 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:03:59,093 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:04:00,147 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:04:00,170 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-10-06 08:04:00,172 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-06 08:11:36,337 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:11:36,851 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-06 08:12:24,716 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 08:07:56,261 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-07 08:08:04,147 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-07 08:08:04,916 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:08:04,917 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:08:04,983 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:08:06,270 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-07 08:08:06,727 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 08:08:15,931 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 08:08:15,963 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 08:08:16,362 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 08:08:16,398 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-10-07 08:08:16,402 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 08:09:38,134 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-07 08:09:46,552 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-07 08:09:46,603 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:09:46,604 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:09:46,631 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:09:47,705 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-07 08:09:51,912 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-07 08:09:51,937 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-07 08:10:03,780 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 08:10:03,825 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 11
+2015-10-07 08:10:03,828 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 08:10:05,931 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 08:10:05,953 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 08:10:12,639 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 08:21:01,648 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-07 08:21:23,494 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-07 08:21:23,566 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:21:23,571 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:21:23,635 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 08:21:25,151 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-07 08:25:32,399 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 21:44:26,313 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-07 21:45:30,614 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 21:45:30,885 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-07 21:48:40,791 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-07 21:48:55,603 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-07 21:48:55,659 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 21:48:55,661 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 21:48:55,711 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 21:48:57,128 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-07 21:49:28,800 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 21:50:47,603 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 21:50:47,700 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 21:52:20,616 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 22:19:51,266 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-07 22:20:11,336 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-07 22:20:11,381 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 22:20:11,383 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 22:20:11,421 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 22:20:12,799 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-07 22:20:27,446 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 22:21:19,150 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 22:21:19,236 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 22:22:25,367 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 22:26:49,927 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-07 22:27:06,310 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-07 22:27:06,366 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 22:27:06,369 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 22:27:06,417 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-07 22:27:07,762 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-07 22:27:07,873 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-07 22:27:07,912 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-07 22:28:24,015 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-07 22:28:24,058 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 11
+2015-10-07 22:28:24,078 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-07 22:30:59,679 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 07:03:17,683 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 07:04:19,795 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 07:04:19,927 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:04:19,932 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:04:20,509 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:04:22,670 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 07:04:22,972 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 07:04:23,515 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 07:05:07,401 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 07:05:07,451 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 11
+2015-10-08 07:05:07,506 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 07:05:33,357 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:09:13,396 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:11:48,604 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:12:59,436 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 07:20:07,816 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 07:20:28,755 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 07:20:29,284 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:20:29,291 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:20:29,447 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:20:31,736 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 07:20:32,053 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 07:20:32,938 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 07:21:02,854 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 07:21:03,000 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 11
+2015-10-08 07:21:03,064 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 07:21:46,740 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:22:55,535 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:23:02,731 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 07:25:08,983 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:25:12,269 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 07:25:44,752 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 07:26:31,339 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 07:26:38,953 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 07:27:11,304 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 07:27:11,413 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 07:27:16,287 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 07:50:19,722 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 07:50:41,819 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 07:50:41,875 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:50:41,877 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:50:41,922 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 07:50:43,334 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 07:50:43,881 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 07:50:43,920 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 07:51:31,783 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 07:51:31,810 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 07:51:46,483 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:52:34,261 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 07:55:41,801 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 07:55:58,625 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 08:00:03,924 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 08:00:14,979 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 08:00:15,326 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 08:00:15,326 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 08:00:15,355 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 08:00:16,436 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 08:00:16,818 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 08:01:00,723 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 08:01:15,405 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 08:01:15,441 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 11
+2015-10-08 08:01:15,448 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 08:01:16,913 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 08:01:16,915 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 08:11:08,401 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 08:11:21,168 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 08:11:21,237 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 08:11:21,242 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 08:11:21,307 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 08:11:23,831 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 08:11:24,148 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 08:11:24,251 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 08:11:48,368 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 08:11:48,682 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 08:12:00,721 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 08:12:37,041 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 21:10:25,057 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 21:12:33,341 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"getDestinationcity"}
+Command duration or timeout: 50.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b68df077-229d-410d-a12b-9213ca890512
+*** Element info: {Using=xpath, value=getDestinationcity}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.via.base.util.SeleniumBase.webElement(SeleniumBase.java:46)
+	at com.via.base.util.SeleniumBase.getText(SeleniumBase.java:69)
+	at com.via.holiday.pages.HolidaySearchresultPage.destinationCityDataMatching(HolidaySearchresultPage.java:58)
+	at com.via.holiday.pages.HolidayPagesTest.destinationSearchDom(HolidayPagesTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"getDestinationcity"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous5155418710941720300webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous5155418710941720300webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-10-08 21:16:47,226 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 21:19:06,713 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 21:19:57,015 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 21:20:14,746 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 21:20:14,917 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 21:20:29,713 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 21:20:30,141 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 21:20:30,263 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 21:22:40,965 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 21:22:41,048 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 21:23:55,115 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:24:51,943 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 21:26:31,829 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:26:52,910 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 21:27:20,012 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 21:27:38,905 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 21:27:58,402 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 21:33:04,621 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 21:33:54,923 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath 
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Domestic')]"}
+Command duration or timeout: 50.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 99e2ce32-0494-4dc5-9505-62351a222305
+*** Element info: {Using=xpath, value=.//button[contains(text(),'Domestic')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.via.holiday.pages.HolidayHomePage.selectDOM(HolidayHomePage.java:38)
+	at com.via.holiday.pages.HolidayHomePage.holidayDestinationSearchDom(HolidayHomePage.java:168)
+	at com.via.holiday.pages.HolidayPagesTest.destinationSearchDom(HolidayPagesTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Domestic')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6212497636822288726webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6212497636822288726webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-10-08 21:38:42,759 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 21:38:50,715 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 21:38:52,042 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 21:38:52,325 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 21:38:54,868 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 21:38:55,119 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 21:38:55,200 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 21:39:51,335 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 21:39:51,485 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-10-08 21:39:55,751 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 21:40:59,964 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:41:24,810 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 21:41:38,908 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 21:42:02,064 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 21:46:21,319 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:47:45,187 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 21:47:49,689 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 21:47:53,737 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 21:50:21,239 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:51:01,767 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 21:51:08,970 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 21:51:27,066 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 21:52:44,001 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:53:15,339 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:54:03,349 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:55:32,580 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:56:01,509 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:56:54,496 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 21:57:04,067 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 21:57:10,370 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 21:57:13,367 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 21:58:59,378 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 22:01:21,638 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 22:01:33,526 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 22:01:38,285 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 22:01:46,996 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 22:02:15,228 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-10-08 22:02:19,573 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-10-08 22:02:30,072 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 22:02:42,231 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-10-08 22:02:49,556 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-10-08 22:03:02,409 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 22:08:25,306 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 22:08:25,406 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 22:08:39,918 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-08 22:21:40,028 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-08 22:21:58,278 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-08 22:21:58,437 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 22:21:58,438 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 22:21:58,521 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-08 22:21:59,778 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-08 22:21:59,925 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-08 22:22:00,014 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-08 22:22:20,065 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 22:22:20,118 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 22:22:20,227 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-08 22:22:20,229 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-08 22:22:20,357 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-08 22:22:20,358 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 22:22:20,359 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-10-08 22:22:20,472 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-10-08 22:22:20,473 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 22:22:20,474 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-10-08 22:22:20,588 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-10-08 22:22:20,589 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 22:22:20,590 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-10-08 22:22:20,696 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-10-08 22:22:20,696 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-08 22:22:21,362 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-08 22:22:21,424 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-10-08 22:22:21,429 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-09 06:46:21,721 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-09 06:46:59,962 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-09 06:47:04,125 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-09 06:47:05,335 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-09 06:47:06,270 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-09 06:47:10,537 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-09 06:47:11,075 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-09 06:47:11,218 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-09 06:48:00,830 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-09 06:48:25,954 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-09 06:48:56,219 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-09 06:49:01,801 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-09 06:49:17,515 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-09 06:49:28,603 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-09 06:50:06,078 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-09 06:50:10,528 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 07:29:13,592 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 07:30:03,892 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath 
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Domestic')]"}
+Command duration or timeout: 50.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8a8541f6-a697-473b-a3e7-627ca6d1e59a
+*** Element info: {Using=xpath, value=.//button[contains(text(),'Domestic')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.via.holiday.pages.HolidayHomePage.selectDOM(HolidayHomePage.java:38)
+	at com.via.holiday.pages.HolidayHomePage.holidayDestinationSearchDom(HolidayHomePage.java:168)
+	at com.via.holiday.pages.HolidayPagesTest.destinationSearchDom(HolidayPagesTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Domestic')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous2654173968051594020webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous2654173968051594020webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-10-10 07:31:19,936 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 07:33:05,686 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 07:34:04,004 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-10 07:34:04,164 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:34:04,166 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:34:04,258 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:34:05,558 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-10 07:34:05,684 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-10 07:34:05,759 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-10 07:34:05,843 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:34:05,844 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-10-10 07:34:06,124 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:06,126 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-10-10 07:34:06,759 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:06,762 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-10-10 07:34:07,052 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:07,053 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-10-10 07:34:07,331 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:07,332 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[5]/div[1]/a/img
+2015-10-10 07:34:07,603 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:07,604 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[6]/div[1]/a/img
+2015-10-10 07:34:10,117 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:10,118 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[7]/div[1]/a/img
+2015-10-10 07:34:10,892 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:10,893 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[8]/div[1]/a/img
+2015-10-10 07:34:11,212 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:11,212 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[9]/div[1]/a/img
+2015-10-10 07:34:11,493 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:11,493 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[10]/div[1]/a/img
+2015-10-10 07:34:11,734 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:34:19,700 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-10 07:34:19,747 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-10 07:34:19,798 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-10 07:34:19,800 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-10 07:34:19,877 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-10 07:34:19,877 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:34:20,342 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 07:34:20,346 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 07:38:58,677 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 07:39:35,744 - com.via.base.util.SeleniumBase -INFO - Delhi
+2015-10-10 07:39:46,313 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:39:47,573 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:39:47,667 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:39:52,623 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-10 07:39:52,748 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 2
+2015-10-10 07:39:53,189 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 11
+2015-10-10 07:40:27,318 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:40:38,328 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-10-10 07:40:39,086 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 07:43:56,933 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-10-10 07:45:32,621 - com.via.base.util.SeleniumBase -INFO - 11
+2015-10-10 07:45:52,488 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-10-10 07:48:11,361 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:48:17,922 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-10-10 07:48:39,175 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:48:44,432 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-10-10 07:48:54,971 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:48:56,624 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-10-10 07:49:03,255 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:49:04,840 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[5]/div[1]/a/img
+2015-10-10 07:49:09,920 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:49:11,679 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[6]/div[1]/a/img
+2015-10-10 07:49:19,548 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:49:21,470 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[7]/div[1]/a/img
+2015-10-10 07:49:27,732 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:49:29,627 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[8]/div[1]/a/img
+2015-10-10 07:49:35,736 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:49:37,858 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[9]/div[1]/a/img
+2015-10-10 07:49:45,340 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:49:48,413 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[10]/div[1]/a/img
+2015-10-10 07:51:56,445 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:52:15,312 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-10 07:52:15,380 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-10-10 07:52:30,552 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-10 07:52:41,210 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-10 07:53:11,534 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-10-10 07:53:20,821 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 07:53:22,049 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 3
+2015-10-10 07:55:39,056 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 07:59:56,119 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 08:00:11,548 - com.via.base.util.SeleniumBase -INFO - Goa
+2015-10-10 08:00:11,617 - com.via.base.util.SeleniumBase -INFO - 39
+2015-10-10 08:00:11,618 - com.via.base.util.SeleniumBase -INFO - 39
+2015-10-10 08:00:11,696 - com.via.base.util.SeleniumBase -INFO - 39
+2015-10-10 08:00:12,908 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-10 08:00:12,998 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 11
+2015-10-10 08:00:13,066 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 30
+2015-10-10 08:00:13,189 - com.via.base.util.SeleniumBase -INFO - 39
+2015-10-10 08:00:13,190 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-10-10 08:00:13,331 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:13,332 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-10-10 08:00:13,460 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:13,461 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-10-10 08:00:13,575 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:13,576 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-10-10 08:00:13,691 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:13,691 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[5]/div[1]/a/img
+2015-10-10 08:00:13,809 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:13,809 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[6]/div[1]/a/img
+2015-10-10 08:00:13,932 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:13,932 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[7]/div[1]/a/img
+2015-10-10 08:00:14,041 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,042 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[8]/div[1]/a/img
+2015-10-10 08:00:14,141 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,142 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[9]/div[1]/a/img
+2015-10-10 08:00:14,242 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,243 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[10]/div[1]/a/img
+2015-10-10 08:00:14,343 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,343 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[11]/div[1]/a/img
+2015-10-10 08:00:14,435 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,436 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[12]/div[1]/a/img
+2015-10-10 08:00:14,531 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,532 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[13]/div[1]/a/img
+2015-10-10 08:00:14,645 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,646 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[14]/div[1]/a/img
+2015-10-10 08:00:14,732 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,732 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[15]/div[1]/a/img
+2015-10-10 08:00:14,832 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,833 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[16]/div[1]/a/img
+2015-10-10 08:00:14,927 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:14,928 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[17]/div[1]/a/img
+2015-10-10 08:00:15,009 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,010 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[18]/div[1]/a/img
+2015-10-10 08:00:15,110 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,111 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[19]/div[1]/a/img
+2015-10-10 08:00:15,205 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,206 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[20]/div[1]/a/img
+2015-10-10 08:00:15,288 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,289 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[21]/div[1]/a/img
+2015-10-10 08:00:15,402 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,402 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[22]/div[1]/a/img
+2015-10-10 08:00:15,483 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,483 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[23]/div[1]/a/img
+2015-10-10 08:00:15,563 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,564 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[24]/div[1]/a/img
+2015-10-10 08:00:15,646 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,646 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[25]/div[1]/a/img
+2015-10-10 08:00:15,726 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,726 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[26]/div[1]/a/img
+2015-10-10 08:00:15,809 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,810 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[27]/div[1]/a/img
+2015-10-10 08:00:15,885 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,886 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[28]/div[1]/a/img
+2015-10-10 08:00:15,962 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:15,963 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[29]/div[1]/a/img
+2015-10-10 08:00:16,036 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,037 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[30]/div[1]/a/img
+2015-10-10 08:00:16,114 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,115 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[31]/div[1]/a/img
+2015-10-10 08:00:16,187 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,188 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[32]/div[1]/a/img
+2015-10-10 08:00:16,266 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,266 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[33]/div[1]/a/img
+2015-10-10 08:00:16,354 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,354 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[34]/div[1]/a/img
+2015-10-10 08:00:16,430 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,430 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[35]/div[1]/a/img
+2015-10-10 08:00:16,495 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,496 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[36]/div[1]/a/img
+2015-10-10 08:00:16,567 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,568 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[37]/div[1]/a/img
+2015-10-10 08:00:16,648 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:00:16,648 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[38]/div[1]/a/img
+2015-10-10 08:00:16,734 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:01:09,183 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Standard')]/span[1]"}
+Command duration or timeout: 50.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7bdbaeff-39ce-4a4e-b77d-58c9875591ec
+*** Element info: {Using=xpath, value=//*[contains(@for,'Standard')]/span[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.via.holiday.pages.HolidaySearchresultPage.selectStarRatingStandard(HolidaySearchresultPage.java:240)
+	at com.via.holiday.pages.HolidaySearchresultPage.filterStarRatingStandard(HolidaySearchresultPage.java:1219)
+	at com.via.holiday.pages.HolidayPagesTest.slidertest(HolidayPagesTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Standard')]/span[1]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous1445481536789277725webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous1445481536789277725webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-10-10 08:01:59,524 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Standard')]/span[2]"}
+Command duration or timeout: 50.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7bdbaeff-39ce-4a4e-b77d-58c9875591ec
+*** Element info: {Using=xpath, value=//*[contains(@for,'Standard')]/span[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at com.via.holiday.pages.HolidaySearchresultPage.getStarRatingStandardText(HolidaySearchresultPage.java:252)
+	at com.via.holiday.pages.HolidaySearchresultPage.filterStarRatingStandard(HolidaySearchresultPage.java:1220)
+	at com.via.holiday.pages.HolidayPagesTest.slidertest(HolidayPagesTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Standard')]/span[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous1445481536789277725webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous1445481536789277725webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-10-10 08:02:50,110 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Standard')]/span[3]"}
+Command duration or timeout: 50.56 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7bdbaeff-39ce-4a4e-b77d-58c9875591ec
+*** Element info: {Using=xpath, value=//*[contains(@for,'Standard')]/span[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at com.via.holiday.pages.HolidaySearchresultPage.getselectStarRatingStandardTotalPkg(HolidaySearchresultPage.java:272)
+	at com.via.holiday.pages.HolidaySearchresultPage.filterStarRatingStandard(HolidaySearchresultPage.java:1221)
+	at com.via.holiday.pages.HolidayPagesTest.slidertest(HolidayPagesTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Standard')]/span[3]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous1445481536789277725webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous1445481536789277725webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-10-10 08:02:50,275 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 08:02:50,276 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-10 08:02:50,409 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-10-10 08:02:50,410 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:02:51,678 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-10-10 08:02:51,745 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-10-10 08:02:53,457 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-10-10 08:02:53,598 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-10-10 08:02:53,599 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:02:53,600 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-10-10 08:02:53,731 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-10-10 08:02:53,732 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 08:02:55,640 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 15
+2015-10-10 08:02:55,640 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-10-10 08:02:55,648 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 20:45:26,562 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 20:48:33,744 - com.via.base.util.SeleniumBase -INFO - Leh
+2015-10-10 20:49:00,367 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 20:49:14,418 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 20:49:14,691 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 20:49:22,883 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-10 20:50:13,051 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-10-10 20:50:13,128 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 5
+2015-10-10 20:50:22,311 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 20:50:29,678 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-10-10 20:50:44,199 - com.via.base.util.SeleniumBase -INFO - false
+2015-10-10 20:50:49,949 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-10-10 20:51:01,439 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 20:51:04,223 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-10-10 20:51:13,051 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 20:51:15,508 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-10-10 20:51:26,466 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 20:53:21,335 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 20:53:21,403 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 4
+2015-10-10 21:02:51,776 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 21:03:11,671 - com.via.base.util.SeleniumBase -INFO - Leh
+2015-10-10 21:03:14,538 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:03:14,834 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:03:14,958 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:03:17,905 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-10 21:04:08,071 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-10-10 21:04:08,176 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 5
+2015-10-10 21:04:24,784 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:04:28,393 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-10-10 21:04:34,637 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:04:37,255 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-10-10 21:04:50,432 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:04:52,602 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-10-10 21:04:59,921 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:05:02,059 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-10-10 21:05:20,940 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:06:05,058 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:06:05,125 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:06:34,042 - com.via.base.util.SeleniumBase -INFO - 1
+2015-10-10 21:06:48,826 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-10 21:07:26,130 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-10-10 21:07:59,155 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:08:00,775 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:08:00,836 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:14:36,923 - com.via.base.util.SeleniumBase -INFO - 0
+2015-10-10 21:16:37,727 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-10-10 21:16:47,643 - com.via.base.util.SeleniumBase -INFO - Leh
+2015-10-10 21:16:47,732 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:16:47,733 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:16:47,787 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:16:49,083 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-10-10 21:17:39,199 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-10-10 21:17:39,272 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 5
+2015-10-10 21:17:39,344 - com.via.base.util.SeleniumBase -INFO - 5
+2015-10-10 21:17:39,345 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-10-10 21:17:39,617 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:17:39,618 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-10-10 21:17:39,846 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:17:39,847 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-10-10 21:17:40,074 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:17:40,075 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-10-10 21:17:40,260 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:17:46,178 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:17:46,216 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:17:46,267 - com.via.base.util.SeleniumBase -INFO - 1
+2015-10-10 21:17:46,268 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-10-10 21:17:46,340 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-10-10 21:17:46,341 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:17:47,114 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:17:47,177 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-10-10 21:17:47,594 - com.via.base.util.SeleniumBase -INFO - 4
+2015-10-10 21:17:47,595 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2015-10-10 21:17:47,708 - com.via.base.util.SeleniumBase -INFO - Any
+2015-10-10 21:17:47,709 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:18:38,999 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Budget')]/span[3]"}
+Command duration or timeout: 50.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 45e14aea-38b0-4c74-82c7-1db46f75278b
+*** Element info: {Using=xpath, value=//*[contains(@for,'Budget')]/span[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at com.via.holiday.pages.HolidaySearchresultPage.getselectedStarRatingBudgetTotalPkg(HolidaySearchresultPage.java:548)
+	at com.via.holiday.pages.HolidaySearchresultPage.goingForTest(HolidaySearchresultPage.java:1304)
+	at com.via.pageActions.searchResultPageActions.goingForFilter(searchResultPageActions.java:43)
+	at com.via.holiday.pages.HolidayPagesTest.goingForFilterTest(HolidayPagesTest.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Budget')]/span[3]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6897346074828111537webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6897346074828111537webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-10-10 21:18:39,346 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2015-10-10 21:18:39,459 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2015-10-10 21:18:39,460 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:18:39,460 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[3]//span[2]
+2015-10-10 21:18:39,583 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2015-10-10 21:18:39,584 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:18:40,220 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-10-10 21:18:40,792 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[4]//span[2]
+2015-10-10 21:18:40,890 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2015-10-10 21:18:40,891 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:18:40,942 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 21:18:40,943 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2015-10-10 21:18:41,025 - com.via.base.util.SeleniumBase -INFO - With Flight
+2015-10-10 21:18:41,026 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:18:42,381 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-10-10 21:18:42,386 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 21:18:43,646 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 21:18:43,647 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2015-10-10 21:18:43,742 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2015-10-10 21:18:43,743 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:18:47,009 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-10-10 21:18:47,013 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 21:18:48,226 - com.via.base.util.SeleniumBase -INFO - 2
+2015-10-10 21:18:48,227 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2015-10-10 21:18:49,062 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2015-10-10 21:18:49,063 - com.via.base.util.SeleniumBase -INFO - true
+2015-10-10 21:18:52,382 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-05 07:03:11,965 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=11, startCol=0, endCol=4
+2015-11-05 07:03:16,372 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-05 07:03:21,701 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-05 07:03:24,589 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-05 07:03:30,123 - com.via.base.util.SeleniumBase -INFO - startRow=4, endRow=6, startCol=0, endCol=2
+2015-11-05 07:04:25,388 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-11-05 07:05:33,764 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-11-05 07:05:33,836 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 6
+2015-11-05 07:05:33,911 - com.via.base.util.SeleniumBase -INFO - 6
+2015-11-05 07:05:33,914 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-11-05 07:05:34,162 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:34,164 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-11-05 07:05:34,407 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:34,408 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-11-05 07:05:34,652 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:34,653 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-11-05 07:05:34,874 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:34,875 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[5]/div[1]/a/img
+2015-11-05 07:05:35,078 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:35,086 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-05 07:05:36,913 - com.via.base.util.SeleniumBase -INFO - 3
+2015-11-05 07:05:36,914 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-05 07:05:36,990 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-05 07:05:36,991 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:40,566 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 4
+2015-11-05 07:05:40,631 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 4
+2015-11-05 07:05:41,278 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-05 07:05:43,731 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-05 07:05:43,732 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:43,732 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-05 07:05:43,851 - com.via.base.util.SeleniumBase -INFO - Inside Cabin
+2015-11-05 07:05:43,852 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:05:44,464 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-05 07:05:44,465 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 4
+2015-11-05 07:05:44,469 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-05 07:05:45,548 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-05 07:05:45,548 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2015-11-05 07:05:45,628 - com.via.base.util.SeleniumBase -INFO - Any
+2015-11-05 07:05:45,629 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:36,180 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Budget')]/span[3]"}
+Command duration or timeout: 50.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fb700a0e-2c3a-4821-8082-cfce59658294
+*** Element info: {Using=xpath, value=//*[contains(@for,'Budget')]/span[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at com.via.holiday.pages.HolidaySearchresultPage.getselectedStarRatingBudgetTotalPkg(HolidaySearchresultPage.java:548)
+	at com.via.pageActions.searchResultPageActions.goingForFilter(searchResultPageActions.java:107)
+	at com.via.holiday.pages.HolidayPagesTest.goingForFilterTest(HolidayPagesTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Budget')]/span[3]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous2737129002503244454webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous2737129002503244454webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-11-05 07:06:37,103 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2015-11-05 07:06:37,245 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2015-11-05 07:06:37,246 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:37,247 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[3]//span[2]
+2015-11-05 07:06:37,353 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2015-11-05 07:06:37,354 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:38,062 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-05 07:06:38,720 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[4]//span[2]
+2015-11-05 07:06:38,820 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2015-11-05 07:06:38,820 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:38,900 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-05 07:06:38,901 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2015-11-05 07:06:39,006 - com.via.base.util.SeleniumBase -INFO - With Flight
+2015-11-05 07:06:39,007 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:39,606 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-05 07:06:40,089 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2015-11-05 07:06:40,185 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2015-11-05 07:06:40,186 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:40,250 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-05 07:06:40,251 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2015-11-05 07:06:40,333 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2015-11-05 07:06:40,334 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:40,912 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-11-05 07:06:41,623 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2015-11-05 07:06:41,735 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2015-11-05 07:06:41,736 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:41,801 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-05 07:06:41,802 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2015-11-05 07:06:41,928 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2015-11-05 07:06:41,929 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-05 07:06:42,548 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-11-05 07:06:44,670 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2015-11-05 07:06:44,783 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2015-11-05 07:06:44,784 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:35:21,292 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=11, startCol=0, endCol=4
+2015-11-10 07:35:38,263 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:35:43,118 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:35:45,030 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-10 07:37:10,170 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=11, startCol=0, endCol=4
+2015-11-10 07:37:12,769 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-10 07:37:18,256 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:37:21,921 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-10 07:37:35,521 - com.via.base.util.SeleniumBase -INFO - startRow=4, endRow=6, startCol=0, endCol=2
+2015-11-10 07:38:20,233 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-11-10 07:39:12,998 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-11-10 07:39:13,081 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 7
+2015-11-10 07:39:13,178 - com.via.base.util.SeleniumBase -INFO - 7
+2015-11-10 07:39:13,184 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-11-10 07:39:13,562 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:13,563 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-11-10 07:39:13,838 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:13,839 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-11-10 07:39:14,592 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:14,593 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-11-10 07:39:15,600 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:15,601 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[5]/div[1]/a/img
+2015-11-10 07:39:16,274 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:16,275 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[6]/div[1]/a/img
+2015-11-10 07:39:16,595 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:16,608 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:39:18,585 - com.via.base.util.SeleniumBase -INFO - 3
+2015-11-10 07:39:18,585 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-10 07:39:18,672 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-10 07:39:18,673 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:20,194 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-11-10 07:39:20,277 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-11-10 07:39:21,457 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-10 07:39:22,981 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-10 07:39:22,982 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:22,983 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-10 07:39:23,174 - com.via.base.util.SeleniumBase -INFO - Inside Cabin
+2015-11-10 07:39:23,175 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:39:24,082 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-10 07:39:24,083 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 5
+2015-11-10 07:39:24,092 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:39:25,150 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-10 07:39:25,151 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2015-11-10 07:39:25,282 - com.via.base.util.SeleniumBase -INFO - Any
+2015-11-10 07:39:25,284 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:16,222 - com.via.base.util.SeleniumBase -ERROR - Not able to locate the webelement, please check the xpath
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Budget')]/span[3]"}
+Command duration or timeout: 50.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4926808e-f984-41e5-bab1-52a93217c78e
+*** Element info: {Using=xpath, value=//*[contains(@for,'Budget')]/span[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at com.via.holiday.pages.HolidaySearchresultPage.getselectedStarRatingBudgetTotalPkg(HolidaySearchresultPage.java:548)
+	at com.via.pageActions.searchResultPageActions.goingForFilter(searchResultPageActions.java:107)
+	at com.via.holiday.pages.HolidayPagesTest.goingForFilterTest(HolidayPagesTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[contains(@for,'Budget')]/span[3]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'UMESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6838642696802779500webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/UMESH/AppData/Local/Temp/anonymous6838642696802779500webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+2015-11-10 07:40:17,043 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2015-11-10 07:40:17,529 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2015-11-10 07:40:17,530 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:17,531 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[3]//span[2]
+2015-11-10 07:40:17,669 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2015-11-10 07:40:17,670 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:18,520 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-10 07:40:19,224 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[4]//span[2]
+2015-11-10 07:40:19,371 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2015-11-10 07:40:19,371 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:19,898 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:40:19,899 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2015-11-10 07:40:20,097 - com.via.base.util.SeleniumBase -INFO - With Flight
+2015-11-10 07:40:20,098 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:21,025 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-10 07:40:21,751 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2015-11-10 07:40:21,889 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2015-11-10 07:40:21,890 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:21,990 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:40:21,991 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2015-11-10 07:40:22,086 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2015-11-10 07:40:22,090 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:22,762 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 6
+2015-11-10 07:40:23,653 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2015-11-10 07:40:25,407 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2015-11-10 07:40:25,408 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:25,501 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-10 07:40:25,501 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2015-11-10 07:40:25,657 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2015-11-10 07:40:25,658 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-10 07:40:27,571 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 6
+2015-11-10 07:40:28,619 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2015-11-10 07:40:28,764 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2015-11-10 07:40:28,765 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 08:43:36,179 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=11, startCol=0, endCol=4
+2015-11-13 08:44:06,954 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-13 08:44:27,779 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-13 08:48:32,931 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=11, startCol=0, endCol=4
+2015-11-13 08:49:10,317 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-13 08:49:18,635 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-13 08:49:19,730 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-13 08:50:09,512 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-11-13 08:51:36,327 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-11-13 08:51:36,381 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 5
+2015-11-13 08:52:25,741 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-11-13 08:52:26,225 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 5
+2015-11-13 08:52:54,801 - com.via.base.util.SeleniumBase -INFO - total number of Book Now 0
+2015-11-13 08:52:56,337 - com.via.base.util.SeleniumBase -INFO - total number of Send Enquiry 5
+2015-11-13 08:53:00,050 - com.via.base.util.SeleniumBase -INFO - 5
+2015-11-13 08:53:03,735 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-11-13 08:53:06,905 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 08:53:08,240 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-11-13 08:53:10,470 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 08:53:11,933 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-11-13 08:53:13,889 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 08:53:14,943 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-11-13 08:53:16,058 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 15:33:48,394 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=11, startCol=0, endCol=4
+2015-11-13 15:33:51,845 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-13 15:33:53,996 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-13 15:33:54,788 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-13 15:34:00,300 - com.via.base.util.SeleniumBase -INFO - startRow=13, endRow=15, startCol=0, endCol=8
+2015-11-13 15:34:06,557 - com.via.base.util.SeleniumBase -INFO - 5
+2015-11-13 15:34:06,558 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[1]/div[1]/a/img
+2015-11-13 15:34:06,844 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 15:34:06,845 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[2]/div[1]/a/img
+2015-11-13 15:34:07,125 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 15:34:07,128 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[3]/div[1]/a/img
+2015-11-13 15:34:07,286 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-13 15:34:07,286 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesResults']//div[4]/div[1]/a/img
+2015-11-13 15:34:07,425 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 16:05:21,921 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=10, startCol=0, endCol=4
+2015-11-14 16:05:54,825 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-14 16:05:56,176 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 16:06:00,873 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 16:07:30,899 - com.via.base.util.SeleniumBase -INFO - Leh
+2015-11-14 16:18:25,279 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=10, startCol=0, endCol=4
+2015-11-14 16:18:37,081 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-14 16:18:39,724 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 16:18:43,809 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 16:19:17,368 - com.via.base.util.SeleniumBase -INFO - Kerala
+2015-11-14 16:19:52,922 - com.via.base.util.SeleniumBase -INFO - 3
+2015-11-14 16:19:52,923 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 16:19:53,015 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 16:19:53,016 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 16:21:15,767 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 16:21:15,858 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 16:21:40,533 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 16:21:40,880 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 16:21:40,881 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 16:21:48,760 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 16:21:48,902 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 16:21:48,903 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 16:21:58,528 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 7
+2015-11-14 16:21:58,528 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 16:28:39,485 - com.via.base.util.SeleniumBase -INFO - startRow=8, endRow=10, startCol=0, endCol=4
+2015-11-14 16:28:49,954 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2015-11-14 16:28:52,739 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 16:28:56,230 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 16:29:12,304 - com.via.base.util.SeleniumBase -INFO - Kerala
+2015-11-14 16:29:36,709 - com.via.base.util.SeleniumBase -INFO - 3
+2015-11-14 16:29:36,717 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 16:29:36,894 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 16:29:36,901 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 16:30:05,233 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 16:30:05,406 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 16:30:46,229 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 16:30:46,459 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 16:30:46,468 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 16:31:09,406 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 16:31:09,623 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 16:31:09,631 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 16:33:20,648 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 7
+2015-11-14 16:33:20,657 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23

@@ -17,56 +17,69 @@ public class HolidaySearchResultPageWebElement {
 		// This initElements method will create all WebElements
 		PageFactory.initElements(driver, this);
 	}
+
 	@FindBy(xpath = "//span[contains(text(),'Holidays')]")
 	@CacheLookup
 	public WebElement backToHolidayHomepage;
-	
+
 	@FindBy(xpath = "//*[@id='packagesResults']//button[contains(text(),'BOOK NOW')]")
 	@CacheLookup
 	public WebElement getTotalNumberOfBOOKNOW;
 
 	@FindBy(xpath = "//*[@id='hldDealAltForm']//input[@name='mobile']")
+	@CacheLookup
 	public WebElement mobileNumberSE;
 
 	@FindBy(xpath = "//*[@id='hldDealAltForm']//input[@name='name']")
+	@CacheLookup
 	public WebElement SHEname;
 
 	@FindBy(xpath = "//*[@id='hldDealAltForm']//input[@name='email']")
+	@CacheLookup
 	public WebElement SHEemail;
 
 	@FindBy(xpath = "//*[@id='hldDealAltForm']//input[@name='city']")
+	@CacheLookup
 	public WebElement SHEcity;
 
 	@FindBy(xpath = "//*[@id='hldDealAltForm']//input[@name='duration']")
+	@CacheLookup
 	public WebElement SHEduration;
 
 	@FindBy(xpath = "//*[@id='hldDealAltForm']//textarea[@name='comments']")
+	@CacheLookup
 	public WebElement SHEcomments;
 
 	@FindBy(xpath = "//*[@id='modalPanel']//button[contains(text(),'Submit')]")
+	@CacheLookup
 	public WebElement SHEsubmit;
 
 	@FindBy(xpath = "//*[@id='hldDealAltForm']//input[@name='travel_date']")
+	@CacheLookup
 	public WebElement SHEdate;
 
 	@FindBy(xpath = "//a[contains(text(),'Close')]")
+	@CacheLookup
 	public WebElement SHEclanderClose;
 
 	@FindBy(xpath = "//button[contains(text(),'Send Enquiry')]")
+	@CacheLookup
 	public WebElement SHEbutton;
 
 	@FindBy(xpath = "//*[@id='modalPanel']//button")
+	@CacheLookup
 	public WebElement SHEsucess;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']/div/div")
 	public List<WebElement> nuOfPackages;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//button[contains(text(),'BOOK NOW')]")
+	@CacheLookup
 	public List<WebElement> nuOfbookableHolidays;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//button[contains(text(),'SEND ENQUIRY')]")
 	public List<WebElement> nuOfSendEnquiry;
-	
+
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//button[contains(text(),'SEND ENQUIRY')]")
 	public WebElement sendEnquiryButton;
 
@@ -82,8 +95,74 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'Standard')]/span[2]")
 	public WebElement standardText;
 
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'2 Star')]/span[1]")
+	public WebElement star2CheckBox;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'2 Star')]/span[2]")
+	public WebElement star2Text;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'2 Star')]/span[3]")
+	public WebElement star2Total;
+
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'3 Star')]/span[1]")
+	public WebElement star3CheckBox;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'3 Star')]/span[2]")
+	public WebElement star3Text;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'3 Star')]/span[3]")
+	public WebElement star3Total;
+
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'4 Star')]/span[1]")
+	public WebElement star4CheckBox;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'4 Star')]/span[2]")
+	public WebElement star4Text;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'4 Star')]/span[3]")
+	public WebElement star4Total;
+
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'5 Star')]/span[1]")
+	public WebElement star5CheckBox;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'5 Star')]/span[2]")
+	public WebElement star5Text;
+	
+	@FindBy(how = How.XPATH, using = "//*[contains(@for,'5 Star')]/span[3]")
+	public WebElement star5Total;
+
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'Standard')]/span[3]")
 	public WebElement standardTotalpkg;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[2]//span[2]")
+	public List<WebElement> starRatingText;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[2]//span[2]")
+	public WebElement starRatingTexts;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[3]//span[2]")
+	public List<WebElement> goingForText;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[3]//span[2]")
+	public WebElement goingForTexts;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[4]//span[2]")
+	public List<WebElement> flightText;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[4]//span[2]")
+	public WebElement flightTexts;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[5]//span[2]")
+	public List<WebElement> transferText;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[5]//span[2]")
+	public WebElement transferTexts;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[6]//span[2]")
+	public List<WebElement> sightseeingText;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[6]//span[2]")
+	public WebElement sightseeingTexts;
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'Budget')]/span[1]")
 	public WebElement budgetcheckBox;
@@ -237,9 +316,11 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'without-sightseeing')]/span[3]")
 	public WebElement withoutsightseeingTotalPkg;
-	
+
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']/div/div")
 	public WebElement getTotalPackage;
 
+	@FindBy(how = How.XPATH, using = "//*[@id='show-all']")
+	public WebElement showAll;
 
 }

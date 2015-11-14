@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -66,8 +65,7 @@ public class SeleniumBase {
 
 	public String getText(WebDriver driver, String locatorType,
 			String locatorValue) {
-		WebElement we = webElement(driver, locatorType,
-				getKeyValue(locatorValue));
+		WebElement we = webElement(driver, locatorType,locatorValue);
 		String text = we.getText();
 		logger.info(text);
 		return text;
@@ -102,26 +100,15 @@ public class SeleniumBase {
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
 						imageFilea);
-		if (!ImagePresent) {
-			return true;
-		} else {
-			return false;
-		}
+		return ImagePresent;
 	}
 
-	/*
-	 * use below method to verify list of images.
-	 */
-	public Boolean imageverify(WebDriver driver, List<WebElement> image) {
+	public Boolean imageverify(WebDriver driver, WebElement image) {
 		Boolean ImagePresent = (Boolean) ((JavascriptExecutor) driver)
 				.executeScript(
 						"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
 						image);
-		if (!ImagePresent) {
-			return true;
-		} else {
-			return false;
-		}
+		return ImagePresent;
 	}
 
 	public static void getPropertyFile(String filePath) throws IOException {

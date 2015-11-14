@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77868" started-at="2015-10-06T01:37:19Z" finished-at="2015-10-06T01:38:37Z">
+  <suite name="Default suite" duration-ms="119846" started-at="2015-10-10T15:42:37Z" finished-at="2015-10-10T15:44:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77868" started-at="2015-10-06T01:37:19Z" finished-at="2015-10-06T01:38:37Z">
+    <test name="Default test" duration-ms="119846" started-at="2015-10-10T15:42:37Z" finished-at="2015-10-10T15:44:36Z">
       <class name="com.via.holiday.pages.HolidayPagesTest">
-        <test-method status="FAIL" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="openViaHomepage" is-config="true" duration-ms="0" started-at="2015-10-06T07:07:19Z" finished-at="2015-10-06T07:07:19Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
-System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
+        <test-method status="PASS" signature="openViaHomepage()[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@7f560810]" name="openViaHomepage" is-config="true" duration-ms="69508" started-at="2015-10-10T21:12:37Z" finished-at="2015-10-10T21:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openViaHomepage -->
+        <test-method status="PASS" signature="sightseeingFilterTest()[pri:6, instance:com.via.holiday.pages.HolidayPagesTest@7f560810]" name="sightseeingFilterTest" duration-ms="50283" started-at="2015-10-10T21:13:46Z" finished-at="2015-10-10T21:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sightseeingFilterTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@7f560810]" name="takeScreenShotOnFailure" is-config="true" duration-ms="11" started-at="2015-10-10T21:14:36Z" finished-at="2015-10-10T21:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sightseeingFilterTest status=SUCCESS method=HolidayPagesTest.sightseeingFilterTest()[pri:6, instance:com.via.holiday.pages.HolidayPagesTest@7f560810] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.via.holiday.pages.HolidayPagesTest.sightseeingFilterTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="FAIL" signature="exit()[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@7f560810]" name="exit" is-config="true" duration-ms="0" started-at="2015-10-10T21:14:36Z" finished-at="2015-10-10T21:14:36Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
-System info: host: 'UMESH-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:843)
-	at com.via.base.util.SeleniumBase.openBrowsers(SeleniumBase.java:37)
-	at com.via.holiday.pages.HolidayPagesTest.openB2CBrowser(HolidayPagesTest.java:31)
-	at com.via.holiday.pages.HolidayPagesTest.openViaHomepage(HolidayPagesTest.java:27)
+              <![CDATA[java.lang.NullPointerException
+	at com.via.holiday.pages.HolidayPagesTest.exit(HolidayPagesTest.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -33,8 +44,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
-	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1027)
+	at org.testng.TestRunner.run(TestRunner.java:627)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
@@ -47,147 +58,9 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:168)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:392)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
-	... 26 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 41 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openViaHomepage -->
-        <test-method status="SKIP" signature="destinationSearchDom(java.lang.String)[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="destinationSearchDom" duration-ms="0" started-at="2015-10-06T07:08:36Z" data-provider="destinationdataDom" finished-at="2015-10-06T07:08:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destinationSearchDom -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="takeScreenShotOnFailure" is-config="true" duration-ms="2" started-at="2015-10-06T07:08:36Z" finished-at="2015-10-06T07:08:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=destinationSearchDom status=SKIP method=HolidayPagesTest.destinationSearchDom(java.lang.String)[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@12843fce] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.via.holiday.pages.HolidayPagesTest.destinationSearchDom(java.lang.String) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="SKIP" signature="sendEnquiry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="sendEnquiry" duration-ms="1" started-at="2015-10-06T07:08:37Z" data-provider="sendHolidayEnquiryData" finished-at="2015-10-06T07:08:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mukesh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[suresh@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[8722489886]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10/283/15]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[bangalore]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendEnquiry -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-10-06T07:08:37Z" finished-at="2015-10-06T07:08:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sendEnquiry status=SKIP method=HolidayPagesTest.sendEnquiry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.via.holiday.pages.HolidayPagesTest@12843fce] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.via.holiday.pages.HolidayPagesTest.sendEnquiry(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="SKIP" signature="slidertest()[pri:2, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="slidertest" duration-ms="1" started-at="2015-10-06T07:08:37Z" finished-at="2015-10-06T07:08:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- slidertest -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-10-06T07:08:37Z" finished-at="2015-10-06T07:08:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=slidertest status=SKIP method=HolidayPagesTest.slidertest()[pri:2, instance:com.via.holiday.pages.HolidayPagesTest@12843fce] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.via.holiday.pages.HolidayPagesTest.slidertest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="SKIP" signature="exit()[pri:0, instance:com.via.holiday.pages.HolidayPagesTest@12843fce]" name="exit" is-config="true" duration-ms="0" started-at="2015-10-06T07:08:37Z" finished-at="2015-10-06T07:08:37Z">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->

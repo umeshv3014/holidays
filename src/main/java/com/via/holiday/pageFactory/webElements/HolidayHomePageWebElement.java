@@ -50,10 +50,13 @@ public class HolidayHomePageWebElement{
 	@FindBy(how = How.XPATH, using = ".//button[contains(text(),'SEARCH')]")
 	public WebElement srchBTN;
 
-	@FindBy(how = How.XPATH, using = "")
+	@FindBy(how = How.XPATH, using = "//*[@id='packages-collection']//a/img")
 	public List<WebElement> pcImage;
 
-	@FindBy(how = How.XPATH, using = "")
-	public List<WebElement> pcImage2;
+	@FindBy(how = How.XPATH, using = "//*[@id='featuredPackages']//img")
+	public List<WebElement> hdimage;
+	
+	@FindBy(how = How.XPATH, using = "//a/span[contains(text(),'Holiday')]")
+	public WebElement backToHolidayPage;
 
 }
