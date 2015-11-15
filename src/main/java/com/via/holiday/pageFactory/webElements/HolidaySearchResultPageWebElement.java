@@ -328,6 +328,24 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Inside Cabin']/following-sibling::label/span[3]")
 	public WebElement insideCabinTotalPkg;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='Deluxe Ocean View Cabin']/following-sibling::label/span[1]")
+	public WebElement DOVCcabinCheckBox;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='Deluxe Ocean View Cabin']/following-sibling::label/span[2]")
+	public WebElement DOVCcabinText;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='Deluxe Ocean View Cabin']/following-sibling::label/span[3]")
+	public WebElement DOVCcabinTotalPkg;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='Outside/Ocean View Cabin']/following-sibling::label/span[1]")
+	public WebElement OOVCcabinCheckBox;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='Outside/Ocean View Cabin']/following-sibling::label/span[2]")
+	public WebElement OOVCcabinText;
+
+	@FindBy(how = How.XPATH, using = "//*[@id='Outside/Ocean View Cabin']/following-sibling::label/span[3]")
+	public WebElement OOVCcabinTotalPkg;
 
 	@FindBy(how = How.CSS, using = ".row.list")
 	public WebElement getTotalPackage;

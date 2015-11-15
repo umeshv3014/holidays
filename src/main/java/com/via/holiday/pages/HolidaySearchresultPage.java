@@ -858,6 +858,107 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		}
 
 		// Inside Cabin test end
+		
+//Deluxe Ocean View Cabin test
+
+		public void selectStarRatingDOVCcabin() {
+			if (hsrpwe.DOVCcabinCheckBox != null) {
+				try {
+					hsrpwe.DOVCcabinCheckBox.click();
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+
+		public void getStarRatingDOVCcabinText() {
+			if (hsrpwe.DOVCcabinText != null) {
+				try {
+					String docvc = hsrpwe.DOVCcabinText.getText();
+					Assert.assertEquals("Deluxe Ocean View Cabin", docvc);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+
+		public int getStarRatingDOVCcabinTotalPkg() {
+			int tot = 0;
+			if (hsrpwe.DOVCcabinTotalPkg != null) {
+				try {
+					String total = hsrpwe.DOVCcabinTotalPkg.getText();
+					String trimto = total.trim().replaceAll("\\W", "");
+					tot = Integer.parseInt(trimto);
+					logger.info("toal filte pkg " + tot);
+					int totalpk = hsrpwe.nuOfPackages.size();
+					logger.info("toal filte pkg " + totalpk);
+					Assert.assertEquals(totalpk, tot);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+			return tot;
+
+		}
+
+		// Deluxe Ocean View Cabin test end
+
+
+//Outside/Ocean View Cabin test
+
+		public void selectStarRatingOOVCcabin() {
+			if (hsrpwe.OOVCcabinCheckBox != null) {
+				try {
+					hsrpwe.OOVCcabinCheckBox.click();
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+
+		public void getStarRatingOOVCcabinText() {
+			if (hsrpwe.OOVCcabinText != null) {
+				try {
+					String OOVC = hsrpwe.OOVCcabinText.getText();
+					Assert.assertEquals("Outside/Ocean View Cabin", OOVC);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+
+		public int getStarRatingOOVCcabinTotalPkg() {
+			int tot = 0;
+			if (hsrpwe.OOVCcabinTotalPkg != null) {
+				try {
+					String total = hsrpwe.OOVCcabinTotalPkg.getText();
+					String trimto = total.trim().replaceAll("\\W", "");
+					tot = Integer.parseInt(trimto);
+					logger.info("toal filte pkg " + tot);
+					int totalpk = hsrpwe.nuOfPackages.size();
+					logger.info("toal filte pkg " + totalpk);
+					Assert.assertEquals(totalpk, tot);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+			return tot;
+
+		}
+
+		// Outside/Ocean View Cabin test end
 
 	// going for test
 

@@ -117,6 +117,18 @@ public class searchResultPageActions extends HolidaySearchresultPage {
 				super.getStarRatingInsideCabinTotalPkg();
 				super.show_All();
 				Thread.sleep(1000);
+			}else if (gettext.equals("Deluxe Ocean View Cabin")){
+				super.selectStarRatingDOVCcabin();
+				super.getStarRatingDOVCcabinText();
+				super.getStarRatingDOVCcabinTotalPkg();
+				super.show_All();
+				Thread.sleep(1000);
+			}else if (gettext.equals("Outside/Ocean View Cabin")){
+				super.selectStarRatingOOVCcabin();
+				super.getStarRatingOOVCcabinText();
+				super.getStarRatingOOVCcabinTotalPkg();
+				super.show_All();
+				Thread.sleep(1000);
 			}
 		}
 	}
