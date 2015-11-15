@@ -116,39 +116,39 @@ public class HolidayPagesTest extends SeleniumBase {
 //	 * filter test  on holiday search result page.
 //	 */
 	@Test(priority = 4)
-	public void starRatingFilterTest() {
+	public void starRatingFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.starRatingFilter();
 	}
-//
+
+	@Test(priority = 5)
+	public void goingForFilterTest() throws InterruptedException {
+		srpa = new searchResultPageActions(driver);
+		srpa.goingForFilter();
+	}
+
 //	@Test(priority = 6)
-//	public void goingForFilterTest() {
-//		srpa = new searchResultPageActions(driver);
-//		srpa.goingForFilter();
-//	}
-//
-//	@Test(priority = 7)
-//	public void flightFilterTest() {
+//	public void flightFilterTest() throws InterruptedException {
 //		srpa = new searchResultPageActions(driver);
 //		srpa.flightFilter();
 //	}
 //
-//	@Test(priority = 8)
-//	public void transferFilterTest() {
+//	@Test(priority = 7)
+//	public void transferFilterTest() throws InterruptedException {
 //		srpa = new searchResultPageActions(driver);
 //		srpa.transferFilter();
 //	}
 //
-//	@Test(priority = 9)
-//	public void sightseeingFilterTest() {
+//	@Test(priority = 8)
+//	public void sightseeingFilterTest() throws InterruptedException {
 //		srpa = new searchResultPageActions(driver);
 //		srpa.sightseeingFilter();
 //	}
-//
-//	@AfterMethod(alwaysRun = true)
-//	public void takeScreenShotOnFailure(ITestResult testResult,
-//			Method methodName) throws IOException {
-//		tess = new TakeErrorScreenShot(driver);
-//		tess.takeScreenShotOnFailure(testResult, methodName);
-//	}
+
+	@AfterMethod(alwaysRun = true)
+	public void takeScreenShotOnFailure(ITestResult testResult,
+			Method methodName) throws IOException {
+		tess = new TakeErrorScreenShot(driver);
+		tess.takeScreenShotOnFailure(testResult, methodName);
+	}
 }

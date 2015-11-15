@@ -548,6 +548,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.budgetTotlaPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -596,6 +597,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.starTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -610,14 +612,40 @@ public class HolidaySearchresultPage extends SeleniumBase {
 	}
 
 	// end star rating test
-
-	public int getselectedStarRatingLuxuryTotalPkg() {
-		int tot = 0;
+	
+	// luxury
+	public void selectStarRatingluxury() {
 		if (hsrpwe.luxuryCheckBox != null) {
 			try {
-				String total = hsrpwe.luxuryCheckBox.getText();
+				hsrpwe.luxuryCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void getStarRatingluxuryText() {
+		if (hsrpwe.luxuryText != null) {
+			try {
+				String luxury = hsrpwe.luxuryText.getText();
+				Assert.assertEquals("Luxury", luxury);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+	public int getselectedStarRatingLuxuryTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.luxuryTotalPkg != null) {
+			try {
+				String total = hsrpwe.luxuryTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -630,6 +658,56 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		return tot;
 
 	}
+	
+	//end luxury
+
+	// Super luxury
+		public void selectStarRatingSuperluxury() {
+			if (hsrpwe.superLuxuryCheckBox != null) {
+				try {
+					hsrpwe.superLuxuryCheckBox.click();
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+
+		public void getStarRatingSuperLuxuryText() {
+			if (hsrpwe.superLuxuryText != null) {
+				try {
+					String superluxury = hsrpwe.superLuxuryText.getText();
+					Assert.assertEquals("Super Luxury", superluxury);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+		public int getselectedStarRatingSuperLuxuryTotalPkg() {
+			int tot = 0;
+			if (hsrpwe.superLuxuryTotalPkg != null) {
+				try {
+					String total = hsrpwe.superLuxuryTotalPkg.getText();
+					String trimto = total.trim().replaceAll("\\W", "");
+					tot = Integer.parseInt(trimto);
+					logger.info("toal filte pkg " + tot);
+					int totalpk = hsrpwe.nuOfPackages.size();
+					logger.info("toal filte pkg " + totalpk);
+					Assert.assertEquals(totalpk, tot);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+			return tot;
+
+		}
+		
+		//end super luxury
 
 	// deluxe test
 
@@ -646,9 +724,9 @@ public class HolidaySearchresultPage extends SeleniumBase {
 	}
 
 	public void getStarRatingDeluxeText() {
-		if (hsrpwe.deluxeCheckBox != null) {
+		if (hsrpwe.deluxeText != null) {
 			try {
-				String deluxe = hsrpwe.deluxeCheckBox.getText();
+				String deluxe = hsrpwe.deluxeText.getText();
 				Assert.assertEquals("Deluxe", deluxe);
 			} catch (NoSuchElementException e) {
 				logger.error(
@@ -660,11 +738,12 @@ public class HolidaySearchresultPage extends SeleniumBase {
 
 	public int getStarRatingDeluxTotalPkg() {
 		int tot = 0;
-		if (hsrpwe.deluxeCheckBox != null) {
+		if (hsrpwe.deluxeTotlaPkg != null) {
 			try {
-				String total = hsrpwe.deluxeCheckBox.getText();
+				String total = hsrpwe.deluxeTotlaPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -679,6 +758,106 @@ public class HolidaySearchresultPage extends SeleniumBase {
 	}
 
 	// deluxe test end
+	
+//Super deluxe test
+
+	public void selectStarRatingSuperDeluxe() {
+		if (hsrpwe.superDeluxeCheckBox != null) {
+			try {
+				hsrpwe.superDeluxeCheckBox.click();
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public void getStarRatingsuperDeluxeText() {
+		if (hsrpwe.superDeluxeText != null) {
+			try {
+				String suprerdeluxe = hsrpwe.superDeluxeText.getText();
+				Assert.assertEquals("Super Deluxe", suprerdeluxe);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+	}
+
+	public int getStarRatingsuperDeluxeTotalPkg() {
+		int tot = 0;
+		if (hsrpwe.superDeluxeTotlaPkg != null) {
+			try {
+				String total = hsrpwe.superDeluxeTotlaPkg.getText();
+				String trimto = total.trim().replaceAll("\\W", "");
+				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
+				int totalpk = hsrpwe.nuOfPackages.size();
+				logger.info("toal filte pkg " + totalpk);
+				Assert.assertEquals(totalpk, tot);
+			} catch (NoSuchElementException e) {
+				logger.error(
+						"Not able to locate the webelement, please check the xpath",
+						e);
+			}
+		}
+		return tot;
+
+	}
+
+	// Super deluxe test end
+
+	// Inside Cabin test
+
+		public void selectStarRatingInsideCabin() {
+			if (hsrpwe.insideCabinCheckBox != null) {
+				try {
+					hsrpwe.insideCabinCheckBox.click();
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+
+		public void getStarRatingInsideCabinText() {
+			if (hsrpwe.insideCabinText != null) {
+				try {
+					String insidecabin = hsrpwe.insideCabinText.getText();
+					Assert.assertEquals("Inside Cabin", insidecabin);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+		}
+
+		public int getStarRatingInsideCabinTotalPkg() {
+			int tot = 0;
+			if (hsrpwe.insideCabinTotalPkg != null) {
+				try {
+					String total = hsrpwe.insideCabinTotalPkg.getText();
+					String trimto = total.trim().replaceAll("\\W", "");
+					tot = Integer.parseInt(trimto);
+					logger.info("toal filte pkg " + tot);
+					int totalpk = hsrpwe.nuOfPackages.size();
+					logger.info("toal filte pkg " + totalpk);
+					Assert.assertEquals(totalpk, tot);
+				} catch (NoSuchElementException e) {
+					logger.error(
+							"Not able to locate the webelement, please check the xpath",
+							e);
+				}
+			}
+			return tot;
+
+		}
+
+		// Inside Cabin test end
 
 	// going for test
 
@@ -715,6 +894,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.anyTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -763,6 +943,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.weekendHolidaysTotlaPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -811,6 +992,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.ShortHolidayTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -859,6 +1041,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.longHolidayTotlaPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -911,6 +1094,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.withFlightsTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -959,6 +1143,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.withoutFlightTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -1011,6 +1196,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.withTransferTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -1059,6 +1245,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.withoutTransferTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -1111,6 +1298,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.withsightseeingTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);
@@ -1159,6 +1347,7 @@ public class HolidaySearchresultPage extends SeleniumBase {
 				String total = hsrpwe.withoutsightseeingTotalPkg.getText();
 				String trimto = total.trim().replaceAll("\\W", "");
 				tot = Integer.parseInt(trimto);
+				logger.info("toal filte pkg " + tot);
 				int totalpk = hsrpwe.nuOfPackages.size();
 				logger.info("toal filte pkg " + totalpk);
 				Assert.assertEquals(totalpk, tot);

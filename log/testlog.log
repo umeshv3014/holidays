@@ -1832,3 +1832,646 @@ Driver info: driver.version: unknown
 2015-11-14 16:31:09,631 - com.via.base.util.SeleniumBase -INFO - true
 2015-11-14 16:33:20,648 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 7
 2015-11-14 16:33:20,657 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 17:21:30,054 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:21:35,285 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:21:53,703 - com.via.base.util.SeleniumBase -INFO - Kerala
+2015-11-14 17:21:53,836 - com.via.base.util.SeleniumBase -INFO - 3
+2015-11-14 17:21:53,837 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 17:21:55,043 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 17:21:55,044 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:21:57,549 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 17:21:57,673 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 23
+2015-11-14 17:21:58,962 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 17:22:00,678 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 17:22:00,679 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:22:00,680 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 17:22:00,808 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 17:22:00,809 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:22:03,728 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 7
+2015-11-14 17:22:03,798 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 7
+2015-11-14 17:25:31,869 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:25:37,558 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:25:50,457 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-14 17:25:50,534 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 17:25:50,535 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 17:25:50,651 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 17:25:50,652 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:25:52,535 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 17:25:52,598 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 17:25:53,243 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 17:25:54,659 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-14 17:25:54,663 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:25:54,664 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 17:25:55,166 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 17:25:55,169 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:25:56,856 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 17:25:56,944 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 17:25:57,575 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-14 17:25:58,450 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 17:25:58,451 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:37:45,627 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:37:55,602 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:38:08,448 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-14 17:38:08,529 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 17:38:08,530 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 17:38:08,641 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 17:38:08,642 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:38:10,464 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 17:38:10,531 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 17:38:12,177 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 17:38:13,479 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-14 17:38:13,480 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:38:13,481 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 17:38:13,599 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 17:38:13,600 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:38:14,781 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 17:38:14,841 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 17:38:16,571 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-14 17:38:18,568 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 17:38:18,570 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:44:51,856 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:44:55,626 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 17:45:38,845 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-14 17:45:38,904 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 17:45:38,915 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 17:45:39,050 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 17:45:39,051 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:45:41,685 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 17:45:41,717 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 17:45:44,516 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 17:45:47,865 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-14 17:45:47,866 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:45:47,867 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 17:45:54,608 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 17:45:54,609 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 17:46:01,281 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 17:46:01,351 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 17:46:04,119 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-14 17:46:05,263 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 17:46:05,264 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:15:15,369 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 19:15:19,771 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 19:15:35,874 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-14 19:16:03,814 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 19:17:03,343 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 19:17:20,942 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 19:18:00,945 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:19:11,798 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 19:19:20,271 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 19:19:22,166 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 19:19:26,740 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:24:01,244 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:24:10,847 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:25:23,887 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 19:25:32,337 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-14 19:25:46,692 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:27:36,611 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 19:27:48,242 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 19:27:51,535 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 19:27:53,791 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:28:20,926 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:28:23,260 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:28:53,401 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 19:29:01,425 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-14 19:29:06,666 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:29:35,008 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 19:29:35,069 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 19:30:06,426 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 19:30:10,733 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 19:30:14,862 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:30:31,430 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:31:02,401 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-14 19:31:04,339 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 19:31:05,629 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:31:14,962 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:31:15,029 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:35:31,254 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 19:35:36,018 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 19:35:50,841 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-14 19:35:50,954 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 19:35:50,955 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 19:35:51,108 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 19:35:51,109 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:35:54,910 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:35:54,976 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:35:57,761 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 19:36:01,461 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-14 19:36:01,462 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:36:02,961 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 19:36:03,022 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 19:36:05,694 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 19:36:07,525 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 19:36:07,526 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:36:10,034 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:36:10,748 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-14 19:36:12,947 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 19:36:12,948 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:36:14,291 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:36:14,354 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:48:03,736 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 19:48:10,424 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-14 19:48:51,753 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-14 19:48:55,992 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 19:48:55,993 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-14 19:48:56,264 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-14 19:48:56,265 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:01,397 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:49:01,549 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:49:04,195 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-14 19:49:07,470 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-14 19:49:07,471 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:09,856 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 19:49:09,906 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-14 19:49:12,561 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-14 19:49:17,716 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-14 19:49:17,717 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:20,157 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-14 19:49:21,794 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-14 19:49:30,372 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-14 19:49:30,373 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:31,864 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:49:31,916 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:49:36,190 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-14 19:49:36,191 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2015-11-14 19:49:36,321 - com.via.base.util.SeleniumBase -INFO - Any
+2015-11-14 19:49:36,323 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:41,302 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 19
+2015-11-14 19:49:41,309 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-14 19:49:46,798 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-14 19:49:46,798 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2015-11-14 19:49:46,882 - com.via.base.util.SeleniumBase -INFO - With Flight
+2015-11-14 19:49:46,883 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:48,432 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:49:48,436 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-14 19:49:49,643 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-14 19:49:49,644 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2015-11-14 19:49:49,742 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2015-11-14 19:49:49,742 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:50,668 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:49:50,673 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-14 19:49:52,411 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-14 19:49:52,412 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2015-11-14 19:49:53,072 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2015-11-14 19:49:53,073 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-14 19:49:54,604 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-14 19:49:54,607 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-15 06:55:52,018 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 06:55:59,396 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 06:56:12,824 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-15 06:56:49,977 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 06:56:49,978 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 06:56:50,140 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 06:56:50,142 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 06:58:01,130 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 06:58:06,389 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 06:58:10,973 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 06:58:11,309 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 06:58:11,310 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:01:53,072 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:01:58,776 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:02:09,926 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-15 07:02:10,010 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 07:02:10,012 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 07:02:10,262 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 07:02:10,263 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:02:11,939 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:02:12,007 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:02:14,715 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 07:02:14,873 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 07:02:14,874 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:02:16,321 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:02:16,391 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:02:20,072 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 07:02:20,588 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 07:02:20,588 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:02:22,122 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:02:22,193 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:02:24,894 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 07:02:25,076 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 07:02:25,077 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:02:25,985 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:02:26,045 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:24:33,522 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:24:38,752 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:24:51,698 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-15 07:25:02,431 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 07:25:14,060 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 07:25:14,403 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 07:25:14,404 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:25:36,352 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 07:25:47,158 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:25:48,298 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:25:52,212 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 07:25:52,758 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 07:25:52,759 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:26:14,779 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 07:26:15,726 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:26:15,787 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:26:18,912 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 07:26:19,046 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 07:26:19,047 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:26:39,582 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 07:26:41,320 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:26:41,995 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 07:26:44,245 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 07:26:44,246 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:27:07,523 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 07:27:09,545 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:27:09,684 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:42:54,592 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:43:00,402 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:43:15,357 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-15 07:43:15,466 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 07:43:56,251 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 07:43:56,673 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 07:43:56,674 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:43:56,676 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 07:44:32,803 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:44:32,873 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:44:36,058 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 07:44:37,204 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 07:44:37,209 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:44:37,210 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 07:44:38,221 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:44:38,284 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:44:40,968 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 07:44:41,226 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 07:44:41,227 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:44:41,228 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 07:44:42,443 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:44:43,148 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 07:44:45,921 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 07:44:45,922 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:44:45,923 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 07:44:47,061 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:44:47,159 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:45:10,191 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 07:45:18,131 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2015-11-15 07:45:18,963 - com.via.base.util.SeleniumBase -INFO - Any
+2015-11-15 07:45:18,964 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:45:39,443 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 19
+2015-11-15 07:45:39,461 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-15 07:52:53,491 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:52:58,645 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 07:53:10,486 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-15 07:53:10,624 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 07:53:10,626 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 07:53:10,880 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 07:53:10,881 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:10,884 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 07:53:12,818 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:53:12,876 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:53:15,574 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 07:53:17,123 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 07:53:17,124 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:17,125 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 07:53:18,508 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:53:18,587 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 07:53:21,707 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 07:53:21,847 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 07:53:21,847 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:21,849 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 07:53:23,828 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 07:53:24,541 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 07:53:26,828 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 07:53:26,830 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:26,830 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 07:53:27,933 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:53:27,993 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:53:30,897 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 07:53:30,898 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2015-11-15 07:53:31,056 - com.via.base.util.SeleniumBase -INFO - Any
+2015-11-15 07:53:31,057 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:31,512 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 19
+2015-11-15 07:53:33,695 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2015-11-15 07:53:34,073 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2015-11-15 07:53:34,074 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:36,714 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 18
+2015-11-15 07:53:39,468 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[3]//span[2]
+2015-11-15 07:53:39,620 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2015-11-15 07:53:39,621 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:40,859 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:53:43,508 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[4]//span[2]
+2015-11-15 07:53:43,644 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2015-11-15 07:53:43,644 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 07:53:45,115 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 07:53:45,121 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-15 08:26:53,165 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 08:26:57,890 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 08:27:08,904 - com.via.base.util.SeleniumBase -INFO - Maharashtra
+2015-11-15 08:27:09,388 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 08:27:09,390 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 08:27:09,560 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 08:27:09,562 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:27:09,563 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 08:27:12,182 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 08:27:12,241 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 08:27:14,936 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 08:27:15,953 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 08:27:15,954 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:27:15,955 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 08:27:16,966 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 08:27:17,436 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 08:27:20,590 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 08:27:20,958 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 08:27:20,959 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:27:20,960 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 08:27:23,102 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 8
+2015-11-15 08:27:23,873 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 08:27:25,728 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 08:27:25,729 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:27:25,730 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 08:27:27,312 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 08:27:27,363 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 08:27:30,212 - com.via.base.util.SeleniumBase -INFO - 4
+2015-11-15 08:27:30,213 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2015-11-15 08:27:30,341 - com.via.base.util.SeleniumBase -INFO - Any
+2015-11-15 08:27:30,342 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:27:30,636 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 19
+2015-11-15 08:27:32,746 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2015-11-15 08:27:32,876 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2015-11-15 08:27:32,877 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:27:36,171 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 18
+2015-11-15 08:27:39,393 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[3]//span[2]
+2015-11-15 08:27:39,528 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2015-11-15 08:27:39,529 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:27:40,528 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 08:27:43,208 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[4]//span[2]
+2015-11-15 08:27:43,687 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2015-11-15 08:27:43,688 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 08:28:35,406 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 0
+2015-11-15 22:03:55,225 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:04:00,384 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:06:14,369 - com.via.base.util.SeleniumBase -INFO - Honeymoon Packages
+2015-11-15 22:06:14,596 - com.via.base.util.SeleniumBase -INFO - 11
+2015-11-15 22:06:14,597 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 22:06:14,904 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:06:14,905 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:06:14,906 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:06:17,562 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:06:17,622 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:06:21,906 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 22:06:46,597 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:06:46,598 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:06:46,599 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:06:59,935 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:07:00,082 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:07:04,481 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 22:07:24,039 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:07:24,040 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:07:24,041 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:07:29,548 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:07:34,232 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 22:07:47,944 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:07:47,945 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:07:47,945 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:07:50,818 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:07:50,896 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:07:55,199 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[5]//span[2]
+2015-11-15 22:08:06,169 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:08:06,170 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:08:06,170 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:08:11,968 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:08:12,086 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:08:17,183 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[6]//span[2]
+2015-11-15 22:08:27,963 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:08:27,963 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:08:27,964 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:08:27,965 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[7]//span[2]
+2015-11-15 22:08:28,221 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:08:28,221 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:08:28,222 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:08:30,989 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:08:31,094 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:08:35,561 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[8]//span[2]
+2015-11-15 22:08:41,139 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:08:41,140 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:08:41,140 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:08:42,763 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-15 22:12:03,181 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:12:07,891 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:13:32,314 - com.via.base.util.SeleniumBase -INFO - Honeymoon Packages
+2015-11-15 22:13:32,536 - com.via.base.util.SeleniumBase -INFO - 11
+2015-11-15 22:13:32,537 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 22:13:32,819 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:13:32,820 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:13:32,821 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:13:35,787 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:13:35,852 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:13:40,874 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 22:13:54,920 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:13:54,923 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:13:54,924 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:14:02,223 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:14:02,355 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:14:07,201 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 22:14:16,765 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:14:16,766 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:14:16,767 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:14:19,059 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:14:23,561 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 22:14:33,019 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:14:33,020 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:14:33,020 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:14:35,824 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:14:35,967 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:14:41,542 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[5]//span[2]
+2015-11-15 22:14:46,733 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:14:46,733 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:14:46,734 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:14:49,776 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:14:49,877 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:14:55,030 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[6]//span[2]
+2015-11-15 22:15:00,018 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:15:00,019 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:15:00,019 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:15:02,079 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 17
+2015-11-15 22:15:07,686 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[7]//span[2]
+2015-11-15 22:15:11,752 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:15:11,753 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:15:11,754 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:15:14,532 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:15:14,630 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:15:19,574 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[8]//span[2]
+2015-11-15 22:15:23,405 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:15:23,406 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:15:23,407 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:15:24,547 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-15 22:21:54,270 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:21:59,077 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:24:07,370 - com.via.base.util.SeleniumBase -INFO - Honeymoon Packages
+2015-11-15 22:24:07,596 - com.via.base.util.SeleniumBase -INFO - 11
+2015-11-15 22:24:07,597 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 22:24:07,837 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:24:07,838 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:24:07,838 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:24:11,224 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:24:11,283 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:24:16,095 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 22:25:03,944 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:25:03,946 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:25:03,947 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:25:13,905 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:25:14,044 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:25:19,319 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 22:26:10,295 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:26:10,296 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:26:10,297 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:26:13,951 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:26:14,037 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:26:18,300 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 22:27:03,320 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:27:03,321 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:27:03,322 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:27:07,433 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:27:07,512 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:27:12,551 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[5]//span[2]
+2015-11-15 22:29:00,335 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:29:00,336 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:29:00,337 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:29:08,899 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:29:08,995 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:29:14,005 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[6]//span[2]
+2015-11-15 22:29:36,818 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:29:36,819 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:29:36,820 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:29:40,931 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 17
+2015-11-15 22:29:45,447 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[7]//span[2]
+2015-11-15 22:29:55,006 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:29:55,007 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:29:55,008 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:30:00,842 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:30:00,943 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:30:05,251 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[8]//span[2]
+2015-11-15 22:30:18,146 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:30:18,147 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:30:18,148 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:30:19,231 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 22:30:19,237 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-15 22:35:58,241 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:36:05,086 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:37:51,346 - com.via.base.util.SeleniumBase -INFO - Honeymoon Packages
+2015-11-15 22:37:51,549 - com.via.base.util.SeleniumBase -INFO - 11
+2015-11-15 22:37:51,550 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 22:37:51,757 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:37:51,758 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:37:51,758 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:37:53,591 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:37:53,669 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:37:57,932 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 22:38:14,517 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:38:14,518 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:38:14,519 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:38:32,833 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:38:32,966 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:38:37,997 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 22:40:20,834 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:40:20,835 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:40:20,836 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:40:28,903 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:40:28,991 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:40:33,716 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 22:41:09,112 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:41:09,113 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:41:09,113 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:41:12,343 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:41:12,422 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:41:18,093 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[5]//span[2]
+2015-11-15 22:41:53,850 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:41:53,851 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:41:53,858 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:41:58,060 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:41:58,165 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:42:03,161 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[6]//span[2]
+2015-11-15 22:42:22,120 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:42:22,121 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:42:22,122 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:42:24,729 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 17
+2015-11-15 22:42:24,802 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 17
+2015-11-15 22:42:29,416 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[7]//span[2]
+2015-11-15 22:42:44,765 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:42:44,766 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:42:44,767 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:42:50,713 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:42:51,138 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:42:55,659 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[8]//span[2]
+2015-11-15 22:43:05,588 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:43:05,589 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:43:05,590 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:43:07,207 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 22:43:07,265 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 22:43:12,299 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[9]//span[2]
+2015-11-15 22:43:23,094 - com.via.base.util.SeleniumBase -INFO - Luxury
+2015-11-15 22:43:23,094 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:43:23,095 - com.via.base.util.SeleniumBase -INFO - Luxury
+2015-11-15 22:43:26,613 - com.via.base.util.SeleniumBase -INFO - 2
+2015-11-15 22:50:17,607 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:50:22,451 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2015-11-15 22:54:03,498 - com.via.base.util.SeleniumBase -INFO - Honeymoon Packages
+2015-11-15 22:54:03,763 - com.via.base.util.SeleniumBase -INFO - 11
+2015-11-15 22:54:03,764 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2015-11-15 22:54:04,048 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:54:04,050 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:54:04,052 - com.via.base.util.SeleniumBase -INFO - 2 Star
+2015-11-15 22:54:07,104 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:54:07,163 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 10
+2015-11-15 22:54:10,712 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2015-11-15 22:55:04,960 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:55:04,962 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:55:04,963 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2015-11-15 22:55:19,362 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:55:19,487 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 105
+2015-11-15 22:55:23,091 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2015-11-15 22:55:48,061 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:55:48,063 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:55:48,064 - com.via.base.util.SeleniumBase -INFO - Budget
+2015-11-15 22:55:51,196 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:55:51,278 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 37
+2015-11-15 22:55:55,081 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2015-11-15 22:56:15,675 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:56:15,676 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:56:15,677 - com.via.base.util.SeleniumBase -INFO - 5 Star
+2015-11-15 22:56:18,236 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:56:18,316 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 38
+2015-11-15 22:56:22,221 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[5]//span[2]
+2015-11-15 22:56:38,160 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:56:38,161 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:56:38,162 - com.via.base.util.SeleniumBase -INFO - Standard
+2015-11-15 22:56:41,870 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:56:41,969 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 52
+2015-11-15 22:56:45,518 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[6]//span[2]
+2015-11-15 22:57:02,941 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:57:02,942 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:57:02,942 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2015-11-15 22:57:07,224 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 17
+2015-11-15 22:57:07,290 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 17
+2015-11-15 22:57:11,224 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[7]//span[2]
+2015-11-15 22:57:18,502 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:57:18,503 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:57:18,504 - com.via.base.util.SeleniumBase -INFO - 4 Star
+2015-11-15 22:57:22,192 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:57:22,288 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 47
+2015-11-15 22:57:25,609 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[8]//span[2]
+2015-11-15 22:57:30,647 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:57:30,648 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:57:30,649 - com.via.base.util.SeleniumBase -INFO - Super Deluxe
+2015-11-15 22:57:31,716 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 22:57:31,763 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 2
+2015-11-15 22:57:35,426 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[9]//span[2]
+2015-11-15 22:57:45,412 - com.via.base.util.SeleniumBase -INFO - Luxury
+2015-11-15 22:57:45,413 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:57:45,413 - com.via.base.util.SeleniumBase -INFO - Luxury
+2015-11-15 22:57:47,311 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 3
+2015-11-15 22:57:47,372 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 3
+2015-11-15 22:57:50,663 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[10]//span[2]
+2015-11-15 22:58:00,275 - com.via.base.util.SeleniumBase -INFO - Super Luxury
+2015-11-15 22:58:00,275 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:58:00,276 - com.via.base.util.SeleniumBase -INFO - Super Luxury
+2015-11-15 22:58:02,601 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 22:58:02,692 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 22:58:06,962 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[11]//span[2]
+2015-11-15 22:58:15,862 - com.via.base.util.SeleniumBase -INFO - Inside Cabin
+2015-11-15 22:58:15,863 - com.via.base.util.SeleniumBase -INFO - true
+2015-11-15 22:58:15,863 - com.via.base.util.SeleniumBase -INFO - Inside Cabin
+2015-11-15 22:58:17,938 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
+2015-11-15 22:58:17,987 - com.via.base.util.SeleniumBase -INFO - toal filte pkg 1
