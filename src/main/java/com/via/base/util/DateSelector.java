@@ -1,18 +1,19 @@
 package com.via.base.util;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 
 public class DateSelector {
-	Date date = new Date();
-	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-	
-	public String getCurrDate(){
-			String crdate = sdf.format(date);
-			return crdate;
-	}
-	
-	public String SetDate(int dd, int mm, int yyyy){
-		return this.getCurrDate();
+	GregorianCalendar calender = new GregorianCalendar();
+	public String clickDateOnCalender() {
+		String we = "*//td/a[contains(@title,'Select "
+				+ new SimpleDateFormat("EEEE").format(calender.getTime())
+				+ ", " + new SimpleDateFormat("MMM").format(calender.getTime())
+				+ " " + calender.get(Calendar.DAY_OF_MONTH) + ", "
+				+ calender.get(Calendar.YEAR) + "')]";
+		return we;
+
 	}
 }

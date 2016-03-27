@@ -61,7 +61,7 @@ public class HolidayBookCalenderModelPanel extends SeleniumBase {
 	public boolean dateModelPanel() {
 		if (hbcmpwe.dateModalPanel != null) {
 			try {
-				hbcmpwe.dateModalPanel.isDisplayed();
+				hbcmpwe.dateAndpriceBookPanel();
 			} catch (NoSuchElementException e) {
 				logger.error(
 						"Not able to locate the webelement, please check the xpath",

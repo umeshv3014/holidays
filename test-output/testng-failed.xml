@@ -6,7 +6,9 @@
       <class name="com.via.holiday.pages.HolidayPagesTest">
         <methods>
           <include name="openViaHomepage"/>
-          <include name="starRatingFilterTest"/>
+          <include name="holidayHomePage_UI_Content_images_Test"/>
+          <include name="destinationPkgTest" invocation-numbers="0"/>
+          <include name="flightFilterTest"/>
           <include name="takeScreenShotOnFailure"/>
           <include name="exit"/>
         </methods>

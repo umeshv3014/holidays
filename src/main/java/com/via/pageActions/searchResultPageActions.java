@@ -13,239 +13,210 @@ public class searchResultPageActions extends HolidaySearchresultPage {
 		super(driver);
 	}
 
-	public void sendHolidayEnquiry(String name, String email, String mobileNu,
-			String date, String originCity, String duration,
-			String tourRequirementAndPreference) {
-		super.selectSendEnqiry();
-		super.setNameSE(name);
-		super.setEmailSE(email);
-		super.setMobileNumberSE(mobileNu);
-		super.setdateSE(date);
-		super.setoriginCitySE(originCity);
-		super.setDurationSE(duration);
-		super.setTourRequirementAndPreference(tourRequirementAndPreference);
-		super.submitSE();
+	public void sendHolidayEnquiry(String name, String email,
+			String mobileNumber, String date, String originCity,
+			String duration, String tourRequirementAndPreference) {
+		hsrpwe.selectSendEnquiry();
+		hsrpwe.setSendEnquiryname(name);
+		hsrpwe.setSendEnquiryEmail(email);
+		hsrpwe.setSendEnquiryMobileNumber(mobileNumber);
+		hsrpwe.setSendEnquiryDate();
+		hsrpwe.setSendEnquiryCityName(originCity);
+		hsrpwe.setSendEnquiryDuration(duration);
+		hsrpwe.setSendEnquirycomments(tourRequirementAndPreference);
+		hsrpwe.submitSendEnquiry();
 	}
 
-	public void SendHolidayEnquiry(String name, String email,
-			String mobileNu, String date, String originCity, String duration,
+	public void SendHolidayEnquiry(String name, String email, String mobileNu,
+			String date, String originCity, String duration,
 			String tourRequirementAndPreference) {
-		    super.sendEnquiry();
-		    this.sendHolidayEnquiry(name, email, mobileNu, date, originCity,
-		    duration, tourRequirementAndPreference);
+		super.sendEnquiry();
+		this.sendHolidayEnquiry(name, email, mobileNu, date, originCity,
+				duration, tourRequirementAndPreference);
 		super.holidyasThumbImages();
 	}
-	
-	public void destinationDataMatching(String destinationCity){
+
+	public void destinationDataMatching(String destinationCity) {
 		super.destinationCityDataMatching(destinationCity);
 	}
 
 	public void starRatingFilter() throws InterruptedException {
-		int count = hsrpwe.starRatingText.size();
-		logger.info(count);
 		List<String> str = new ArrayList<String>();
-		for (int i = 1; i <= count; i++) {
-			String path = (super.getKeyValue("starRatingText") + i + super.getKeyValue("filterText"));
+		for (int i = 1; i <= hsrpwe.totalStarRatingPackages(); i++) {
+			String path = (super.getKeyValue("starRatingText") + i + super
+					.getKeyValue("filterText"));
 			logger.info(path);
 			String text = super.getText(driver, "xpath", path);
 			logger.info(str.add(text));
-			String gettext = str.get(i - 1);
-			logger.info(gettext);
-			if (gettext.equals("Standard")) {
-				super.selectStarRatingStandard();
-				super.getStarRatingStandardText();
-				super.getselectStarRatingStandardTotalPkg();
-				super.show_All();
+			String getText = str.get(i - 1);
+			logger.info(getText);
+			if (getText.equals("Standard")) {
+				hsrpwe.selectStandard();
+				hsrpwe.getStandardText();
+				hsrpwe.getTotalStandartdpkg();
 				Thread.sleep(1000);
-			} else if (gettext.equals("Deluxe")) {
-				super.selectStarRatingDeluxe();
-				super.getStarRatingDeluxeText();
-				super.getStarRatingDeluxTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Deluxe")) {
+				hsrpwe.selectdeluxe();
+				hsrpwe.getdeluxeText();
+				hsrpwe.getdeluxeTotlaPkg();
 				Thread.sleep(1000);
-			} else if (gettext.equals("2 Star")) {
-				super.selectStarRatingStar_2();
-				super.getStarRatingStar_2_Text();
-				super.getselectStarRatingStar_2_TotalPkg();
-				super.show_All();
+			} else if (getText.equals("2 Star")) {
+				hsrpwe.select_2_star();
+				hsrpwe.get2StarText();
+				hsrpwe.getTotalStar_2();
 				Thread.sleep(1000);
-			} else if (gettext.equals("3 Star")) {
-				super.selectStarRatingStar_3();
-				super.getStarRatingStar_3_Text();
-				super.getselectStarRatingStar_3_TotalPkg();
-				super.show_All();
+			} else if (getText.equals("3 Star")) {
+				hsrpwe.select3Star();
+				hsrpwe.get3StarText();
+				hsrpwe.get3StarTotal();
 				Thread.sleep(1000);
-			} else if (gettext.equals("4 Star")) {
-				super.selectStarRatingStar_4();
-				super.getStarRatingStar_4_Text();
-				super.getselectStarRatingStar_4_TotalPkg();
-				super.show_All();
+			} else if (getText.equals("4 Star")) {
+				hsrpwe.select4Star();
+				hsrpwe.get4StarText();
+				hsrpwe.get4StarTotal();
 				Thread.sleep(1000);
-			} else if (gettext.equals("5 Star")) {
-				super.selectStarRatingStar_5();
-				super.getStarRatingStar_5_Text();
-				super.getselectStarRatingStar_5_TotalPkg();
-				super.show_All();
+			} else if (getText.equals("5 Star")) {
+				hsrpwe.select5Star();
+				hsrpwe.get5StarText();
+				hsrpwe.get5StarTotal();
 				Thread.sleep(1000);
-			} else if (gettext.equals("Budget")) {
-				super.selectStarRatingBudget();
-				super.getStarRatingBudgetText();
-				super.getselectedStarRatingBudgetTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Budget")) {
+				hsrpwe.selectBudget();
+				hsrpwe.getbudgetText();
+				hsrpwe.getbudgetTotlaPkg();
 				Thread.sleep(1000);
-			}else if (gettext.equals("Super Deluxe")){
-				super.selectStarRatingSuperDeluxe();
-				super.getStarRatingsuperDeluxeText();
-				super.getStarRatingsuperDeluxeTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Super Deluxe")) {
+				hsrpwe.selectSuperDeluxe();
+				hsrpwe.getsuperDeluxeText();
+				hsrpwe.getSuperDeluxeTotlaPkg();
 				Thread.sleep(1000);
-			}else if (gettext.equals("Luxury")){
-				super.selectStarRatingluxury();
-				super.getStarRatingluxuryText();
-				super.getselectedStarRatingLuxuryTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Luxury")) {
+				hsrpwe.selectLuxury();
+				hsrpwe.getluxuryText();
+				hsrpwe.getluxuryTotalPkg();
 				Thread.sleep(1000);
-			}else if (gettext.equals("Super Luxury")){
-				super.selectStarRatingSuperluxury();
-				super.getStarRatingSuperLuxuryText();
-				super.getselectedStarRatingSuperLuxuryTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Super Luxury")) {
+				hsrpwe.selectSuperLuxury();
+				hsrpwe.getsuperLuxuryText();
+				hsrpwe.getsuperLuxuryTotalPkg();
 				Thread.sleep(1000);
-			}else if (gettext.equals("Inside Cabin")){
-				super.selectStarRatingInsideCabin();
-				super.getStarRatingInsideCabinText();
-				super.getStarRatingInsideCabinTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Inside Cabin")) {
+				hsrpwe.selectinsideCabin();
+				hsrpwe.getinsideCabinText();
+				hsrpwe.getinsideCabinTotalPkg();
 				Thread.sleep(1000);
-			}else if (gettext.equals("Deluxe Ocean View Cabin")){
-				super.selectStarRatingDOVCcabin();
-				super.getStarRatingDOVCcabinText();
-				super.getStarRatingDOVCcabinTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Deluxe Ocean View Cabin")) {
+				hsrpwe.selectDovcCabin();
+				hsrpwe.getDOVCcabinText();
+				hsrpwe.getDOVCcabinTotalPkg();
 				Thread.sleep(1000);
-			}else if (gettext.equals("Outside/Ocean View Cabin")){
-				super.selectStarRatingOOVCcabin();
-				super.getStarRatingOOVCcabinText();
-				super.getStarRatingOOVCcabinTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Outside/Ocean View Cabin")) {
+				hsrpwe.selectoovcCabin();
+				hsrpwe.getOOVCcabinText();
+				hsrpwe.getOOVCcabinTotalPkg();
 				Thread.sleep(1000);
 			}
 		}
 	}
 
 	public void goingForFilter() throws InterruptedException {
-		int count = hsrpwe.goingForText.size();
-		logger.info(count);
 		List<String> str = new ArrayList<String>();
-		for (int i = 1; i <= count; i++) {
-			String path = (super.getKeyValue("goingForText") + i + super.getKeyValue("filterText"));
+		for (int i = 1; i <= hsrpwe.totalGoingForPackages(); i++) {
+			String path = (super.getKeyValue("goingForText") + i + super
+					.getKeyValue("filterText"));
 			logger.info(path);
 			String text = super.getText(driver, "xpath", path);
 			logger.info(str.add(text));
-			String gettext = str.get(i - 1);
-			if (gettext.equals("Any")) {
-				super.getGoingForAnyText();
-				super.getGoingForAnyTextTotalPkg();
-				super.show_All();
+			String getText = str.get(i - 1);
+			if (getText.equals("Any")) {
+				hsrpwe.getanyText();
+				hsrpwe.getanyTotalPkg();
 				Thread.sleep(1000);
-			} else if (gettext.equals("1-3 Nights")) {
-				super.selectGoingForWeekendHolidays();
-				super.getGoingForweekendholidaysText();
-				super.getGoingForweekendholidaysTotalPkg();
-				super.show_All();
+			} else if (getText.equals("1-3 Nights")) {
+				hsrpwe.selectWeekendHolidays();
+				hsrpwe.getweekendHolidaysText();
+				hsrpwe.getweekendHolidaysTotlaPkg();
 				Thread.sleep(1000);
-			} else if (gettext.equals("4-7 Nights")) {
-				super.selectGoingForShortHolidays();
-				super.getGoingForShortHolidaysText();
-				super.getGoingForShortHolidaysTotalPkg();
-				super.show_All();
+			} else if (getText.equals("4-7 Nights")) {
+				hsrpwe.selectShortHoliday();
+				hsrpwe.getShortHolidayText();
+				hsrpwe.getShortHolidayTotalPkg();
 				Thread.sleep(1000);
-			} else if (gettext.equals("7+ Nights")) {
-				super.selectGoingForLongHolidays();
-				super.getGoingForLongtHolidaysText();
-				super.getGoingForLongHolidaysTotalPkg();
-				super.show_All();
+			} else if (getText.equals("7+ Nights")) {
+				hsrpwe.selectLongHoliday();
+				hsrpwe.getlongHolidayText();
+				hsrpwe.getlongHolidayTotlaPkg();
 				Thread.sleep(1000);
 			}
 		}
 	}
 
 	public void flightFilter() throws InterruptedException {
-		int count = hsrpwe.flightText.size();
-		logger.info(count);
 		List<String> str = new ArrayList<String>();
-		for (int i = 1; i <= count; i++) {
+		for (int i = 1; i <= hsrpwe.totalFlightPackages(); i++) {
 			String path = (super.getKeyValue("flightText") + i + super
 					.getKeyValue("filterText"));
 			logger.info(path);
 			String text = super.getText(driver, "xpath", path);
 			logger.info(str.add(text));
-			String gettext = str.get(i - 1);
-			if (gettext.equals("With Flight")) {
-				super.selectWithFlight();
-				super.gettWithFlightText();
-				super.getWithFlightTotalPkg();
-				super.show_All();
+			String getText = str.get(i - 1);
+			if (getText.equals("With Flight")) {
+				hsrpwe.selectWithFlights();
+				hsrpwe.getwithFlightsText();
+				hsrpwe.getwithFlightsTotalPkg();
 				Thread.sleep(1000);
-			} else if (gettext.equals("Without Flight")) {
-				super.selectWithoutFlight();
-				super.getWithoutFlightText();
-				super.getWithoutFlightTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Without Flight")) {
+				hsrpwe.selectWithoutFlight();
+				hsrpwe.getwithoutFlightText();
+				hsrpwe.getwithoutFlightTotalPkg();
 				Thread.sleep(1000);
 			}
 		}
 	}
 
 	public void transferFilter() throws InterruptedException {
-		int count = hsrpwe.transferText.size();
-		logger.info(count);
 		List<String> str = new ArrayList<String>();
-		for (int i = 1; i <= count; i++) {
+		for (int i = 1; i <= hsrpwe.totalFlightPackages(); i++) {
 			String path = (super.getKeyValue("transferText") + i + super
 					.getKeyValue("filterText"));
 			logger.info(path);
 			String text = super.getText(driver, "xpath", path);
 			logger.info(str.add(text));
-			String gettext = str.get(i - 1);
-			if (gettext.equals("With Transfers")) {
-				super.selectWithTransfers();
-				super.selectWithTransfersText();
-				super.getWithTransfersTotalPkg();
-				super.show_All();
+			String getText = str.get(i - 1);
+			if (getText.equals("With Transfers")) {
+				hsrpwe.selectWithTransfer();
+				hsrpwe.getwithTransferText();
+				hsrpwe.getwithTransferTotalPkg();
 				Thread.sleep(1000);
-			} else if (gettext.equals("Without Transfers")) {
-				super.selectTransfersoutFlight();
-				super.selectTransfersoutFlightText();
-				super.getTransfersoutFlightTotalPkg();
-				super.show_All();
+			} else if (getText.equals("Without Transfers")) {
+				hsrpwe.selectWithoutTransfer();
+				hsrpwe.getwithoutTransferText();
+				hsrpwe.getwithoutTransferTotalPkg();
 				Thread.sleep(1000);
 			}
 		}
 	}
 
 	public void sightseeingFilter() throws InterruptedException {
-		int count = hsrpwe.sightseeingText.size();
-		logger.info(count);
 		List<String> str = new ArrayList<String>();
-		for (int i = 1; i <= count; i++) {
+		for (int i = 1; i <= hsrpwe.totalSightSeeingPackages(); i++) {
 			String path = (super.getKeyValue("sightseeingText") + i + super
 					.getKeyValue("filterText"));
 			logger.info(path);
 			String text = super.getText(driver, "xpath", path);
 			logger.info(str.add(text));
-			String gettext = str.get(i - 1);
-			if (gettext.equals("With Sightseeing")) {
-				super.selectWithSightseeing();
-				super.getWithSightseeingText();
-				super.getWithSightseeingTotalPkg();
-				super.show_All();
+			String getText = str.get(i - 1);
+			if (getText.equals("With Sightseeing")) {
+				hsrpwe.selectWithsightseeing();
+				hsrpwe.getwithsightseeingText();
+				hsrpwe.getwithsightseeingTotalPkg();
+
 				Thread.sleep(1000);
-			} else if (gettext.equals("Without Sightseeing")) {
-				super.selectWithoutSightseeing();
-				super.selectWithoutSightseeing();
-				super.getWithoutSightseeingText();
-				super.show_All();
+			} else if (getText.equals("Without Sightseeing")) {
+				hsrpwe.selectwithoutsightseeing();
+				hsrpwe.getwithoutsightseeingText();
+				hsrpwe.getwithoutsightseeingTotalPkg();
+
 				Thread.sleep(1000);
 			}
 		}

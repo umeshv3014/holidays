@@ -36,16 +36,15 @@ public class HolidayPagesTest extends SeleniumBase {
 	}
 
 	@AfterTest
-	public void exit() {
-		hphCASE.quitTest(driver);
+	public void exit() throws InterruptedException {
+		super.quitTest(driver);
+
 	}
 
-/*
- * holidayHomePage_UI_Content_images_Test
- * 1. check the title
- * 2. check packages images
- * 3. check hot deals images 
- */
+	/*
+	 * holidayHomePage_UI_Content_images_Test 1. check the title 2. check
+	 * packages images 3. check hot deals images
+	 */
 	@Test(priority = 0)
 	public void holidayHomePage_UI_Content_images_Test() {
 		hphCASE = new HolidayHomePage(driver);
@@ -57,64 +56,62 @@ public class HolidayPagesTest extends SeleniumBase {
 	/*
 	 * send feed back request
 	 */
-//	@Test(priority = 1, dataProvider = "sendFeedBackData", dataProviderClass = XlFileProvider.class)
-//	public void sendUsFeedBack(String name, String email, String msg) {
-//		hpa = new homePageAction(driver);
-//		hpa.sendUsYourFeedback(name, email, msg); 
-//	}
+
+	@Test(priority = 1, dataProvider = "sendFeedBackData", dataProviderClass = XlFileProvider.class)
+	public void sendUsFeedBack(String name, String email, String msg) {
+		hpa = new homePageAction(driver);
+		hpa.sendUsYourFeedback(name, email, msg);
+	}
 
 	/*
 	 * search DOM holiday destination
 	 */
-	@Test(priority = 1, dataProvider = "destinationdataDom", dataProviderClass = XlFileProvider.class)
-	public void domPkgTest(String destinationCity) throws InterruptedException {
+
+	@Test(priority = 2, dataProvider = "destinationData", dataProviderClass = XlFileProvider.class)
+	public void destinationPkgTest(String destinationCity)
+			throws InterruptedException {
 		hpa = new homePageAction(driver);
-		hpa.holidayDestinationSearchDom(destinationCity);
+		hpa.holidayDestinationSearch(destinationCity);
 		Thread.sleep(1000);
 	}
-	
-	/*
-	 * search INTL holiday destination
-	 */
-//	@Test(priority = 3, dataProvider = "destinationdataIntl", dataProviderClass = XlFileProvider.class)
-//	public void intlPkgTest(String destinationCity) throws InterruptedException {
-//		hpa = new homePageAction(driver);
-//		hpa.holidayDestinationSearchIntl(destinationCity);
-//		Thread.sleep(1000);
-//	}
-	
-	@Test(priority = 2, dataProvider = "destinationdataDom", dataProviderClass = XlFileProvider.class)
-	public void destinationCityDataMatch(String destinationCity){
+
+	@Test(priority = 3, dataProvider = "destinationDataDom", dataProviderClass = XlFileProvider.class)
+	public void destinationCityDataMatch(String destinationCity) {
 		srpa = new searchResultPageActions(driver);
 		srpa.destinationCityDataMatching(destinationCity);
 	}
-	
+
 	/*
-	 * sendEnquiry on holiday search result page 
+	 * sendEnquiry on holiday search result page
 	 */
-//	@Test(priority = 3, dataProvider = "sendHolidayEnquiryData", dataProviderClass = XlFileProvider.class)
+
+//	@Test(priority = 4, dataProvider = "sendHolidayEnquiryData", dataProviderClass = XlFileProvider.class)
 //	public void sendEnquiry(String fullName, String email, String mobileNu,
 //			String date, String originCity, String duration,
 //			String tourRequirementAndPreference) {
 //		srpa = new searchResultPageActions(driver);
-//		srpa.SendHolidayEnquiry(fullName, email, mobileNu,
-//				date, originCity, duration, tourRequirementAndPreference);
+//		hspCASE = new HolidaySearchresultPage(driver);
+//		srpa.SendHolidayEnquiry(fullName, email, mobileNu, date, originCity,
+//				duration, tourRequirementAndPreference);
+//		hspCASE.sendEnquiryAlertSucess();
+//
 //	}
 
+	// /*
+	// * slidertest on holiday search result page, it is hard coded now need to
+	// * work on it
+	// */
+	// // @Test(priority = 5)
+	// // public void slidertest() {
+	// // int xAxis = 40;
+	// // int yAxis = 0;
+	// // hspCASE.dragSlider("xpath", "slider", xAxis, yAxis); //use
+	// // searchresultpageaction
+	// // hspCASE.filterStarRatingStandard(); //use searchresultpageaction
+	// // }
 	/*
-	 * slidertest on holiday search result page, it is hard coded now need to work on it
+	 * filter test on holiday search result page.
 	 */
-//	@Test(priority = 4)
-//	public void slidertest() {
-//		int xAxis = 40;
-//		int yAxis = 0;
-//		hspCASE.dragSlider("xpath", "slider", xAxis, yAxis);     //use searchresultpageaction
-//		hspCASE.filterStarRatingStandard();   //use searchresultpageaction
-//	}
-//
-//	/*
-//	 * filter test  on holiday search result page.
-//	 */
 	@Test(priority = 4)
 	public void starRatingFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
@@ -127,23 +124,23 @@ public class HolidayPagesTest extends SeleniumBase {
 		srpa.goingForFilter();
 	}
 
-//	@Test(priority = 6)
-//	public void flightFilterTest() throws InterruptedException {
-//		srpa = new searchResultPageActions(driver);
-//		srpa.flightFilter();
-//	}
-//
-//	@Test(priority = 7)
-//	public void transferFilterTest() throws InterruptedException {
-//		srpa = new searchResultPageActions(driver);
-//		srpa.transferFilter();
-//	}
-//
-//	@Test(priority = 8)
-//	public void sightseeingFilterTest() throws InterruptedException {
-//		srpa = new searchResultPageActions(driver);
-//		srpa.sightseeingFilter();
-//	}
+	@Test(priority = 6)
+	public void flightFilterTest() throws InterruptedException {
+		srpa = new searchResultPageActions(driver);
+		srpa.flightFilter();
+	}
+
+	@Test(priority = 7)
+	public void transferFilterTest() throws InterruptedException {
+		srpa = new searchResultPageActions(driver);
+		srpa.transferFilter();
+	}
+
+	@Test(priority = 8)
+	public void sightseeingFilterTest() throws InterruptedException {
+		srpa = new searchResultPageActions(driver);
+		srpa.sightseeingFilter();
+	}
 
 	@AfterMethod(alwaysRun = true)
 	public void takeScreenShotOnFailure(ITestResult testResult,

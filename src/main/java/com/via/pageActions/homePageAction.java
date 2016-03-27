@@ -14,26 +14,18 @@ public class homePageAction extends HolidayHomePage {
 		super.titleHolidayHomePage();
 		return true;
 	}
-	public void holidayDestinationSearchDom(String destinationCity) {
-		super.selectDOM();
+	public void holidayDestinationSearch(String destinationCity) throws InterruptedException {
 		super.setDestination(destinationCity);
+		super.selectDate();
 		super.searchDestination();
 	}
-
-	public void holidayDestinationSearchIntl(String destinationCity) {
-		super.selectINTL();
-		super.setDestination(destinationCity);
-		super.searchDestination();
-	}
-
+	
 	public void backToHolidayHomepage() {
 		super.holidayHomePage();
 	}
 
-	public void domAndIntlPkgNormalFlow(String destinationCity) {
-		this.holidayDestinationSearchDom(destinationCity);
-		this.backToHolidayHomepage();
-		this.holidayDestinationSearchIntl(destinationCity);
+	public void destinationPkgNormalFlow(String destinationCity) throws InterruptedException {
+		this.holidayDestinationSearch(destinationCity);
 		this.backToHolidayHomepage();
 	}
 
@@ -46,8 +38,7 @@ public class homePageAction extends HolidayHomePage {
 	}
 
 	public void sendUsYourFeedback(String name, String email, String msg) {
-		super.fillSendFeedBackDetail(name, email, msg);
-		super.sendMsgSYFB();
+		super.sendFeedBackDetail(name, email, msg);
 		super.confirmationAlertOfSYFB();
 		super.cleaesendustextbox();
 	}

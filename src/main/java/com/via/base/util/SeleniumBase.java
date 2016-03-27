@@ -31,7 +31,7 @@ public class SeleniumBase {
 		ProfilesIni profile = new ProfilesIni();
 		FirefoxProfile ffprofile = profile.getProfile(DefultProfilePath);
 		driver = new FirefoxDriver(ffprofile);
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(URL);
 		driver.manage().window().maximize();
 	}
@@ -65,7 +65,7 @@ public class SeleniumBase {
 
 	public String getText(WebDriver driver, String locatorType,
 			String locatorValue) {
-		WebElement we = webElement(driver, locatorType,locatorValue);
+		WebElement we = webElement(driver, locatorType, locatorValue);
 		String text = we.getText();
 		logger.info(text);
 		return text;
@@ -142,7 +142,7 @@ public class SeleniumBase {
 	}
 
 	public void quitTest(WebDriver driver) {
-		driver.close();
+		driver.quit();
 		System.exit(0);
 		logger.info("******END OF TESTING********");
 	}

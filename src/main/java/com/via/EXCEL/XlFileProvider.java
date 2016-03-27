@@ -13,16 +13,10 @@ public class XlFileProvider {
 		return XLr.getTableArray(dataURL, "holidayTestData", "sendUsfeedbakData");
 	}
 	
-	@DataProvider(name = "destinationdataDom")
+	@DataProvider(name = "destinationData")
 	public static Object[][] destinationSearchDom() {
 		EXCELReader XLr = new EXCELReader();
-		return XLr.getTableArray(dataURL, "holidayTestData", "destinationTestDom");
-	}
-	
-	@DataProvider(name = "destinationdataIntl")
-	public static Object[][] destinationSearchIntl() {
-		EXCELReader XLr = new EXCELReader();
-		return XLr.getTableArray(dataURL, "holidayTestData", "destinationTestIntl");
+		return XLr.getTableArray(dataURL, "holidayTestData", "destination");
 	}
 	
 	@DataProvider(name = "sendHolidayEnquiryData")

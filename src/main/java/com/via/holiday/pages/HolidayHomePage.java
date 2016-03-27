@@ -1,12 +1,16 @@
 package com.via.holiday.pages;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 
-import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.via.base.util.PopUpHandler;
 import com.via.base.util.SeleniumBase;
@@ -14,6 +18,7 @@ import com.via.holiday.pageFactory.webElements.HolidayHomePageWebElement;
 
 public class HolidayHomePage extends SeleniumBase {
 	WebDriver driver;
+	WebDriverWait wait;
 	public PopUpHandler puh;
 	public List<String> str;
 	HolidayHomePageWebElement hhpwe;
@@ -29,62 +34,41 @@ public class HolidayHomePage extends SeleniumBase {
 	 */
 	public void titleHolidayHomePage() {
 		Assert.assertEquals(getKeyValue("HHPTitle"), driver.getTitle());
+		logger.info(driver.getTitle());
 	}
 
-	// select dom
-	public void selectDOM() {
-		if (hhpwe.domesticCity != null) {
-			try {
-				hhpwe.domesticCity.click();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath ",
-						e);
-			}
-		}
+	// done some changes check it
+	// http://www.seleniumeasy.com/selenium-tutorials/working-with-ajax-or-jquery-auto-complete-text-box-using-webdriver
+	public void setDestination(String destination)
+			throws InterruptedException {
+
+		hhpwe.holidayDestination(destination);
+		Thread.sleep(1000);
+		driver.findElement(
+				By.xpath(".//img/following-sibling::strong[contains(text(),'"
+						+ destination + "')]")).click();
+
 	}
 
-	// select intl
-	public void selectINTL() {
-		if (hhpwe.intlCity != null) {
-			try {
-				hhpwe.intlCity.click();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath ",
-						e);
-			}
-		}
-	}
+	// click on calendar image
+	public void selectDate() {
+		GregorianCalendar calender = new GregorianCalendar();
 
-	public void setDestination(String destinationCity) {
-		if (hhpwe.cityTextBox != null || hhpwe.citytextbox != null
-				|| hhpwe.dropDownCity != null) {
-			try {
-				hhpwe.cityTextBox.click();
-				hhpwe.citytextbox.sendKeys(destinationCity);
-				hhpwe.dropDownCity.click();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
+		hhpwe.selectCalender();
+		driver.findElement(
+				By.xpath("*//td/a[contains(@title,'Select "
+						+ new SimpleDateFormat("EEEE").format(calender
+								.getTime())
+						+ ", "
+						+ new SimpleDateFormat("MMM").format(calender.getTime())
+						+ " " + calender.get(Calendar.DAY_OF_MONTH) + ", "
+						+ calender.get(Calendar.YEAR) + "')]")).click();
 
-		}
 	}
 
 	// click on search button
 	public void searchDestination() {
-		if (hhpwe.srchBTN != null) {
-			try {
-				hhpwe.srchBTN.click();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
-
-		}
+		hhpwe.clicksrchBTN();
 	}
 
 	public void viaB2CLogo() {
@@ -93,7 +77,7 @@ public class HolidayHomePage extends SeleniumBase {
 	}
 
 	public void packagesCollectionImagesPresent() {
-		int count = hhpwe.pcImage.size();
+		int count = hhpwe.getOurCollectionsImageCount();
 		str = new ArrayList<String>();
 		for (int i = 1; i < count; ++i) {
 			str.add(getKeyValue("pcImage") + i + getKeyValue("pcImage2"));
@@ -102,7 +86,7 @@ public class HolidayHomePage extends SeleniumBase {
 	}
 
 	public void hotDealsImagesPresent() {
-		int count = hhpwe.hdimage.size();
+		int count = hhpwe.getHotDealsImageCount();
 		str = new ArrayList<String>();
 		for (int i = 1; i < count; i++) {
 			str.add(getKeyValue("hdImage") + i + getKeyValue("hdImage2"));
@@ -110,35 +94,11 @@ public class HolidayHomePage extends SeleniumBase {
 		}
 	}
 
-	// enter name
-	public void fillSendFeedBackDetail(String name, String email, String msg) {
-		if (hhpwe.feedbackName != null || hhpwe.feedbackEmail != null
-				|| hhpwe.feedbackMsg != null) {
-			try {
-				hhpwe.feedbackName.sendKeys(name);
-				hhpwe.feedbackEmail.sendKeys(email);
-				hhpwe.feedbackMsg.sendKeys(msg);
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
-
-		}
-	}
-
-	// click on send button
-	public void sendMsgSYFB() {
-		if (hhpwe.SYRmsg != null) {
-			try {
-				hhpwe.SYRmsg.click();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
-
-		}
+	public void sendFeedBackDetail(String name, String email, String msg) {
+		hhpwe.getFeedbackName(name);
+		hhpwe.getFeedbackEmail(email);
+		hhpwe.getFeedbackMsg(msg);
+		hhpwe.sendFeedBackMsg();
 	}
 
 	// accept confirm alert
@@ -148,23 +108,13 @@ public class HolidayHomePage extends SeleniumBase {
 	}
 
 	public void cleaesendustextbox() {
-		if (hhpwe.feedbackName != null || hhpwe.feedbackEmail != null
-				|| hhpwe.feedbackMsg != null) {
-			try {
-				hhpwe.feedbackName.clear();
-				hhpwe.feedbackEmail.clear();
-				hhpwe.feedbackMsg.clear();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
-
-		}
+		hhpwe.clearFeedbackName();
+		hhpwe.clearFeedbackEmail();
+		hhpwe.clearFeedbackMsg();
 	}
 
 	public void holidayHomePage() {
-		hhpwe.backToHolidayPage.click();
+		hhpwe.gobackToHolidayPage();
 	}
 
 }
