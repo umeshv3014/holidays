@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -68,30 +67,6 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		return totlaNumberOfSendEnquiry;
 	}
 
-	public void sendEnquiry() {
-		if (hsrpwe.sendEnquiryButton != null) {
-			try {
-				hsrpwe.sendEnquiryButton.click();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
-		}
-	}
-
-	public void sendEnquiryAlertSucess() {
-		if (hsrpwe.SendEnquirySuccessAlert != null) {
-			try {
-				hsrpwe.SendEnquirySuccessAlert.click();
-			} catch (NoSuchElementException e) {
-				logger.error(
-						"Not able to locate the webelement, please check the xpath",
-						e);
-			}
-		}
-	}
-
 	public String getStandardText() {
 		String text = hsrpwe.standardText.getText();
 		return text;
@@ -137,14 +112,34 @@ public class HolidaySearchresultPage extends SeleniumBase {
 	}
 
 	public void destinationHolidayPackages() {
-		String pkg1 = "//*[@id='packagesResults']/div/div[";
-		String subpakg1 = "//*[@id='packagesResults']/div/div[@class='row list']/div[";
-		String pkg2 = "]";
-		int count = hsrpwe.nuOfPackages.size();
+		int count = hsrpwe.numberOfFilteredPackages();
+		System.out.println(count);
 		for (int i = 1; i <= count; i++) {
+			String pricePath = super.getKeyValue("price") + i + super.getKeyValue("price1");
+			String ppots = super.getKeyValue("ppots") + i + super.getKeyValue("ppots1");
+			String pkgID = super.getKeyValue("pkgid") + i + super.getKeyValue("pkgid1");
+			String price = super.getText(driver, "xpath", pricePath);
+			String ppotsa = super.getText(driver, "xpath", ppots);
+			
+			String pkgid = super.getAttribute(driver, "xpath", pkgID, "data-packageid");
+			int id = Integer.parseInt(pkgid);
+			System.out.println(id);
+			
 			Map<Integer, List<String>> map = new HashMap<Integer, List<String>>();
-			List<String> str = new ArrayList<String>();
-			str.add(pkg1 + i + pkg2);
+			List<String> valSetOne = new ArrayList<String>();
+			
+			valSetOne.add(price);
+			valSetOne.add(ppotsa);
+			
+			map.put(id,valSetOne);
+			
+			for (Map.Entry<Integer, List<String>> entry : map.entrySet()) {
+				Integer key = entry.getKey();
+				List<String> values = entry.getValue();
+				System.out.println(key + "=" + values );
+				
+			}
+			
 		}
 
 	}

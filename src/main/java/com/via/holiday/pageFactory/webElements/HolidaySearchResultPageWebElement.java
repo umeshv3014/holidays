@@ -153,6 +153,10 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//button[contains(text(),'SEND ENQUIRY')]")
 	public WebElement sendEnquiryButton;
+	
+	public void sendEnquiry(){
+		this.SendEnquiryButton.click();
+	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//img[@class='fullWidth']")
 	public List<WebElement> thumbImg;
@@ -182,17 +186,15 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Standard']/following-sibling::label/span[2]")
 	public WebElement standardText;
 
-	public void getStandardText() {
-		this.standardText.getText();
+	public String getStandardText() {
+		return this.standardText.getText();
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Standard']/following-sibling::label/span[3]")
 	public WebElement standardTotalpkg;
 
 	public int getTotalStandartdpkg() {
-		String total = this.standardTotalpkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.standardTotalpkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -225,9 +227,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement star2Total;
 
 	public int getTotalStar_2() {
-		String total = this.star2Total.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.star2Total.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -260,9 +260,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement star3Total;
 
 	public int get3StarTotal() {
-		String total = this.star3Total.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.star3Total.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -295,9 +293,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement star4Total;
 
 	public int get4StarTotal() {
-		String total = this.star4Total.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.star4Total.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -330,9 +326,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement star5Total;
 
 	public int get5StarTotal() {
-		String total = this.star5Total.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.star5Total.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -431,9 +425,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement budgetTotlaPkg;
 
 	public int getbudgetTotlaPkg() {
-		String total = this.budgetTotlaPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.budgetTotlaPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -466,9 +458,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement starTotalPkg;
 
 	public int getstarTotalPkg() {
-		String total = this.starTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.starTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -501,9 +491,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement luxuryTotalPkg;
 
 	public int getluxuryTotalPkg() {
-		String total = this.luxuryTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.luxuryTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -536,9 +524,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement superLuxuryTotalPkg;
 
 	public int getsuperLuxuryTotalPkg() {
-		String total = this.superLuxuryTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.superLuxuryTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -571,9 +557,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement deluxeTotlaPkg;
 
 	public int getdeluxeTotlaPkg() {
-		String total = this.deluxeTotlaPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.deluxeTotlaPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -606,9 +590,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement superDeluxeTotlaPkg;
 
 	public int getSuperDeluxeTotlaPkg() {
-		String total = this.superDeluxeTotlaPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.superDeluxeTotlaPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -668,9 +650,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement anyTotalPkg;
 
 	public int getanyTotalPkg() {
-		String total = this.anyTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.anyTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -737,9 +717,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement ShortHolidayTotalPkg;
 
 	public int getShortHolidayTotalPkg() {
-		String total = this.ShortHolidayTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.ShortHolidayTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -772,9 +750,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement longHolidayTotlaPkg;
 
 	public int getlongHolidayTotlaPkg() {
-		String total = this.longHolidayTotlaPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.longHolidayTotlaPkg.getText().trim().replaceAll("\\W", ""));
 		Assert.assertEquals(this.numberOfFilteredPackages(), tot);
 		if(tot == this.totalNumberOfPackages()){
 			this.deselectLongHoliday();
@@ -806,9 +782,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement withFlightsTotalPkg;
 
 	public int getwithFlightsTotalPkg() {
-		String total = this.withFlightsTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.withFlightsTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -841,9 +815,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement withoutFlightTotalPkg;
 
 	public int getwithoutFlightTotalPkg() {
-		String total = this.withoutFlightTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.withoutFlightTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -876,9 +848,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement withTransferTotalPkg;
 
 	public int getwithTransferTotalPkg() {
-		String total = this.withTransferTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.withTransferTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -911,9 +881,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement withoutTransferTotalPkg;
 
 	public int getwithoutTransferTotalPkg() {
-		String total = this.withoutTransferTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.withoutTransferTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -946,9 +914,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement withsightseeingTotalPkg;
 
 	public int getwithsightseeingTotalPkg() {
-		String total = this.withsightseeingTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.withsightseeingTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -981,9 +947,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement withoutsightseeingTotalPkg;
 
 	public int getwithoutsightseeingTotalPkg() {
-		String total = this.withoutsightseeingTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.withoutsightseeingTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -1016,9 +980,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement insideCabinTotalPkg;
 
 	public int getinsideCabinTotalPkg() {
-		String total = this.insideCabinTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.insideCabinTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -1051,9 +1013,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement dovcCabinTotalPkg;
 
 	public int getDOVCcabinTotalPkg() {
-		String total = this.dovcCabinTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.dovcCabinTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -1086,9 +1046,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement OOVCcabinTotalPkg;
 
 	public int getOOVCcabinTotalPkg() {
-		String total = this.OOVCcabinTotalPkg.getText();
-		String trimto = total.trim().replaceAll("\\W", "");
-		int tot = Integer.parseInt(trimto);
+		int tot = Integer.parseInt(this.OOVCcabinTotalPkg.getText().trim().replaceAll("\\W", ""));
 		int totalpk = this.numberOfFilteredPackages();
 		Assert.assertEquals(totalpk, tot);
 		if(tot == this.totalNumberOfPackages()){
@@ -1116,6 +1074,10 @@ public class HolidaySearchResultPageWebElement {
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='modalPanel']//button")
-	public WebElement SendEnquirySuccessAlert;
+	public WebElement sendEnquirySuccessAlert;
+	
+	public void closeEnquirySubmittedSuccessfully(){
+		this.sendEnquirySuccessAlert.click();
+	}
 
 }

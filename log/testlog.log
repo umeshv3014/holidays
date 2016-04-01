@@ -620,3 +620,382 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2016-03-27 22:45:08,634 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
 2016-03-27 22:45:08,764 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
 2016-03-27 22:45:08,764 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:19:26,681 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-03-29 07:19:29,849 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-03-29 07:19:33,774 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-03-29 07:19:34,626 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-03-29 07:19:42,689 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=8
+2016-03-29 07:19:53,281 - com.via.base.util.SeleniumBase -INFO - 2
+2016-03-29 07:19:57,284 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-03-29 07:19:57,436 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-29 07:19:57,437 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:19:57,437 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-29 07:19:58,006 - com.via.base.util.SeleniumBase -INFO - 2
+2016-03-29 07:20:02,807 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-03-29 07:20:02,879 - com.via.base.util.SeleniumBase -INFO - Any
+2016-03-29 07:20:02,880 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:20:06,034 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2016-03-29 07:20:07,749 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-03-29 07:20:07,750 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:20:08,655 - com.via.base.util.SeleniumBase -INFO - 2
+2016-03-29 07:20:26,285 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-03-29 07:20:26,421 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-03-29 07:20:26,422 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:20:51,036 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-03-29 07:20:51,176 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-03-29 07:20:51,177 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:20:56,217 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-03-29 07:20:56,350 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-03-29 07:20:56,350 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:21:00,570 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-03-29 07:21:00,987 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-03-29 07:21:00,991 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:21:24,665 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-03-29 07:21:24,791 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-03-29 07:21:24,792 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-29 07:21:29,327 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2016-03-29 07:21:29,451 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-03-29 07:21:29,452 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:09:49,940 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-03-30 21:09:52,894 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-03-30 21:09:56,959 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-03-30 21:09:57,653 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-03-30 21:10:03,149 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=8
+2016-03-30 21:10:17,768 - com.via.base.util.SeleniumBase -INFO - 2
+2016-03-30 21:10:21,907 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-03-30 21:10:21,969 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-30 21:10:21,969 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:21,970 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-30 21:10:23,592 - com.via.base.util.SeleniumBase -INFO - 2
+2016-03-30 21:10:25,639 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-03-30 21:10:25,675 - com.via.base.util.SeleniumBase -INFO - Any
+2016-03-30 21:10:25,676 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:27,043 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2016-03-30 21:10:27,180 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-03-30 21:10:27,181 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:27,803 - com.via.base.util.SeleniumBase -INFO - 2
+2016-03-30 21:10:32,701 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-03-30 21:10:32,826 - com.via.base.util.SeleniumBase -INFO - 
+2016-03-30 21:10:32,827 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:32,887 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-03-30 21:10:33,007 - com.via.base.util.SeleniumBase -INFO - 
+2016-03-30 21:10:33,008 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:33,149 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-03-30 21:10:33,270 - com.via.base.util.SeleniumBase -INFO - 
+2016-03-30 21:10:33,270 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:33,358 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-03-30 21:10:33,481 - com.via.base.util.SeleniumBase -INFO - 
+2016-03-30 21:10:33,481 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:33,622 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-03-30 21:10:33,725 - com.via.base.util.SeleniumBase -INFO - 
+2016-03-30 21:10:33,726 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:10:33,780 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2016-03-30 21:10:33,886 - com.via.base.util.SeleniumBase -INFO - 
+2016-03-30 21:10:33,886 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:22:40,775 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-03-30 21:22:43,409 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-03-30 21:22:45,756 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-03-30 21:22:46,481 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-03-30 21:22:56,824 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-03-30 21:22:56,954 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-30 21:22:56,955 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:22:56,956 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-30 21:23:04,027 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2016-03-30 21:23:04,158 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-03-30 21:23:04,159 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:04,159 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-03-30 21:23:07,414 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2016-03-30 21:23:07,539 - com.via.base.util.SeleniumBase -INFO - Standard
+2016-03-30 21:23:07,541 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:07,542 - com.via.base.util.SeleniumBase -INFO - Standard
+2016-03-30 21:23:11,180 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2016-03-30 21:23:11,307 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-03-30 21:23:11,313 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:11,313 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-03-30 21:23:15,572 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-03-30 21:23:17,046 - com.via.base.util.SeleniumBase -INFO - Any
+2016-03-30 21:23:17,047 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:19,597 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2016-03-30 21:23:19,726 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-03-30 21:23:19,728 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:23,062 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[3]//span[2]
+2016-03-30 21:23:23,192 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2016-03-30 21:23:23,193 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:28,598 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[4]//span[2]
+2016-03-30 21:23:28,726 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2016-03-30 21:23:28,727 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:31,853 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-03-30 21:23:33,472 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-03-30 21:23:33,473 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:23:57,502 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-03-30 21:23:57,625 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-03-30 21:23:57,626 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:24:01,170 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-03-30 21:24:01,287 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-03-30 21:24:01,288 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:24:07,127 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-03-30 21:24:07,247 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-03-30 21:24:07,248 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:24:30,709 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-03-30 21:24:30,841 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-03-30 21:24:30,842 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 21:24:34,659 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2016-03-30 21:24:34,784 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-03-30 21:24:34,784 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:30:35,753 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-03-30 22:30:38,750 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-03-30 22:30:41,981 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-03-30 22:30:42,854 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-03-30 22:30:59,500 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-03-30 22:31:08,976 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-30 22:31:08,979 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:08,980 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-03-30 22:31:14,809 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2016-03-30 22:31:14,947 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-03-30 22:31:14,951 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:14,952 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-03-30 22:31:22,018 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[3]//span[2]
+2016-03-30 22:31:22,172 - com.via.base.util.SeleniumBase -INFO - Standard
+2016-03-30 22:31:22,173 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:22,174 - com.via.base.util.SeleniumBase -INFO - Standard
+2016-03-30 22:31:26,688 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[4]//span[2]
+2016-03-30 22:31:26,929 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-03-30 22:31:26,930 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:26,931 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-03-30 22:31:30,586 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-03-30 22:31:30,638 - com.via.base.util.SeleniumBase -INFO - Any
+2016-03-30 22:31:30,639 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:32,523 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[2]//span[2]
+2016-03-30 22:31:32,749 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-03-30 22:31:32,750 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:38,642 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[3]//span[2]
+2016-03-30 22:31:38,770 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2016-03-30 22:31:38,771 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:44,235 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[4]//span[2]
+2016-03-30 22:31:44,382 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2016-03-30 22:31:44,382 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:31:47,434 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-03-30 22:31:47,554 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-03-30 22:31:47,555 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:32:10,995 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-03-30 22:32:11,130 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-03-30 22:32:11,131 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:32:18,343 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-03-30 22:32:18,484 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-03-30 22:32:18,485 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-30 22:32:21,882 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-03-30 22:32:22,014 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-03-30 22:32:22,016 - com.via.base.util.SeleniumBase -INFO - true
+2016-03-31 04:32:59,589 - com.via.base.util.SeleniumBase -INFO - 2
+2016-03-31 07:09:02,225 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-03-31 07:09:02,516 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-03-31 07:09:02,516 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:37:11,683 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-04-01 07:37:14,027 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-04-01 07:37:18,689 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-04-01 07:37:19,502 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-04-01 07:37:28,469 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-04-01 07:37:29,390 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 07:37:29,391 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:37:29,392 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 07:37:33,799 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2016-04-01 07:37:33,912 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 07:37:33,914 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:37:33,915 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 07:37:35,243 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 07:37:38,210 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-04-01 07:37:38,351 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-01 07:37:38,352 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:37:38,746 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 07:37:59,663 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-04-01 07:37:59,916 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-01 07:37:59,918 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:39:03,340 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-04-01 07:39:03,502 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-01 07:39:03,503 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:39:07,982 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-04-01 07:39:08,112 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-01 07:39:08,113 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:39:11,644 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-04-01 07:39:11,783 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-01 07:39:11,784 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:39:35,021 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-04-01 07:39:35,145 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-01 07:39:35,146 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:39:38,420 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2016-04-01 07:39:38,566 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-01 07:39:38,567 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:40:03,143 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 07:44:57,896 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-04-01 07:44:59,769 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-04-01 07:45:02,708 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-04-01 07:45:03,296 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-04-01 07:45:12,366 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-04-01 07:45:13,114 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 07:45:13,116 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:45:13,117 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 07:45:19,706 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2016-04-01 07:45:19,837 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 07:45:19,838 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:45:19,839 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 07:45:20,945 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 07:45:23,282 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-04-01 07:45:23,413 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-01 07:45:23,414 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:45:24,055 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 07:45:26,335 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-04-01 07:45:26,425 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-01 07:45:26,426 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:45:49,473 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-04-01 07:45:49,607 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-01 07:45:49,608 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:45:53,832 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-04-01 07:45:53,957 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-01 07:45:53,958 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:45:57,787 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-04-01 07:45:57,908 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-01 07:45:57,909 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:46:21,369 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-04-01 07:46:21,492 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-01 07:46:21,492 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:46:24,718 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2016-04-01 07:46:25,193 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-01 07:46:25,194 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 07:50:12,252 - com.via.base.util.SeleniumBase -INFO - 2121
+2016-04-01 07:50:30,150 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 07:50:42,960 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-01 07:50:51,305 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 22:12:08,186 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-04-01 22:12:09,681 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-04-01 22:12:12,956 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-04-01 22:12:13,857 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-04-01 22:12:23,063 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-04-01 22:12:24,756 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 22:12:24,757 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:12:24,758 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 22:12:31,827 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2016-04-01 22:12:31,948 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 22:12:31,951 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:12:31,952 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 22:12:33,074 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 22:12:35,310 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-04-01 22:12:35,393 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-01 22:12:35,393 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:12:35,993 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 22:12:38,491 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-04-01 22:12:38,564 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-01 22:12:38,565 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:13:01,971 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-04-01 22:13:02,093 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-01 22:13:02,094 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:13:05,860 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-04-01 22:13:05,985 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-01 22:13:05,985 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:13:08,984 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-04-01 22:13:09,103 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-01 22:13:09,104 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:13:34,047 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-04-01 22:13:34,197 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-01 22:13:34,198 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:13:37,454 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2016-04-01 22:13:37,575 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-01 22:13:37,576 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 22:14:01,185 - com.via.base.util.SeleniumBase -INFO - 2121
+2016-04-01 22:14:01,313 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:14:01,456 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 22:40:44,399 - com.via.base.util.SeleniumBase -INFO - 2121
+2016-04-01 22:40:53,581 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:45:46,515 - com.via.base.util.SeleniumBase -INFO - 2121
+2016-04-01 22:45:53,695 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:46:21,586 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 22:51:31,233 - com.via.base.util.SeleniumBase -INFO - 2121
+2016-04-01 22:51:39,803 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:54:26,325 - com.via.base.util.SeleniumBase -INFO - 3165
+2016-04-01 22:54:27,673 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:54:41,984 - com.via.base.util.SeleniumBase -INFO - 4040
+2016-04-01 22:54:42,986 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:54:49,755 - com.via.base.util.SeleniumBase -INFO - 6954
+2016-04-01 22:54:50,206 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:54:55,853 - com.via.base.util.SeleniumBase -INFO - 6066
+2016-04-01 22:54:56,860 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:55:06,317 - com.via.base.util.SeleniumBase -INFO - 8479
+2016-04-01 22:55:10,503 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:55:17,189 - com.via.base.util.SeleniumBase -INFO - 8723
+2016-04-01 22:55:17,659 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:55:41,100 - com.via.base.util.SeleniumBase -INFO - 9272
+2016-04-01 22:55:41,665 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:55:47,718 - com.via.base.util.SeleniumBase -INFO - 9272
+2016-04-01 22:55:48,335 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:55:52,423 - com.via.base.util.SeleniumBase -INFO - 10309
+2016-04-01 22:55:52,883 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:55:55,980 - com.via.base.util.SeleniumBase -INFO - 11041
+2016-04-01 22:55:56,224 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:56:01,283 - com.via.base.util.SeleniumBase -INFO - 14099
+2016-04-01 22:56:01,762 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:56:16,117 - com.via.base.util.SeleniumBase -INFO - 12810
+2016-04-01 22:56:16,504 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:56:23,629 - com.via.base.util.SeleniumBase -INFO - 13115
+2016-04-01 22:56:24,802 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:56:40,019 - com.via.base.util.SeleniumBase -INFO - 13378
+2016-04-01 22:56:41,163 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:56:48,460 - com.via.base.util.SeleniumBase -INFO - 14884
+2016-04-01 22:56:48,864 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 22:56:55,817 - com.via.base.util.SeleniumBase -INFO - 28814
+2016-04-01 22:56:56,477 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:01:13,367 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-04-01 23:01:14,731 - com.via.base.util.SeleniumBase -INFO - startRow=5, endRow=7, startCol=0, endCol=4
+2016-04-01 23:01:20,756 - com.via.base.util.SeleniumBase -INFO - Thanks for the Feedback. Your Feedback successfully reported.
+2016-04-01 23:01:21,604 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-04-01 23:01:31,449 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[1]//span[2]
+2016-04-01 23:01:32,171 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 23:01:32,172 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:01:32,173 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-01 23:01:47,738 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[2]//li[2]//span[2]
+2016-04-01 23:01:47,862 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 23:01:47,863 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:01:47,864 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-01 23:01:49,593 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 23:01:51,920 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[3]//li[1]//span[2]
+2016-04-01 23:01:52,003 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-01 23:01:52,004 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:01:52,212 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-01 23:01:57,357 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[1]//span[2]
+2016-04-01 23:01:57,480 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-01 23:01:57,481 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:02:21,397 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[4]//li[2]//span[2]
+2016-04-01 23:02:21,619 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-01 23:02:21,620 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:02:27,314 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[1]//span[2]
+2016-04-01 23:02:28,210 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-01 23:02:28,212 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:02:33,834 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[5]//li[2]//span[2]
+2016-04-01 23:02:33,962 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-01 23:02:33,963 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:02:58,116 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[1]//span[2]
+2016-04-01 23:02:58,247 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-01 23:02:58,247 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:03:02,199 - com.via.base.util.SeleniumBase -INFO - //*[@id='packagesFilters']/div[6]//li[2]//span[2]
+2016-04-01 23:03:02,327 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-01 23:03:02,328 - com.via.base.util.SeleniumBase -INFO - true
+2016-04-01 23:03:27,918 - com.via.base.util.SeleniumBase -INFO - 2121
+2016-04-01 23:03:28,049 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:28,306 - com.via.base.util.SeleniumBase -INFO - 3165
+2016-04-01 23:03:28,419 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:28,949 - com.via.base.util.SeleniumBase -INFO - 4040
+2016-04-01 23:03:29,074 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:29,321 - com.via.base.util.SeleniumBase -INFO - 6954
+2016-04-01 23:03:29,437 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:29,666 - com.via.base.util.SeleniumBase -INFO - 6066
+2016-04-01 23:03:29,784 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:29,990 - com.via.base.util.SeleniumBase -INFO - 8479
+2016-04-01 23:03:30,096 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:30,336 - com.via.base.util.SeleniumBase -INFO - 9272
+2016-04-01 23:03:30,489 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:30,783 - com.via.base.util.SeleniumBase -INFO - 9272
+2016-04-01 23:03:30,921 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:31,123 - com.via.base.util.SeleniumBase -INFO - 10309
+2016-04-01 23:03:31,209 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:31,836 - com.via.base.util.SeleniumBase -INFO - 11041
+2016-04-01 23:03:31,964 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing
+2016-04-01 23:03:32,199 - com.via.base.util.SeleniumBase -INFO - 12810
+2016-04-01 23:03:32,319 - com.via.base.util.SeleniumBase -INFO - per person on twin sharing

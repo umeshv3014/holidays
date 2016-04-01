@@ -70,6 +70,12 @@ public class SeleniumBase {
 		logger.info(text);
 		return text;
 	}
+	
+	public String getAttribute(WebDriver driver, String locatorType, String locatorValue, String cssAttributeName){
+		WebElement we = webElement(driver, locatorType, locatorValue);
+		String text = we.getAttribute(cssAttributeName);
+		return text;
+	}
 
 	public void sendKeys(WebDriver driver, String locatorType,
 			String locatorValue, String key) {

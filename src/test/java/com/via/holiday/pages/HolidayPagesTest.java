@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import com.via.EXCEL.XlFileProvider;
 import com.via.base.util.SeleniumBase;
 import com.via.base.util.TakeErrorScreenShot;
+import com.via.holiday.pageFactory.webElements.HolidaySearchResultPageWebElement;
 import com.via.pageActions.homePageAction;
 import com.via.pageActions.searchResultPageActions;
 import com.via.properties.PropFileProvider;
@@ -22,6 +23,8 @@ public class HolidayPagesTest extends SeleniumBase {
 	TakeErrorScreenShot tess;
 	homePageAction hpa;
 	searchResultPageActions srpa;
+	HolidaySearchResultPageWebElement hsrpwe;
+	HolidaySearchresultPage hsrp;
 
 	@BeforeTest
 	public void openViaHomepage() throws IOException {
@@ -93,7 +96,7 @@ public class HolidayPagesTest extends SeleniumBase {
 //		hspCASE = new HolidaySearchresultPage(driver);
 //		srpa.SendHolidayEnquiry(fullName, email, mobileNu, date, originCity,
 //				duration, tourRequirementAndPreference);
-//		hspCASE.sendEnquiryAlertSucess();
+//		hsrpwe.closeEnquirySubmittedSuccessfully();
 //
 //	}
 
@@ -112,34 +115,40 @@ public class HolidayPagesTest extends SeleniumBase {
 	/*
 	 * filter test on holiday search result page.
 	 */
-	@Test(priority = 4)
+	@Test(priority = 3)
 	public void starRatingFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.starRatingFilter();
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 4)
 	public void goingForFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.goingForFilter();
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 5)
 	public void flightFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.flightFilter();
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 6)
 	public void transferFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.transferFilter();
 	}
 
-	@Test(priority = 8)
+	@Test(priority = 7)
 	public void sightseeingFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.sightseeingFilter();
+	}
+	
+	@Test(priority = 8)
+	public void priceAndID(){
+		hsrp = new HolidaySearchresultPage(driver);
+		hsrp.destinationHolidayPackages();
 	}
 
 	@AfterMethod(alwaysRun = true)

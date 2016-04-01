@@ -30,7 +30,7 @@ public class searchResultPageActions extends HolidaySearchresultPage {
 	public void SendHolidayEnquiry(String name, String email, String mobileNu,
 			String date, String originCity, String duration,
 			String tourRequirementAndPreference) {
-		super.sendEnquiry();
+		hsrpwe.sendEnquiry();
 		this.sendHolidayEnquiry(name, email, mobileNu, date, originCity,
 				duration, tourRequirementAndPreference);
 		super.holidyasThumbImages();
@@ -210,7 +210,6 @@ public class searchResultPageActions extends HolidaySearchresultPage {
 				hsrpwe.selectWithsightseeing();
 				hsrpwe.getwithsightseeingText();
 				hsrpwe.getwithsightseeingTotalPkg();
-
 				Thread.sleep(1000);
 			} else if (getText.equals("Without Sightseeing")) {
 				hsrpwe.selectwithoutsightseeing();
