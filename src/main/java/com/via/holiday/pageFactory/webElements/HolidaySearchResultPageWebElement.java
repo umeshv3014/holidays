@@ -2,8 +2,6 @@ package com.via.holiday.pageFactory.webElements;
 
 import java.util.List;
 
-
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -116,14 +114,19 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[@id='modalPanel']//button")
 	public WebElement SHEsucess;
-	
-	@FindBy(how = How.XPATH, using=".//*[@id='packagesFilters']//strong[2]/span")
+
+	@FindBy(how = How.XPATH, using = ".//*[@id='packagesFilters']//strong[1]/span")
+	public WebElement totalPackagesZero;
+
+	@FindBy(how = How.XPATH, using = ".//*[@id='packagesFilters']//strong[2]/span")
 	public WebElement totalPackages;
-	
-	public int totalNumberOfPackages(){
-		String total = this.totalPackages.getText();
-		int tot = Integer.parseInt(total);
-		return tot;
+
+	public int totalNumberOfPackages() {
+		return Integer.parseInt(this.totalPackages.getText());
+	}
+
+	public int totalNumberOfPackagesZero() {
+		return Integer.parseInt(this.totalPackagesZero.getText());
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']/div/div[@class='row list']")
@@ -153,8 +156,8 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesResults']//button[contains(text(),'SEND ENQUIRY')]")
 	public WebElement sendEnquiryButton;
-	
-	public void sendEnquiry(){
+
+	public void sendEnquiry() {
 		this.SendEnquiryButton.click();
 	}
 
@@ -178,7 +181,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectStandard() {
 		this.standardCheckBox.click();
 	}
-	
+
 	public void deselectStandard() {
 		this.standardCheckBox.click();
 	}
@@ -191,18 +194,22 @@ public class HolidaySearchResultPageWebElement {
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Standard']/following-sibling::label/span[3]")
-	public WebElement standardTotalpkg;
+	public WebElement standardTotalPkg;
 
-	public int getTotalStandartdpkg() {
-		int tot = Integer.parseInt(this.standardTotalpkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int standardTotalpkg() {
+		int tot = Integer.parseInt(this.standardTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void standartdPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.standardTotalpkg());
+		if (this.standardTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectStandard();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='2 Star']/following-sibling::label/span[1]")
@@ -211,7 +218,7 @@ public class HolidaySearchResultPageWebElement {
 	public void select_2_star() {
 		this.star2CheckBox.click();
 	}
-	
+
 	public void deselect_2_star() {
 		this.star2CheckBox.click();
 	}
@@ -226,16 +233,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='2 Star']/following-sibling::label/span[3]")
 	public WebElement star2Total;
 
-	public int getTotalStar_2() {
-		int tot = Integer.parseInt(this.star2Total.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int star2Totalpkg() {
+		int tot = Integer.parseInt(this.star2Total.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void getTotalStar_2() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.star2Totalpkg());
+		if (this.star2Totalpkg() == this.totalNumberOfPackages()) {
 			this.deselect_2_star();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='3 Star']/following-sibling::label/span[1]")
@@ -244,7 +255,7 @@ public class HolidaySearchResultPageWebElement {
 	public void select3Star() {
 		this.star3CheckBox.click();
 	}
-	
+
 	public void deselect3Star() {
 		this.star3CheckBox.click();
 	}
@@ -259,16 +270,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='3 Star']/following-sibling::label/span[3]")
 	public WebElement star3Total;
 
-	public int get3StarTotal() {
-		int tot = Integer.parseInt(this.star3Total.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int star3Totalpkg() {
+		int tot = Integer.parseInt(this.star3Total.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void get3StarTotal() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.star3Totalpkg());
+		if (this.star3Totalpkg() == this.totalNumberOfPackages()) {
 			this.deselect3Star();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='4 Star']/following-sibling::label/span[1]")
@@ -277,7 +292,7 @@ public class HolidaySearchResultPageWebElement {
 	public void select4Star() {
 		this.star4CheckBox.click();
 	}
-	
+
 	public void deselect4Star() {
 		this.star4CheckBox.click();
 	}
@@ -292,16 +307,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='4 Star']/following-sibling::label/span[3]")
 	public WebElement star4Total;
 
-	public int get4StarTotal() {
-		int tot = Integer.parseInt(this.star4Total.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int star4Totalpkg() {
+		int tot = Integer.parseInt(this.star4Total.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void get4StarTotal() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.star4Totalpkg());
+		if (this.star4Totalpkg() == this.totalNumberOfPackages()) {
 			this.deselect4Star();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='5 Star']/following-sibling::label/span[1]")
@@ -310,7 +329,7 @@ public class HolidaySearchResultPageWebElement {
 	public void deselect5Star() {
 		this.star5CheckBox.click();
 	}
-	
+
 	public void select5Star() {
 		this.star5CheckBox.click();
 	}
@@ -325,16 +344,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='5 Star']/following-sibling::label/span[3]")
 	public WebElement star5Total;
 
-	public int get5StarTotal() {
-		int tot = Integer.parseInt(this.star5Total.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int star5Totalpkg() {
+		int tot = Integer.parseInt(this.star5Total.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void get5StarTotal() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.star5Totalpkg());
+		if (this.star5Totalpkg() == this.totalNumberOfPackages()) {
 			this.deselect5Star();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[2]//span[2]")
@@ -409,7 +432,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectBudget() {
 		this.budgetcheckBox.click();
 	}
-	
+
 	public void deselectBudget() {
 		this.budgetcheckBox.click();
 	}
@@ -424,16 +447,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Budget']/following-sibling::label/span[3]")
 	public WebElement budgetTotlaPkg;
 
-	public int getbudgetTotlaPkg() {
-		int tot = Integer.parseInt(this.budgetTotlaPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int budgetTotlapkg() {
+		int tot = Integer.parseInt(this.budgetTotlaPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void getbudgetTotlaPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.budgetTotlapkg());
+		if (this.budgetTotlapkg() == this.totalNumberOfPackages()) {
 			this.deselectBudget();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Star']/following-sibling::label/span[1]")
@@ -442,7 +469,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectStar() {
 		this.starCheckBox.click();
 	}
-	
+
 	public void deselectStar() {
 		this.starCheckBox.click();
 	}
@@ -457,16 +484,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Star']/following-sibling::label/span[3]")
 	public WebElement starTotalPkg;
 
-	public int getstarTotalPkg() {
-		int tot = Integer.parseInt(this.starTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int starTotalpkg() {
+		int tot = Integer.parseInt(this.starTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void starTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.starTotalpkg());
+		if (this.starTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectStar();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Luxury']/following-sibling::label/span[1]")
@@ -475,7 +506,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectLuxury() {
 		this.luxuryCheckBox.click();
 	}
-	
+
 	public void deselectLuxury() {
 		this.luxuryCheckBox.click();
 	}
@@ -490,16 +521,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Luxury']/following-sibling::label/span[3]")
 	public WebElement luxuryTotalPkg;
 
-	public int getluxuryTotalPkg() {
-		int tot = Integer.parseInt(this.luxuryTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int luxuryTotalpkg() {
+		int tot = Integer.parseInt(this.luxuryTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void luxuryTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.luxuryTotalpkg());
+		if (this.luxuryTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectLuxury();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Super Luxury']/following-sibling::label/span[1]")
@@ -508,7 +543,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectSuperLuxury() {
 		this.superLuxuryCheckBox.click();
 	}
-	
+
 	public void deselectSuperLuxury() {
 		this.superLuxuryCheckBox.click();
 	}
@@ -523,16 +558,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Super Luxury']/following-sibling::label/span[3]")
 	public WebElement superLuxuryTotalPkg;
 
-	public int getsuperLuxuryTotalPkg() {
-		int tot = Integer.parseInt(this.superLuxuryTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int superLuxuryTotalpkg() {
+		int tot = Integer.parseInt(this.superLuxuryTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void superLuxuryTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.superLuxuryTotalpkg());
+		if (this.superLuxuryTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectSuperLuxury();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Deluxe']/following-sibling::label/span[1]")
@@ -541,7 +580,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectdeluxe() {
 		this.deluxeCheckBox.click();
 	}
-	
+
 	public void deselectdeluxe() {
 		this.deluxeCheckBox.click();
 	}
@@ -556,16 +595,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Deluxe']/following-sibling::label/span[3]")
 	public WebElement deluxeTotlaPkg;
 
-	public int getdeluxeTotlaPkg() {
-		int tot = Integer.parseInt(this.deluxeTotlaPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int deluxeTotlapkg() {
+		int tot = Integer.parseInt(this.deluxeTotlaPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void deluxeTotlaPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.deluxeTotlapkg());
+		if (this.deluxeTotlapkg() == this.totalNumberOfPackages()) {
 			this.deselectdeluxe();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Super Deluxe']/following-sibling::label/span[1]")
@@ -574,7 +617,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectSuperDeluxe() {
 		this.superDeluxeCheckBox.click();
 	}
-	
+
 	public void deselectSuperDeluxe() {
 		this.superDeluxeCheckBox.click();
 	}
@@ -589,16 +632,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Super Deluxe']/following-sibling::label/span[3]")
 	public WebElement superDeluxeTotlaPkg;
 
-	public int getSuperDeluxeTotlaPkg() {
-		int tot = Integer.parseInt(this.superDeluxeTotlaPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int superDeluxeTotlapkg() {
+		int tot = Integer.parseInt(this.superDeluxeTotlaPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void superDeluxeTotlaPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.superDeluxeTotlapkg());
+		if (this.superDeluxeTotlapkg() == this.totalNumberOfPackages()) {
 			this.deselectSuperDeluxe();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='packagesFilters']/div[1]/h5")
@@ -630,12 +677,12 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'any')]/span[1]")
 	public WebElement anyCheckBox;
-	
-	public void selectAnyCheckBox(){
+
+	public void selectAnyCheckBox() {
 		this.anyCheckBox.click();
 	}
-	
-	public void deselectAnyCheckBox(){
+
+	public void deselectAnyCheckBox() {
 		this.anyCheckBox.click();
 	}
 
@@ -649,16 +696,19 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[contains(@for,'any')]/span[3]")
 	public WebElement anyTotalPkg;
 
-	public int getanyTotalPkg() {
-		int tot = Integer.parseInt(this.anyTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int anyTotalpkg() {
+		int tot = Integer.parseInt(this.anyTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void anyTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(), this.anyTotalpkg());
+		if (this.anyTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectAnyCheckBox();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='weekend-holidays']/following-sibling::label/span[1]")
@@ -667,7 +717,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectWeekendHolidays() {
 		this.weekendHolidaysCheckBox.click();
 	}
-	
+
 	public void deselectWeekendHolidays() {
 		this.weekendHolidaysCheckBox.click();
 	}
@@ -682,17 +732,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='weekend-holidays']/following-sibling::label/span[3]")
 	public WebElement weekendHolidaysTotlaPkg;
 
-	public int getweekendHolidaysTotlaPkg() {
+	public int weekendHolidaysTotlapkg() {
 		int tot = Integer.parseInt(this.weekendHolidaysTotlaPkg.getText()
 				.trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+		return tot;
+	}
+
+	public void weekendHolidaysTotlaPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.weekendHolidaysTotlapkg());
+		if (this.weekendHolidaysTotlapkg() == this.totalNumberOfPackages()) {
 			this.deselectWeekendHolidays();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='short-holidays']/following-sibling::label/span[1]")
@@ -701,7 +754,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectShortHoliday() {
 		this.shortHolidayCheckBox.click();
 	}
-	
+
 	public void deselectShortHoliday() {
 		this.shortHolidayCheckBox.click();
 	}
@@ -716,16 +769,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='short-holidays']/following-sibling::label/span[3]")
 	public WebElement ShortHolidayTotalPkg;
 
-	public int getShortHolidayTotalPkg() {
-		int tot = Integer.parseInt(this.ShortHolidayTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int ShortHolidayTotalpkg() {
+		int tot = Integer.parseInt(this.ShortHolidayTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void getShortHolidayTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.ShortHolidayTotalpkg());
+		if (this.ShortHolidayTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectShortHoliday();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='long-holidays']/following-sibling::label/span[1]")
@@ -734,7 +791,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectLongHoliday() {
 		this.longHolidayCheckBox.click();
 	}
-	
+
 	public void deselectLongHoliday() {
 		this.longHolidayCheckBox.click();
 	}
@@ -749,15 +806,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='long-holidays']/following-sibling::label/span[3]")
 	public WebElement longHolidayTotlaPkg;
 
-	public int getlongHolidayTotlaPkg() {
-		int tot = Integer.parseInt(this.longHolidayTotlaPkg.getText().trim().replaceAll("\\W", ""));
-		Assert.assertEquals(this.numberOfFilteredPackages(), tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int longHolidayTotlapkg() {
+		int tot = Integer.parseInt(this.longHolidayTotlaPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void getlongHolidayTotlaPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.longHolidayTotlapkg());
+		if (this.longHolidayTotlapkg() == this.totalNumberOfPackages()) {
 			this.deselectLongHoliday();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='with-flight']/following-sibling::label/span[1]")
@@ -766,8 +828,8 @@ public class HolidaySearchResultPageWebElement {
 	public void selectWithFlights() {
 		this.withFlightsCheckBox.click();
 	}
-	
-	public void deselectWithFlights(){
+
+	public void deselectWithFlights() {
 		this.withFlightsCheckBox.click();
 	}
 
@@ -781,16 +843,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='with-flight']/following-sibling::label/span[3]")
 	public WebElement withFlightsTotalPkg;
 
-	public int getwithFlightsTotalPkg() {
-		int tot = Integer.parseInt(this.withFlightsTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int withFlightsTotalpkg() {
+		int tot = Integer.parseInt(this.withFlightsTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void getwithFlightsTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.withFlightsTotalpkg());
+		if (this.withFlightsTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectWithFlights();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='without-flight']/following-sibling::label/span[1]")
@@ -799,7 +865,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectWithoutFlight() {
 		this.withoutFlightCheckBox.click();
 	}
-	
+
 	public void deselectWithoutFlight() {
 		this.withoutFlightCheckBox.click();
 	}
@@ -814,16 +880,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='without-flight']/following-sibling::label/span[3]")
 	public WebElement withoutFlightTotalPkg;
 
-	public int getwithoutFlightTotalPkg() {
-		int tot = Integer.parseInt(this.withoutFlightTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int withoutFlightTotalpkg() {
+		int tot = Integer.parseInt(this.withoutFlightTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void getwithoutFlightTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.withoutFlightTotalpkg());
+		if (this.withoutFlightTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectWithoutFlight();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='with-transfers']/following-sibling::label/span[1]")
@@ -832,7 +902,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectWithTransfer() {
 		this.withTransferCheckBox.click();
 	}
-	
+
 	public void deselectWithTransfer() {
 		this.withTransferCheckBox.click();
 	}
@@ -847,16 +917,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='with-transfers']/following-sibling::label/span[3]")
 	public WebElement withTransferTotalPkg;
 
-	public int getwithTransferTotalPkg() {
-		int tot = Integer.parseInt(this.withTransferTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int withTransferTotalpkg() {
+		int tot = Integer.parseInt(this.withTransferTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void withTransferTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.withTransferTotalpkg());
+		if (this.withTransferTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectWithTransfer();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='without-transfers']/following-sibling::label/span[1]")
@@ -865,7 +939,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectWithoutTransfer() {
 		this.withoutTransferCheckBox.click();
 	}
-	
+
 	public void deselectWithoutTransfer() {
 		this.withoutTransferCheckBox.click();
 	}
@@ -880,16 +954,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='without-transfers']/following-sibling::label/span[3]")
 	public WebElement withoutTransferTotalPkg;
 
-	public int getwithoutTransferTotalPkg() {
-		int tot = Integer.parseInt(this.withoutTransferTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int withoutTransferTotalpkg() {
+		int tot = Integer.parseInt(this.withoutTransferTotalPkg.getText()
+				.trim().replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void withoutTransferTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.withoutTransferTotalpkg());
+		if (this.withoutTransferTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectWithoutTransfer();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='with-sightseeing']/following-sibling::label/span[1]")
@@ -898,7 +976,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectWithsightseeing() {
 		this.withsightseeingCheckBox.click();
 	}
-	
+
 	public void deselectWithsightseeing() {
 		this.withsightseeingCheckBox.click();
 	}
@@ -913,16 +991,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='with-sightseeing']/following-sibling::label/span[3]")
 	public WebElement withsightseeingTotalPkg;
 
-	public int getwithsightseeingTotalPkg() {
-		int tot = Integer.parseInt(this.withsightseeingTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int withsightseeingTotalpkg() {
+		int tot = Integer.parseInt(this.withsightseeingTotalPkg.getText()
+				.trim().replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void withsightseeingTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.withsightseeingTotalpkg());
+		if (this.withsightseeingTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectWithsightseeing();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='without-sightseeing']/following-sibling::label/span[1]")
@@ -931,7 +1013,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectwithoutsightseeing() {
 		this.withoutsightseeingCheckBox.click();
 	}
-	
+
 	public void deselectwithoutsightseeing() {
 		this.withoutsightseeingCheckBox.click();
 	}
@@ -946,16 +1028,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='without-sightseeing']/following-sibling::label/span[3]")
 	public WebElement withoutsightseeingTotalPkg;
 
-	public int getwithoutsightseeingTotalPkg() {
-		int tot = Integer.parseInt(this.withoutsightseeingTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int withoutsightseeingTotalpkg() {
+		int tot = Integer.parseInt(this.withoutsightseeingTotalPkg.getText()
+				.trim().replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void withoutsightseeingTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.withoutsightseeingTotalpkg());
+		if (this.withoutsightseeingTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectwithoutsightseeing();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Inside Cabin']/following-sibling::label/span[1]")
@@ -964,7 +1050,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectinsideCabin() {
 		this.insideCabinCheckBox.click();
 	}
-	
+
 	public void deselectinsideCabin() {
 		this.insideCabinCheckBox.click();
 	}
@@ -979,16 +1065,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Inside Cabin']/following-sibling::label/span[3]")
 	public WebElement insideCabinTotalPkg;
 
-	public int getinsideCabinTotalPkg() {
-		int tot = Integer.parseInt(this.insideCabinTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int insdeCabinTotalpkg() {
+		int tot = Integer.parseInt(this.insideCabinTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void insideCabinTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.insdeCabinTotalpkg());
+		if (this.insdeCabinTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectinsideCabin();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Deluxe Ocean View Cabin']/following-sibling::label/span[1]")
@@ -997,7 +1087,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectDovcCabin() {
 		this.dovcCabinCheckBox.click();
 	}
-	
+
 	public void deselectDovcCabin() {
 		this.dovcCabinCheckBox.click();
 	}
@@ -1012,16 +1102,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Deluxe Ocean View Cabin']/following-sibling::label/span[3]")
 	public WebElement dovcCabinTotalPkg;
 
-	public int getDOVCcabinTotalPkg() {
-		int tot = Integer.parseInt(this.dovcCabinTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int dovCabinTotalpkg() {
+		int tot = Integer.parseInt(this.dovcCabinTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void dOVCcabinTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.dovCabinTotalpkg());
+		if (this.dovCabinTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectDovcCabin();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.XPATH, using = "//*[@id='Outside/Ocean View Cabin']/following-sibling::label/span[1]")
@@ -1030,7 +1124,7 @@ public class HolidaySearchResultPageWebElement {
 	public void selectoovcCabin() {
 		this.oovcCabinCheckBox.click();
 	}
-	
+
 	public void deselectoovcCabin() {
 		this.oovcCabinCheckBox.click();
 	}
@@ -1045,16 +1139,20 @@ public class HolidaySearchResultPageWebElement {
 	@FindBy(how = How.XPATH, using = "//*[@id='Outside/Ocean View Cabin']/following-sibling::label/span[3]")
 	public WebElement OOVCcabinTotalPkg;
 
-	public int getOOVCcabinTotalPkg() {
-		int tot = Integer.parseInt(this.OOVCcabinTotalPkg.getText().trim().replaceAll("\\W", ""));
-		int totalpk = this.numberOfFilteredPackages();
-		Assert.assertEquals(totalpk, tot);
-		if(tot == this.totalNumberOfPackages()){
+	public int OOVCcabinTotalpkg() {
+		int tot = Integer.parseInt(this.OOVCcabinTotalPkg.getText().trim()
+				.replaceAll("\\W", ""));
+		return tot;
+	}
+
+	public void oOVCcabinTotalPkg() {
+		Assert.assertEquals(this.numberOfFilteredPackages(),
+				this.OOVCcabinTotalpkg());
+		if (this.OOVCcabinTotalpkg() == this.totalNumberOfPackages()) {
 			this.deselectoovcCabin();
-		}else{
+		} else {
 			this.resetFilter();
 		}
-		return tot;
 	}
 
 	@FindBy(how = How.CSS, using = ".row.list")
@@ -1064,7 +1162,7 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement showAll;
 
 	public void resetFilter() {
-		if(showAll.isDisplayed()){
+		if (showAll.isDisplayed()) {
 			this.showAll.click();
 		}
 	}
@@ -1075,8 +1173,8 @@ public class HolidaySearchResultPageWebElement {
 
 	@FindBy(how = How.XPATH, using = "//*[@id='modalPanel']//button")
 	public WebElement sendEnquirySuccessAlert;
-	
-	public void closeEnquirySubmittedSuccessfully(){
+
+	public void closeEnquirySubmittedSuccessfully() {
 		this.sendEnquirySuccessAlert.click();
 	}
 

@@ -60,29 +60,29 @@ public class HolidayPagesTest extends SeleniumBase {
 	 * send feed back request
 	 */
 
-	@Test(priority = 1, dataProvider = "sendFeedBackData", dataProviderClass = XlFileProvider.class)
-	public void sendUsFeedBack(String name, String email, String msg) {
-		hpa = new homePageAction(driver);
-		hpa.sendUsYourFeedback(name, email, msg);
-	}
+//	@Test(priority = 1, dataProvider = "sendFeedBackData", dataProviderClass = XlFileProvider.class)
+//	public void sendUsFeedBack(String name, String email, String msg) {
+//		hpa = new homePageAction(driver);
+//		hpa.sendUsYourFeedback(name, email, msg);
+//	}
 
 	/*
 	 * search DOM holiday destination
 	 */
 
-	@Test(priority = 2, dataProvider = "destinationData", dataProviderClass = XlFileProvider.class)
-	public void destinationPkgTest(String destinationCity)
-			throws InterruptedException {
-		hpa = new homePageAction(driver);
-		hpa.holidayDestinationSearch(destinationCity);
-		Thread.sleep(1000);
-	}
+//	@Test(priority = 2, dataProvider = "destinationData", dataProviderClass = XlFileProvider.class)
+//	public void destinationPkgTest(String destinationCity)
+//			throws InterruptedException {
+//		hpa = new homePageAction(driver);
+//		hpa.holidayDestinationSearch(destinationCity);
+//		Thread.sleep(1000);
+//	}
 
-	@Test(priority = 3, dataProvider = "destinationDataDom", dataProviderClass = XlFileProvider.class)
-	public void destinationCityDataMatch(String destinationCity) {
-		srpa = new searchResultPageActions(driver);
-		srpa.destinationCityDataMatching(destinationCity);
-	}
+//	@Test(priority = 3, dataProvider = "destinationDataDom", dataProviderClass = XlFileProvider.class)
+//	public void destinationCityDataMatch(String destinationCity) {
+//		srpa = new searchResultPageActions(driver);
+//		srpa.destinationCityDataMatching(destinationCity);
+//	}
 
 	/*
 	 * sendEnquiry on holiday search result page
@@ -115,41 +115,41 @@ public class HolidayPagesTest extends SeleniumBase {
 	/*
 	 * filter test on holiday search result page.
 	 */
-	@Test(priority = 3)
+	@Test(priority = 1)
 	public void starRatingFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.starRatingFilter();
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 2)
 	public void goingForFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.goingForFilter();
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 3)
 	public void flightFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.flightFilter();
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 4)
 	public void transferFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.transferFilter();
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 5)
 	public void sightseeingFilterTest() throws InterruptedException {
 		srpa = new searchResultPageActions(driver);
 		srpa.sightseeingFilter();
 	}
 	
-	@Test(priority = 8)
-	public void priceAndID(){
-		hsrp = new HolidaySearchresultPage(driver);
-		hsrp.destinationHolidayPackages();
-	}
+//	@Test(priority = 9)
+//	public void priceAndID(){
+//		hsrp = new HolidaySearchresultPage(driver);
+//		hsrp.destinationHolidayPackages();
+//	}
 
 	@AfterMethod(alwaysRun = true)
 	public void takeScreenShotOnFailure(ITestResult testResult,

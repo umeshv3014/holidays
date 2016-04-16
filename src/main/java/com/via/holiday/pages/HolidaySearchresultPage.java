@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
@@ -111,37 +113,52 @@ public class HolidaySearchresultPage extends SeleniumBase {
 		Assert.assertEquals(toalfilterpak, tot);
 	}
 
+	public String pkgDurationText(){
+		String av = null;
+		int count = hsrpwe.numberOfFilteredPackages();
+		for (int i = 1; i == count; i++) {
+			List<WebElement> pkgduration = driver.findElements(By.xpath(super.getKeyValue("pkgs") + i + super.getKeyValue("pkgDuration")));
+			for (int j = 1; j == pkgduration.size(); j++) {
+				String a = super.getKeyValue("pkgs") + i + super.getKeyValue("pkgDurationText") + j + "]";
+				WebElement pkgdurationText = driver.findElement(By.xpath(a));
+				 av = pkgdurationText.getText() + " ";
+			}
+		}
+		return av;
+	}
+
 	public void destinationHolidayPackages() {
 		int count = hsrpwe.numberOfFilteredPackages();
-		System.out.println(count);
-		for (int i = 1; i <= count; i++) {
-			String pricePath = super.getKeyValue("price") + i + super.getKeyValue("price1");
-			String ppots = super.getKeyValue("ppots") + i + super.getKeyValue("ppots1");
-			String pkgID = super.getKeyValue("pkgid") + i + super.getKeyValue("pkgid1");
-			String price = super.getText(driver, "xpath", pricePath);
-			String ppotsa = super.getText(driver, "xpath", ppots);
-			
-			String pkgid = super.getAttribute(driver, "xpath", pkgID, "data-packageid");
-			int id = Integer.parseInt(pkgid);
-			System.out.println(id);
-			
-			Map<Integer, List<String>> map = new HashMap<Integer, List<String>>();
-			List<String> valSetOne = new ArrayList<String>();
-			
-			valSetOne.add(price);
-			valSetOne.add(ppotsa);
-			
-			map.put(id,valSetOne);
-			
-			for (Map.Entry<Integer, List<String>> entry : map.entrySet()) {
-				Integer key = entry.getKey();
-				List<String> values = entry.getValue();
-				System.out.println(key + "=" + values );
-				
+		for (int i = 1; i == count; i++) {
+				String pricePath = super.getKeyValue("pkgs") + i + super.getKeyValue("price");
+				String ppots = super.getKeyValue("pkgs") + i + super.getKeyValue("ppots");
+				String pkgID = super.getKeyValue("pkgs") + i + super.getKeyValue("pkgid");
+				String pkgName = super.getKeyValue("pkgs") + i + super.getKeyValue("pkgName");
+				String price = super.getText(driver, "xpath", pricePath);
+				String ppotsa = super.getText(driver, "xpath", ppots);
+				String pkgNames = super.getText(driver, "xpath", pkgName);
+
+				String pkgid = super.getAttribute(driver, "xpath", pkgID,
+						"data-packageid");
+				int id = Integer.parseInt(pkgid);
+
+				Map<Integer, List<String>> map = new HashMap<Integer, List<String>>();
+				List<String> valSetOne = new ArrayList<String>();
+
+				valSetOne.add(price);
+				valSetOne.add(ppotsa);
+				valSetOne.add(pkgNames);
+				valSetOne.add(this.pkgDurationText());
+
+				map.put(id, valSetOne);
+
+				for (Map.Entry<Integer, List<String>> entry : map.entrySet()) {
+					Integer key = entry.getKey();
+					List<String> values = entry.getValue();
+					System.out.println(key + "=" + values);
+
+				}
 			}
-			
 		}
 
 	}
-
-}
