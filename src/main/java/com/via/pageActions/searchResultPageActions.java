@@ -5,35 +5,21 @@ import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 
+import com.via.holiday.pages.HolidayHomePage;
 import com.via.holiday.pages.HolidaySearchresultPage;
 
 public class searchResultPageActions extends HolidaySearchresultPage {
+	
+	HolidayHomePage hhp;
 
 	public searchResultPageActions(WebDriver driver) {
 		super(driver);
 	}
 
-	public void sendHolidayEnquiry(String name, String email,
-			String mobileNumber, String date, String originCity,
+	public void sendHolidayEnquiry(String fullName, String email,
+			String mobileNumber, String originCity,
 			String duration, String tourRequirementAndPreference) {
-		hsrpwe.selectSendEnquiry();
-		hsrpwe.setSendEnquiryname(name);
-		hsrpwe.setSendEnquiryEmail(email);
-		hsrpwe.setSendEnquiryMobileNumber(mobileNumber);
-		hsrpwe.setSendEnquiryDate();
-		hsrpwe.setSendEnquiryCityName(originCity);
-		hsrpwe.setSendEnquiryDuration(duration);
-		hsrpwe.setSendEnquirycomments(tourRequirementAndPreference);
-		hsrpwe.submitSendEnquiry();
-	}
-
-	public void SendHolidayEnquiry(String name, String email, String mobileNu,
-			String date, String originCity, String duration,
-			String tourRequirementAndPreference) {
-		hsrpwe.sendEnquiry();
-		this.sendHolidayEnquiry(name, email, mobileNu, date, originCity,
-				duration, tourRequirementAndPreference);
-		super.holidyasThumbImages();
+		hsrpwe.fillSendEnquiryData(fullName, email, mobileNumber, originCity, duration, tourRequirementAndPreference);
 	}
 
 	public void destinationDataMatching(String destinationCity) {

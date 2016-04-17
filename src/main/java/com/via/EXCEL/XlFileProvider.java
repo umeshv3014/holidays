@@ -19,7 +19,7 @@ public class XlFileProvider {
 		return XLr.getTableArray(dataURL, "holidayTestData", "destination");
 	}
 	
-	@DataProvider(name = "sendHolidayEnquiryData")
+	@DataProvider(name = "sendHolidayEnquiry")
 	public static Object[][] hsrpSendHolidayEnquiry() {
 		EXCELReader XLr = new EXCELReader();
 		return XLr.getTableArray(dataURL, "holidayTestData", "sendHolidayEnquiry");

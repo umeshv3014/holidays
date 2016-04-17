@@ -9,6 +9,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import com.via.base.util.DateSelector;
 import com.via.base.util.SeleniumBase;
 import com.via.holiday.pages.HolidayHomePage;
 
@@ -16,6 +17,7 @@ public class HolidaySearchResultPageWebElement {
 	WebDriver driver;
 	HolidayHomePage hhp;
 	SeleniumBase sb;
+	DateSelector ds;
 
 	public HolidaySearchResultPageWebElement(WebDriver driver) {
 		this.driver = driver;
@@ -58,7 +60,7 @@ public class HolidaySearchResultPageWebElement {
 		this.sendEnquiryEmail.sendKeys(email);
 	}
 
-	@FindBy(how = How.XPATH, using = "//*[@id='hldDealAltForm']//input[@name='city']")
+	@FindBy(how = How.XPATH, using = "//*[@id='hldDealAltForm']//input[@name='uCity']")
 	public WebElement sendEnquiryCityName;
 
 	public void setSendEnquiryCityName(String originCity) {
@@ -86,8 +88,6 @@ public class HolidaySearchResultPageWebElement {
 		this.sendEnquirysubmit.click();
 	}
 
-	// need to work on this
-
 	@FindBy(how = How.XPATH, using = "//*[@id='hldDealAltForm']//input[@name='travel_date']")
 	public WebElement sendEnquiryDate;
 
@@ -98,9 +98,31 @@ public class HolidaySearchResultPageWebElement {
 	public WebElement selectDate;
 
 	public void setSendEnquiryDate() {
-		this.sendEnquiryDate.clear();
 		this.selectDate.click();
-		hhp.selectDate();
+		ds = new DateSelector(driver);
+		ds.clickOnDate();
+	}
+
+	@FindBy(how = How.XPATH, using = "//*[@id='modalPanel']//button")
+	public WebElement sendEnquirySuccessAlert;
+
+	public void closeEnquirySubmittedSuccessfully() {
+		this.sendEnquirySuccessAlert.click();
+	}
+
+	public void fillSendEnquiryData(String name, String email,
+			String mobileNumber, String originCity, String duration,
+			String tourRequirementAndPreference) {
+		this.selectSendEnquiry();
+		this.setSendEnquiryname(name);
+		this.setSendEnquiryEmail(email);
+		this.setSendEnquiryMobileNumber(mobileNumber);
+		this.setSendEnquiryCityName(originCity);
+		this.setSendEnquiryDuration(duration);
+		this.setSendEnquirycomments(tourRequirementAndPreference);
+		this.setSendEnquiryDate();
+		this.submitSendEnquiry();
+		this.closeEnquirySubmittedSuccessfully();
 	}
 
 	// complete above work
@@ -1169,13 +1191,6 @@ public class HolidaySearchResultPageWebElement {
 
 	public boolean isDisplayedResetFilter() {
 		return this.showAll.isDisplayed();
-	}
-
-	@FindBy(how = How.XPATH, using = "//*[@id='modalPanel']//button")
-	public WebElement sendEnquirySuccessAlert;
-
-	public void closeEnquirySubmittedSuccessfully() {
-		this.sendEnquirySuccessAlert.click();
 	}
 
 }

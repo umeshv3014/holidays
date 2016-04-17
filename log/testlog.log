@@ -74,3 +74,293 @@
 2016-04-16 20:16:18,498 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
 2016-04-16 20:16:22,989 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
 2016-04-16 20:26:55,582 - com.via.base.util.SeleniumBase -INFO - Tour packages | Book holiday and honeymoon packages online on Via.com
+2016-04-17 11:27:50,604 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 11:28:13,045 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 11:28:15,001 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 11:28:15,002 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 11:28:17,701 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 11:28:20,141 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 11:28:24,194 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2016-04-17 11:28:27,581 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2016-04-17 11:28:30,551 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-17 11:28:32,883 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-17 11:28:35,814 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-17 11:28:40,439 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-17 11:28:43,694 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-17 11:28:47,208 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-17 11:31:05,175 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 11:31:08,991 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 11:31:10,652 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 11:31:10,653 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 11:31:14,881 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 11:31:16,919 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 11:31:17,664 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 11:31:20,143 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:31:20,341 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:31:20,969 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:31:21,146 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:31:21,384 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:31:21,549 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:34:40,058 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 11:34:48,384 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 11:34:49,760 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 11:34:49,761 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 11:34:52,120 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 11:34:54,259 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 11:34:54,890 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 11:34:57,512 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:34:57,757 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:34:58,007 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:34:58,822 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:34:59,166 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 11:34:59,354 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:06:44,084 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 12:06:51,327 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:06:52,814 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:06:52,814 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:06:55,409 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 12:06:57,346 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 12:06:57,957 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:07:00,709 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:07:00,869 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:07:01,092 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:07:01,243 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:07:01,415 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:07:01,557 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:10:51,670 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 12:11:18,707 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:11:20,547 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:11:20,548 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:11:22,864 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 12:11:26,114 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 12:11:26,798 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:11:28,385 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:11:28,506 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:11:28,668 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:11:28,781 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:11:28,937 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:11:29,063 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:15:30,818 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 12:15:38,966 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:15:40,507 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:15:40,507 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:15:43,291 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 12:15:46,490 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 12:15:48,376 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:15:50,160 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:15:50,284 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:15:50,470 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:15:50,590 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:15:50,755 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:15:50,873 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:22:54,156 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 12:23:03,688 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:23:03,689 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:23:09,060 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 12:23:12,763 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 12:23:16,304 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2016-04-17 12:23:19,136 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2016-04-17 12:23:22,018 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-17 12:23:24,407 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-17 12:23:28,801 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-17 12:23:31,839 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-17 12:23:35,360 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-17 12:23:38,503 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-17 12:42:56,626 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 12:43:08,074 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:43:09,662 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:43:09,662 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:43:13,814 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 12:43:15,781 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 12:43:16,372 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:43:17,736 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:43:17,842 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:43:17,988 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:43:18,091 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:43:18,232 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:43:18,333 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:45:33,355 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 12:46:48,806 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:47:04,717 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:47:04,718 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:47:07,016 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 12:47:08,991 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 12:47:09,716 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 12:47:12,357 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:47:12,532 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:47:12,765 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:47:12,922 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:47:13,121 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:47:13,253 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 12:50:09,396 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 12:50:17,947 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:50:17,948 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 12:50:21,247 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 12:50:25,074 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 12:50:28,490 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2016-04-17 12:50:32,669 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2016-04-17 12:50:35,078 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-17 12:50:37,418 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-17 12:50:42,281 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-17 12:50:45,254 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-17 12:50:48,331 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-17 12:50:51,865 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-17 15:54:31,681 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 15:54:37,622 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 15:54:39,466 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 15:54:39,467 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 15:54:43,379 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 15:54:46,012 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 15:54:47,049 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 15:54:48,700 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 15:54:49,243 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 15:54:49,491 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 15:54:49,687 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 15:54:49,944 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 15:54:50,115 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 15:57:09,478 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:00:11,102 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:01:25,681 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:01:25,682 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:01:28,376 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:01:30,359 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:01:32,057 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:01:34,090 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:01:35,408 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:01:35,702 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:01:35,858 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:01:36,053 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:01:36,186 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:04:21,092 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:05:21,994 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:05:29,942 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:05:29,944 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:05:32,656 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:05:34,710 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:05:35,285 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:05:37,305 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:05:37,453 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:05:37,705 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:05:37,854 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:05:38,044 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:05:38,171 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:11:14,761 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:12:21,229 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:12:26,504 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:12:26,505 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:12:29,988 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:12:31,984 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:12:34,379 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:12:35,979 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:12:36,086 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:12:36,254 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:12:36,376 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:12:36,525 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:12:36,635 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:16:10,692 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:16:15,574 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:16:17,073 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:16:17,074 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:16:20,056 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:16:22,109 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:16:22,725 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:16:25,556 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:16:26,814 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:16:27,201 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:16:27,426 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:16:27,657 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:16:27,863 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:18:42,135 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:18:48,378 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:18:49,725 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:18:49,726 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:18:52,969 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:18:55,172 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:18:55,812 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:19:34,567 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:19:35,794 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:19:36,087 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:19:37,289 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:19:37,609 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:19:38,798 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:23:23,999 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:23:29,587 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:23:31,024 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:23:31,024 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:23:33,326 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:23:35,432 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:23:38,190 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:23:40,296 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:23:40,428 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:23:41,797 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:23:41,968 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:23:42,361 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:23:42,535 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:25:47,992 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:25:53,117 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:25:55,095 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:25:55,095 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:25:57,656 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:25:59,606 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:26:00,220 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:26:02,981 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:26:03,142 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:26:03,371 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:26:03,640 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:26:03,936 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:26:04,091 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:27:18,084 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:37:37,323 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:37:42,790 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:37:42,791 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:37:46,293 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:37:48,381 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:37:49,047 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:37:51,032 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:37:51,152 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:37:51,372 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:37:51,494 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:37:51,661 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:37:51,779 - com.via.base.util.SeleniumBase -INFO - 
+2016-04-17 16:39:23,143 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:39:32,695 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:39:32,696 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:39:37,090 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:39:39,351 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:39:43,406 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2016-04-17 16:39:49,704 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2016-04-17 16:39:53,736 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-17 16:39:56,104 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-17 16:39:58,977 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-17 16:40:01,991 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-17 16:40:06,292 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-17 16:40:10,519 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-17 16:41:15,153 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:41:25,373 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:41:25,374 - com.via.base.util.SeleniumBase -INFO - 3 Star
+2016-04-17 16:41:29,167 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:41:31,545 - com.via.base.util.SeleniumBase -INFO - 1-3 Nights
+2016-04-17 16:41:34,532 - com.via.base.util.SeleniumBase -INFO - 4-7 Nights
+2016-04-17 16:41:37,690 - com.via.base.util.SeleniumBase -INFO - 7+ Nights
+2016-04-17 16:41:40,307 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-17 16:41:42,910 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-17 16:41:47,816 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-17 16:41:51,802 - com.via.base.util.SeleniumBase -INFO - Without Transfers
+2016-04-17 16:41:55,127 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-17 16:41:59,957 - com.via.base.util.SeleniumBase -INFO - Without Sightseeing
+2016-04-17 16:47:04,492 - com.via.base.util.SeleniumBase -INFO - startRow=0, endRow=2, startCol=0, endCol=2
+2016-04-17 16:47:12,978 - com.via.base.util.SeleniumBase -INFO - startRow=9, endRow=11, startCol=0, endCol=7
+2016-04-17 16:47:29,991 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-17 16:47:29,992 - com.via.base.util.SeleniumBase -INFO - Budget
+2016-04-17 16:47:34,083 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-17 16:47:34,084 - com.via.base.util.SeleniumBase -INFO - Deluxe
+2016-04-17 16:47:35,390 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:47:38,824 - com.via.base.util.SeleniumBase -INFO - Any
+2016-04-17 16:47:39,518 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:47:42,172 - com.via.base.util.SeleniumBase -INFO - With Flight
+2016-04-17 16:47:44,235 - com.via.base.util.SeleniumBase -INFO - Without Flight
+2016-04-17 16:47:45,502 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:47:48,224 - com.via.base.util.SeleniumBase -INFO - With Transfers
+2016-04-17 16:47:49,468 - com.via.base.util.SeleniumBase -INFO - 2
+2016-04-17 16:47:52,446 - com.via.base.util.SeleniumBase -INFO - With Sightseeing
+2016-04-17 16:47:53,449 - com.via.base.util.SeleniumBase -INFO - 2
